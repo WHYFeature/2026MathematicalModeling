@@ -1,8 +1,8 @@
-# E Problem Data Directory
+# E题数据目录说明
 
-This directory is a normalized copy of the supplied E-problem data. The original `./E题数据` directory is preserved unchanged. Only directory entries and file names were used during organization; PKL, XLSX, and MP4 contents were not inspected.
+`./DATA` 是赛题E题原始数据的规范化副本，原始的 `./E题数据` 目录保持不变。整理过程只检查目录结构和文件名，没有读取PKL、XLSX或MP4的具体内容。
 
-## Directory structure
+## 目录结构
 
 ```text
 DATA/
@@ -25,30 +25,30 @@ DATA/
         └── videos/sample_01.mp4 ... sample_20.mp4
 ```
 
-## Name mapping
+## 文件名映射
 
-| Original path or name | Organized path or name | Notes |
+| 原路径或名称 | 整理后的路径或名称 | 说明 |
 |---|---|---|
-| `./E题数据/E题数据/` | `./DATA/` | Removed the duplicated dataset wrapper directory. |
-| `附件1-数据集原始多模态样本/` | `attachment_1_raw_samples/` | Raw samples for Question 1. |
-| `MOSEI数据集部分原始视频-100条/` | `attachment_1_raw_samples/` | Removed the extra descriptive wrapper level. |
-| `<video_id>/<clip_id>.mp4` | `videos/<video_id>/<clip_id>.mp4` | IDs remain unchanged because they are official sample identifiers and already ASCII-safe. |
-| `label-100.xlsx` | `labels_100.xlsx` | Labels for the 100 raw samples. |
-| `附件2-数据集特征文件/` | `attachment_2_standard_features/` | Standard training, validation, and test features. |
-| `aligned_50.pkl` | `aligned_50.pkl` | Name already ASCII-safe; unchanged. |
-| `unaligned_50.pkl` | `unaligned_50.pkl` | Name already ASCII-safe; unchanged. |
-| `label.xlsx` | `labels.xlsx` | Standardized plural label-file name. |
-| `附件3-模态缺失特征样本/` | `attachment_3_missing_modality/` | Missing-modality task data. |
-| `对齐版本/` | `aligned/` | Aligned feature variant. |
-| `未对齐版本/` | `unaligned/` | Unaligned feature variant. |
-| `附件3_01.pkl` ... `附件3_30.pkl` | `aligned/sample_01.pkl` ... `sample_30.pkl` | Normalized fixed-width sample names. |
-| `附件3_未对齐版本_01.pkl` ... `_30.pkl` | `unaligned/sample_01.pkl` ... `sample_30.pkl` | Variant is represented by the parent directory. |
-| `附件4-可解释专项视频样本与特征文件/附件4-可解释专项视频样本与特征文件/` | `attachment_4_explainability/` | Removed the duplicated attachment wrapper directory. |
-| Attachment 4 `对齐版本/` | `attachment_4_explainability/aligned/` | Aligned explainability samples. |
-| Attachment 4 `未对齐版本/` | `attachment_4_explainability/unaligned/` | Unaligned explainability samples. |
-| Attachment 4 `01.pkl` ... `20.pkl` | `features/sample_01.pkl` ... `sample_20.pkl` | Explicitly separated features from videos. |
-| Attachment 4 `videos/01.mp4` ... `20.mp4` | `videos/sample_01.mp4` ... `sample_20.mp4` | Matches the corresponding normalized feature name. |
-| `.DS_Store` | Not copied | OS metadata; not part of the dataset. |
+| `./E题数据/E题数据/` | `./DATA/` | 消除重复的数据集包装目录。 |
+| `附件1-数据集原始多模态样本/` | `attachment_1_raw_samples/` | 问题1使用的原始样本。 |
+| `MOSEI数据集部分原始视频-100条/` | `attachment_1_raw_samples/` | 消除额外的描述性包装层级。 |
+| `<video_id>/<clip_id>.mp4` | `videos/<video_id>/<clip_id>.mp4` | `video_id` 和 `clip_id` 是正式样本标识且已兼容ASCII，因此保持不变。 |
+| `label-100.xlsx` | `labels_100.xlsx` | 100条原始样本的标签文件。 |
+| `附件2-数据集特征文件/` | `attachment_2_standard_features/` | 标准训练、验证和测试特征。 |
+| `aligned_50.pkl` | `aligned_50.pkl` | 原名称已兼容ASCII，保持不变。 |
+| `unaligned_50.pkl` | `unaligned_50.pkl` | 原名称已兼容ASCII，保持不变。 |
+| `label.xlsx` | `labels.xlsx` | 将标签文件名统一为复数形式。 |
+| `附件3-模态缺失特征样本/` | `attachment_3_missing_modality/` | 模态缺失专项任务数据。 |
+| `对齐版本/` | `aligned/` | 对齐特征版本。 |
+| `未对齐版本/` | `unaligned/` | 未对齐特征版本。 |
+| `附件3_01.pkl` ... `附件3_30.pkl` | `aligned/sample_01.pkl` ... `sample_30.pkl` | 统一为固定宽度的样本名称。 |
+| `附件3_未对齐版本_01.pkl` ... `_30.pkl` | `unaligned/sample_01.pkl` ... `sample_30.pkl` | 数据版本由父目录表示。 |
+| `附件4-可解释专项视频样本与特征文件/附件4-可解释专项视频样本与特征文件/` | `attachment_4_explainability/` | 消除重复的附件4包装目录。 |
+| 附件4 `对齐版本/` | `attachment_4_explainability/aligned/` | 对齐版可解释性样本。 |
+| 附件4 `未对齐版本/` | `attachment_4_explainability/unaligned/` | 未对齐版可解释性样本。 |
+| 附件4 `01.pkl` ... `20.pkl` | `features/sample_01.pkl` ... `sample_20.pkl` | 将特征文件与视频文件明确分开存放。 |
+| 附件4 `videos/01.mp4` ... `20.mp4` | `videos/sample_01.mp4` ... `sample_20.mp4` | 与对应的规范化特征文件保持同名。 |
+| `.DS_Store` | 不复制 | 操作系统元数据，不属于赛题数据。 |
 
 ## 文件名映射检查结果
 
@@ -64,23 +64,23 @@ DATA/
 
 整理后 `DATA` 内不存在中文文件名或中文目录名。附件1的 `video_id` 目录名和 `clip_id.mp4` 文件名没有修改，因为它们是赛题定义的正式样本标识，且本身只包含ASCII字符。附件3、附件4使用父目录表示数据版本，因此文件统一命名为固定宽度的 `sample_XX.pkl` 或 `sample_XX.mp4`。
 
-## File counts after organization
+## 整理后的文件数量
 
-| Directory | Expected files |
+| 目录 | 预期文件数 |
 |---|---:|
-| `attachment_1_raw_samples` | 100 MP4 and 1 XLSX |
-| `attachment_2_standard_features` | 2 PKL and 1 XLSX |
-| `attachment_3_missing_modality` | 60 PKL |
-| `attachment_4_explainability` | 40 PKL and 40 MP4 |
+| `attachment_1_raw_samples` | 100个MP4和1个XLSX |
+| `attachment_2_standard_features` | 2个PKL和1个XLSX |
+| `attachment_3_missing_modality` | 60个PKL |
+| `attachment_4_explainability` | 40个PKL和40个MP4 |
 
-Total: 244 data files, plus this README.
+共244个数据文件。本README位于项目根目录，不计入 `DATA` 的文件数量。
 
-## Experimental use
+## 实验使用说明
 
-- Keep `aligned` and `unaligned` experiments separate. Use the same variant for Attachment 2 training/validation and the corresponding Attachment 3 or Attachment 4 inference data.
-- Attachment 3 and Attachment 4 are task-specific inference sets and should not be merged into training data.
-- For Attachment 1, use the original `video_id` and `clip_id` as the stable identifiers. A convenient logical sample ID is `<video_id>$_$<clip_id>`.
-- Do not write predictions or processed features back into this directory. Store generated artifacts in separate experiment/result directories.
+- `aligned` 和 `unaligned` 实验必须分开。附件2的训练、验证数据应与附件3或附件4的推理数据使用同一种特征版本。
+- 附件3和附件4是专项推理数据，不能并入训练集。
+- 附件1应使用原始的 `video_id` 和 `clip_id` 作为稳定标识，推荐使用 `<video_id>$_$<clip_id>` 作为逻辑样本ID。
+- 不要将预测结果或二次处理特征写回 `DATA`，应将实验生成物存放在独立的实验或结果目录中。
 
 ## 使用整理脚本
 
@@ -153,4 +153,4 @@ python organize_data.py --help
 
 ## Git说明
 
-项目根目录的 `.gitignore` 使用 `/DATA/` 忽略整个本地数据目录，因此这里的原始数据副本和本README都不会进入Git提交。`organize_data.py` 位于项目根目录，不受该规则影响，可以正常提交，其他使用者可用它从各自的原始数据生成本地 `DATA`。
+项目根目录的 `.gitignore` 使用 `/DATA/` 忽略整个本地数据目录，因此整理后的数据副本不会进入Git提交。本README和 `organize_data.py` 都位于项目根目录，不受该规则影响，可以正常提交。其他使用者克隆项目后，可根据本README运行脚本，从各自的原始数据生成本地 `DATA`。
