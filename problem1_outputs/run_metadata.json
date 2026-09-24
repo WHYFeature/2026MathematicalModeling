@@ -1,0 +1,25 @@
+{
+  "format_version": "problem1-v2",
+  "data_root": "D:\\E_math\\DATA",
+  "sample_count": 100,
+  "alignment": "50 equal-duration bins; overlap-weighted pooling",
+  "text_alignment": "ctc",
+  "text_alignment_fallback": false,
+  "text_backend": "transformers:D:\\E_math\\models\\bert-base-uncased",
+  "audio_backend": "ffmpeg_numpy_74",
+  "vision_backend": "ffmpeg_numpy_35",
+  "parameters": {
+    "max_text_tokens": 50,
+    "audio_rate": 16000,
+    "vision_fps": 5.0,
+    "audio_frame_ms": 25,
+    "audio_hop_ms": 10,
+    "vision_size": [
+      64,
+      64
+    ],
+    "n_bins": 50
+  },
+  "label_file_sha256": "827334f782b1f242c84ad944a657bc7f7c63643f71ae9c977811a3eecdd3ab33",
+  "command": "D:\\E_math\\problem1_pipeline.py --data-root D:\\E_math\\DATA --output-root D:\\E_math\\problem1_outputs --overwrite --text-backend transformers --text-model D:\\E_math\\models\\bert-base-uncased"
+}

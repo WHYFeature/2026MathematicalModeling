@@ -1,0 +1,47 @@
+{
+  "report_version": "1.0",
+  "generated_at_utc": "2026-09-23T17:23:53.584723+00:00",
+  "python": "3.13.11 (tags/v3.13.11:6278944, Dec  5 2025, 16:26:58) [MSC v.1944 64 bit (AMD64)]",
+  "python_executable": "D:\\E_math\\.venv_problem1\\Scripts\\python.exe",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "packages_at_report_time": {
+    "numpy": "2.5.3",
+    "openpyxl": "3.1.5",
+    "matplotlib": "3.11.2",
+    "torch": "2.11.0+cu126",
+    "torchaudio": "2.11.0+cu126",
+    "transformers": "5.17.0",
+    "imageio-ffmpeg": "0.6.0"
+  },
+  "ffmpeg": "ffmpeg version 7.1-essentials_build-www.gyan.dev Copyright (c) 2000-2024 the FFmpeg developers",
+  "cuda_available_at_report_time": true,
+  "feature_payload_sha256": "a3c6b894bb45c2638d2e165ef767e65c5f14e1d65d47e90bda908e11252e51d8",
+  "label_file_sha256": "827334f782b1f242c84ad944a657bc7f7c63643f71ae9c977811a3eecdd3ab33",
+  "recorded_extraction_metadata": {
+    "format_version": "problem1-v2",
+    "data_root": "D:\\E_math\\DATA",
+    "sample_count": 100,
+    "alignment": "50 equal-duration bins; overlap-weighted pooling",
+    "text_alignment": "ctc",
+    "text_alignment_fallback": false,
+    "text_backend": "transformers:D:\\E_math\\models\\bert-base-uncased",
+    "audio_backend": "ffmpeg_numpy_74",
+    "vision_backend": "ffmpeg_numpy_35",
+    "parameters": {
+      "max_text_tokens": 50,
+      "audio_rate": 16000,
+      "vision_fps": 5.0,
+      "audio_frame_ms": 25,
+      "audio_hop_ms": 10,
+      "vision_size": [
+        64,
+        64
+      ],
+      "n_bins": 50
+    },
+    "label_file_sha256": "827334f782b1f242c84ad944a657bc7f7c63643f71ae9c977811a3eecdd3ab33",
+    "command": "D:\\E_math\\problem1_pipeline.py --data-root D:\\E_math\\DATA --output-root D:\\E_math\\problem1_outputs --overwrite --text-backend transformers --text-model D:\\E_math\\models\\bert-base-uncased"
+  },
+  "provenance_note": "Package versions are measured when this report is generated. If the historical extraction metadata omitted versions, this report does not retroactively claim they were present at extraction time.",
+  "cuda_device": "NVIDIA GeForce RTX 4080"
+}

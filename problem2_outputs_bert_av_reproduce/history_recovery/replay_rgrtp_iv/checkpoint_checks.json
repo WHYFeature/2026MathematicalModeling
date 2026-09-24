@@ -1,0 +1,66 @@
+[
+  {
+    "epoch": 1,
+    "exact_state_match": false,
+    "tensor_count": 215,
+    "different_tensor_count": 213,
+    "first_different_tensors": [
+      "audio.0.bias",
+      "audio.0.weight",
+      "audio.1.bias",
+      "audio.1.weight",
+      "bert.embeddings.LayerNorm.bias"
+    ],
+    "comparison": "same keys, tensor shapes, dtypes, and torch.equal values; no tolerance"
+  },
+  {
+    "epoch": 2,
+    "exact_state_match": true,
+    "tensor_count": 215,
+    "different_tensor_count": 0,
+    "first_different_tensors": [],
+    "comparison": "same keys, tensor shapes, dtypes, and torch.equal values; no tolerance"
+  },
+  {
+    "epoch": 3,
+    "exact_state_match": false,
+    "tensor_count": 215,
+    "different_tensor_count": 213,
+    "first_different_tensors": [
+      "audio.0.bias",
+      "audio.0.weight",
+      "audio.1.bias",
+      "audio.1.weight",
+      "bert.embeddings.LayerNorm.bias"
+    ],
+    "comparison": "same keys, tensor shapes, dtypes, and torch.equal values; no tolerance"
+  },
+  {
+    "epoch": 4,
+    "exact_state_match": false,
+    "tensor_count": 215,
+    "different_tensor_count": 213,
+    "first_different_tensors": [
+      "audio.0.bias",
+      "audio.0.weight",
+      "audio.1.bias",
+      "audio.1.weight",
+      "bert.embeddings.LayerNorm.bias"
+    ],
+    "comparison": "same keys, tensor shapes, dtypes, and torch.equal values; no tolerance"
+  },
+  {
+    "epoch": 5,
+    "exact_state_match": false,
+    "tensor_count": 215,
+    "different_tensor_count": 213,
+    "first_different_tensors": [
+      "audio.0.bias",
+      "audio.0.weight",
+      "audio.1.bias",
+      "audio.1.weight",
+      "bert.embeddings.LayerNorm.bias"
+    ],
+    "comparison": "same keys, tensor shapes, dtypes, and torch.equal values; no tolerance"
+  }
+]

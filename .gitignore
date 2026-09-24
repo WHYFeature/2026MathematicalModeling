@@ -1,1 +1,15 @@
-/DATA/
+.venv*/
+__pycache__/
+*.pyc
+.cache/
+DATA/
+models/
+*.tmp
+
+# 大型模型权重
+*.pt
+*.pth
+*.safetensors
+
+# 运行产生的临时文件
+tmp/

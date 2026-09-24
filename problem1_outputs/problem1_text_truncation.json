@@ -1,0 +1,10 @@
+{
+  "method": "transformers:D:\\E_math\\models\\bert-base-uncased",
+  "token_limit": 50,
+  "sample_count": 100,
+  "tokenizer_available": true,
+  "truncated_sample_count": 6,
+  "truncated_sample_ratio": 0.06,
+  "max_full_bert_tokens": 84,
+  "total_omitted_bert_tokens": 70
+}

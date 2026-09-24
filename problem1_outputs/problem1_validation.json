@@ -1,0 +1,28 @@
+{
+  "ok": true,
+  "issues": [],
+  "sample_count": 100,
+  "id_count_from_labels": 100,
+  "shape_counts": {
+    "text": 100,
+    "audio": 100,
+    "vision": 100
+  },
+  "finite_counts": {
+    "text": 100,
+    "audio": 100,
+    "vision": 100
+  },
+  "valid_bin_counts": {
+    "text": 3670,
+    "audio": 4966,
+    "vision": 5000
+  },
+  "source_interval_counts": {
+    "text": 2447,
+    "audio": 77510,
+    "vision": 3936
+  },
+  "manifest_rows": 100,
+  "source_intervals_present_in_payload": true
+}

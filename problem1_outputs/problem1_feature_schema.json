@@ -1,0 +1,56 @@
+{
+  "format_version": "problem1-v2",
+  "n_bins": 50,
+  "modalities": {
+    "text": {
+      "dimension": 768,
+      "source": "local BERT last_hidden_state",
+      "shape": "(50, 768)",
+      "units": "dimensionless embedding",
+      "time_axis": "50 equal-duration bins after token/word interval pooling"
+    },
+    "audio": {
+      "dimension": 74,
+      "source": "mono FFmpeg waveform, NumPy short-time spectral descriptors",
+      "shape": "(50, 74)",
+      "units": "mixed: waveform amplitude, FFT-bin descriptors, band magnitudes and first differences",
+      "time_axis": "50 equal-duration bins after overlap-weighted pooling of 25 ms frames every 10 ms",
+      "features": [
+        "rms",
+        "mean_abs",
+        "std",
+        "peak_abs",
+        "sign_change_rate",
+        "crest_factor",
+        "spectral_centroid_fft_bin",
+        "spectral_spread_fft_bin",
+        "low_85pct_spectral_mass",
+        "spectral_flatness",
+        "linear_band_mean_01..32",
+        "delta_linear_band_mean_01..32"
+      ]
+    },
+    "vision": {
+      "dimension": 35,
+      "source": "FFmpeg RGB frames resized to 64x64, NumPy full-frame descriptors",
+      "shape": "(50, 35)",
+      "units": "normalized RGB/gray statistics and histogram density",
+      "time_axis": "50 equal-duration bins after overlap-weighted pooling of 5 fps frame intervals",
+      "features": [
+        "rgb_mean_01..03",
+        "rgb_std_01..03",
+        "gray_mean",
+        "gray_std",
+        "gray_min",
+        "gray_max",
+        "gray_percentile_05/25/50/75/95",
+        "abs_horizontal_diff_mean",
+        "abs_vertical_diff_mean",
+        "abs_horizontal_diff_std",
+        "abs_vertical_diff_std",
+        "gray_hist_density_01..16"
+      ],
+      "limitation": "These are full-frame appearance/texture descriptors, not facial landmarks or a facial emotion model."
+    }
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "device": "cuda",
+  "best_valid_f1": 0.6105367634498272,
+  "test": {
+    "accuracy": 0.7180192572214581,
+    "macro_f1": 0.6707584158960307,
+    "f1_by_class": {
+      "Negative": 0.7307692307692308,
+      "Neutral": 0.48727272727272725,
+      "Positive": 0.7942332896461337
+    },
+    "confusion_matrix": [
+      [
+        152,
+        20,
+        35
+      ],
+      [
+        28,
+        67,
+        63
+      ],
+      [
+        29,
+        30,
+        303
+      ]
+    ],
+    "mae": 0.6101917138981647,
+    "rmse": 0.8270947664019176,
+    "pearson": 0.6996104505718134
+  },
+  "schema_version": 2,
+  "best_epoch": null,
+  "balanced_loss": null,
+  "training_config": null,
+  "export_only": true,
+  "export_batch_size": 40,
+  "normalization_source": "recomputed from attachment-2 training split",
+  "class_names": [
+    "Negative",
+    "Neutral",
+    "Positive"
+  ],
+  "train_counts": [
+    967.0,
+    758.0,
+    1670.0
+  ],
+  "valid": {
+    "accuracy": 0.6414835164835165,
+    "macro_f1": 0.6105367634498272,
+    "f1_by_class": {
+      "Negative": 0.6811594202898551,
+      "Neutral": 0.43067846607669613,
+      "Positive": 0.7197724039829303
+    },
+    "confusion_matrix": [
+      [
+        141,
+        34,
+        31
+      ],
+      [
+        30,
+        73,
+        81
+      ],
+      [
+        37,
+        48,
+        253
+      ]
+    ],
+    "mae": 0.5734618548278256,
+    "rmse": 0.7626325327659046,
+    "pearson": 0.6865242581420195
+  },
+  "history": null,
+  "history_note": "Legacy checkpoints cannot recover unrecorded epochs/history.",
+  "output": "D:\\E_math\\problem2_outputs_bert_av_reproduce",
+  "files": {
+    "model": "D:\\E_math\\problem2_outputs_bert_av_reproduce\\bert_av_fusion.pt",
+    "normalization": "D:\\E_math\\problem2_outputs_bert_av_reproduce\\normalization.json",
+    "valid_predictions": "D:\\E_math\\problem2_outputs_bert_av_reproduce\\problem2_valid_predictions.csv",
+    "test_predictions": "D:\\E_math\\problem2_outputs_bert_av_reproduce\\problem2_test_predictions.csv"
+  },
+  "missing_modality": {
+    "aligned": {
+      "count": 30,
+      "path": "D:\\E_math\\problem2_outputs_bert_av_reproduce\\problem2_missing_aligned_predictions.csv",
+      "mean_audio_mask_ratio": 0.316,
+      "mean_vision_mask_ratio": 0.3133333333333333,
+      "mean_text_mask_ratio": 0.44333333333333336,
+      "predicted_class_counts": [
+        6,
+        7,
+        17
+      ]
+    },
+    "unaligned": {
+      "count": 30,
+      "path": "D:\\E_math\\problem2_outputs_bert_av_reproduce\\problem2_missing_unaligned_predictions.csv",
+      "mean_audio_mask_ratio": 0.2766666666666666,
+      "mean_vision_mask_ratio": 0.19933333333333333,
+      "mean_text_mask_ratio": 0.44333333333333336,
+      "predicted_class_counts": [
+        5,
+        4,
+        21
+      ]
+    }
+  },
+  "missing_preprocessing": {
+    "text": "Provided text_bert mask preserved; raw_text tokenized to at most 50 positions using the local BERT tokenizer.",
+    "audio_vision": "All-zero source rows masked before train-statistics normalization; unaligned sequences pooled into 50 bins using valid rows only.",
+    "evaluation": "Attachment 3 has no labels here; these files contain predictions, not measured accuracy."
+  }
+}

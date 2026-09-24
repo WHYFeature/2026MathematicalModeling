@@ -1,0 +1,79 @@
+{
+  "format_version": "problem1-v2",
+  "sample_count": 100,
+  "dimensions": {
+    "text": 768,
+    "audio": 74,
+    "vision": 35
+  },
+  "duration_seconds": {
+    "min": 2.26,
+    "median": 6.725,
+    "mean": 7.8749,
+    "max": 29.29
+  },
+  "label_counts": {
+    "Negative": 18,
+    "Neutral": 25,
+    "Positive": 57
+  },
+  "mean_per_sample_coverage": {
+    "text": 0.5211630879427045,
+    "audio": 0.9827363799422979,
+    "vision": 1.0
+  },
+  "valid_bin_ratio": {
+    "text": 0.7339999999999998,
+    "audio": 0.9932000000000001,
+    "vision": 1.0
+  },
+  "validation": {
+    "ok": true,
+    "issues": [],
+    "sample_count": 100,
+    "id_count_from_labels": 100,
+    "shape_counts": {
+      "text": 100,
+      "audio": 100,
+      "vision": 100
+    },
+    "finite_counts": {
+      "text": 100,
+      "audio": 100,
+      "vision": 100
+    },
+    "valid_bin_counts": {
+      "text": 3670,
+      "audio": 4966,
+      "vision": 5000
+    },
+    "source_interval_counts": {
+      "text": 2447,
+      "audio": 77510,
+      "vision": 3936
+    },
+    "manifest_rows": 100,
+    "source_intervals_present_in_payload": true
+  },
+  "example": {
+    "id": "-tANM6ETl_M$_$3",
+    "duration_seconds": 6.76,
+    "word_count": 22,
+    "decoded_audio_samples": 105658,
+    "decoded_video_frames": 34,
+    "figure": "figures/problem1_typical_sample.png",
+    "word_table": "typical_sample_words.csv",
+    "bin_table": "typical_sample_bins.csv"
+  },
+  "environment_file": "problem1_environment.json",
+  "text_truncation": {
+    "method": "transformers:D:\\E_math\\models\\bert-base-uncased",
+    "token_limit": 50,
+    "sample_count": 100,
+    "tokenizer_available": true,
+    "truncated_sample_count": 6,
+    "truncated_sample_ratio": 0.06,
+    "max_full_bert_tokens": 84,
+    "total_omitted_bert_tokens": 70
+  }
+}

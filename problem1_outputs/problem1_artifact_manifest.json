@@ -1,0 +1,108 @@
+{
+  "root": "D:\\E_math\\problem1_outputs",
+  "total_bytes": 21596755,
+  "total_megabytes": 20.59627056121826,
+  "note": "This is the Problem 1 output directory only; raw videos, model weights and virtual environments are excluded from a competition attachment unless explicitly selected.",
+  "files": [
+    {
+      "path": "figures/problem1_alignment_example.png",
+      "bytes": 285465
+    },
+    {
+      "path": "figures/problem1_feature_statistics.png",
+      "bytes": 76006
+    },
+    {
+      "path": "figures/problem1_label_duration.png",
+      "bytes": 128228
+    },
+    {
+      "path": "figures/problem1_overview.png",
+      "bytes": 281531
+    },
+    {
+      "path": "figures/problem1_typical_sample.pdf",
+      "bytes": 325997
+    },
+    {
+      "path": "figures/problem1_typical_sample.png",
+      "bytes": 648943
+    },
+    {
+      "path": "manifest.csv",
+      "bytes": 25200
+    },
+    {
+      "path": "problem1_aligned_features.pkl",
+      "bytes": 18931673
+    },
+    {
+      "path": "problem1_alignment_example.png",
+      "bytes": 285465
+    },
+    {
+      "path": "problem1_analysis.json",
+      "bytes": 827
+    },
+    {
+      "path": "problem1_analysis.md",
+      "bytes": 1149
+    },
+    {
+      "path": "problem1_complete_analysis.json",
+      "bytes": 1870
+    },
+    {
+      "path": "problem1_complete_report.md",
+      "bytes": 3941
+    },
+    {
+      "path": "problem1_environment.json",
+      "bytes": 2157
+    },
+    {
+      "path": "problem1_feature_schema.json",
+      "bytes": 1921
+    },
+    {
+      "path": "problem1_feature_statistics.png",
+      "bytes": 76006
+    },
+    {
+      "path": "problem1_feature_summary.csv",
+      "bytes": 86868
+    },
+    {
+      "path": "problem1_label_duration.png",
+      "bytes": 128228
+    },
+    {
+      "path": "problem1_overview.png",
+      "bytes": 281531
+    },
+    {
+      "path": "problem1_text_truncation.csv",
+      "bytes": 14893
+    },
+    {
+      "path": "problem1_text_truncation.json",
+      "bytes": 282
+    },
+    {
+      "path": "problem1_validation.json",
+      "bytes": 518
+    },
+    {
+      "path": "run_metadata.json",
+      "bytes": 913
+    },
+    {
+      "path": "typical_sample_bins.csv",
+      "bytes": 5328
+    },
+    {
+      "path": "typical_sample_words.csv",
+      "bytes": 1815
+    }
+  ]
+}

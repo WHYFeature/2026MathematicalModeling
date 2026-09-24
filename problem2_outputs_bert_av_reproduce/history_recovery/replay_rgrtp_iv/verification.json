@@ -1,0 +1,99 @@
+{
+  "kind": "verified_replay",
+  "created_utc": "2026-09-23T21:04:52.032703+00:00",
+  "attempt_root": "D:\\E_math\\problem2_outputs_bert_av_reproduce\\history_recovery\\replay_rgrtp_iv",
+  "matched_epochs": [
+    2
+  ],
+  "replay_selected_epoch": 2,
+  "exact_state_match": true,
+  "normalization_equal": true,
+  "target_files_sha256": {
+    "bert_av_fusion.pt": "55222cd37aac5089add01d32a5db2e2da1b36a9b314c585b920cc377e14df902",
+    "metrics.json": "5f71369ec69af8d3c63f4c0de978de8027ba90fef41be87ffc3d4b20ae17b53a",
+    "normalization.json": "0b664cd4d4f0134ee2d03dab052ca8b8f0852eea23ec16431a298abdf0fab3bc",
+    "problem2_valid_predictions.csv": "1c85b306f21136b08709018b3fb5e1ba71f4c8f3c81cdfa07d875c98e16c1f8b",
+    "problem2_test_predictions.csv": "d68ff5f3542f871fdc8965d2b6105d0e7b52d9a0750a9729a0b8af5616e868d3",
+    "problem2_missing_aligned_predictions.csv": "7e38e23fbd986f2638c332c9e6d235c261b2561de1d64b43eca6b3f4cf5940b3",
+    "problem2_missing_unaligned_predictions.csv": "c3acb417cd6c8373b32051f1e60cd713288f11cfd0504f7f4933eaebda2a4bd7"
+  },
+  "epoch_checks": [
+    {
+      "epoch": 1,
+      "exact_state_match": false,
+      "tensor_count": 215,
+      "different_tensor_count": 213,
+      "first_different_tensors": [
+        "audio.0.bias",
+        "audio.0.weight",
+        "audio.1.bias",
+        "audio.1.weight",
+        "bert.embeddings.LayerNorm.bias"
+      ],
+      "comparison": "same keys, tensor shapes, dtypes, and torch.equal values; no tolerance"
+    },
+    {
+      "epoch": 2,
+      "exact_state_match": true,
+      "tensor_count": 215,
+      "different_tensor_count": 0,
+      "first_different_tensors": [],
+      "comparison": "same keys, tensor shapes, dtypes, and torch.equal values; no tolerance"
+    },
+    {
+      "epoch": 3,
+      "exact_state_match": false,
+      "tensor_count": 215,
+      "different_tensor_count": 213,
+      "first_different_tensors": [
+        "audio.0.bias",
+        "audio.0.weight",
+        "audio.1.bias",
+        "audio.1.weight",
+        "bert.embeddings.LayerNorm.bias"
+      ],
+      "comparison": "same keys, tensor shapes, dtypes, and torch.equal values; no tolerance"
+    },
+    {
+      "epoch": 4,
+      "exact_state_match": false,
+      "tensor_count": 215,
+      "different_tensor_count": 213,
+      "first_different_tensors": [
+        "audio.0.bias",
+        "audio.0.weight",
+        "audio.1.bias",
+        "audio.1.weight",
+        "bert.embeddings.LayerNorm.bias"
+      ],
+      "comparison": "same keys, tensor shapes, dtypes, and torch.equal values; no tolerance"
+    },
+    {
+      "epoch": 5,
+      "exact_state_match": false,
+      "tensor_count": 215,
+      "different_tensor_count": 213,
+      "first_different_tensors": [
+        "audio.0.bias",
+        "audio.0.weight",
+        "audio.1.bias",
+        "audio.1.weight",
+        "bert.embeddings.LayerNorm.bias"
+      ],
+      "comparison": "same keys, tensor shapes, dtypes, and torch.equal values; no tolerance"
+    }
+  ],
+  "runtime": {
+    "torch": "2.11.0+cu126",
+    "numpy": "2.5.3",
+    "cuda": "12.6",
+    "device": "NVIDIA GeForce RTX 4080"
+  },
+  "notes": "Newly measured replay history, not the lost original log. The replay-selected checkpoint must match the reference exactly. Original target weights, metrics, and predictions are retained. Test predictions/labels are not used for epoch selection or a parameter search.",
+  "status": "verified",
+  "replay_sources_sha256": {
+    "aligned_50.pkl": "66e867aa74bc70a844e806e5571e371c9abb4a35f9e2887ce9b4d97ff2cb8fcd",
+    "problem2_bert_fusion_train.py": "9be83f7768d4ab8fdef6f30c5be1df9bd7bb2ff947815aa50f20374854586297",
+    "bert_model.py": "1c0be4c8b11be2701f632423d856e4247f1137a2a735f4638c8728b6b2572253"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "format_version": "problem1-v2",
+  "sample_count": 100,
+  "dimensions": {
+    "text": 768,
+    "audio": 74,
+    "vision": 35
+  },
+  "duration_seconds": {
+    "min": 2.26,
+    "median": 6.725,
+    "max": 29.29,
+    "mean": 7.8749
+  },
+  "label_counts": {
+    "negative": 18,
+    "neutral": 25,
+    "positive": 57
+  },
+  "coverage_mean": {
+    "text": 0.5211630879427045,
+    "audio": 0.9827363799422979,
+    "vision": 1.0
+  },
+  "valid_bin_ratio": {
+    "text": 0.734,
+    "audio": 0.9932,
+    "vision": 1.0
+  },
+  "feature_norm_median": {
+    "text": 12.356689126919015,
+    "audio": 46.82932353726129,
+    "vision": 5.801895133728475
+  },
+  "source_intervals_median": {
+    "text": 1.0,
+    "audio": 16.0,
+    "vision": 2.0
+  },
+  "example_id": "-tANM6ETl_M$_$3"
+}

@@ -1,0 +1,9 @@
+# Core package. The script has a standard-library XLSX reader, but openpyxl is
+# recommended for reliable reading of the supplied label workbook.
+numpy>=1.26
+openpyxl>=3.1
+imageio-ffmpeg>=0.5
+matplotlib>=3.8
+
+# PyTorch, TorchAudio, and Transformers are installed by setup_problem1.ps1.
+# The setup script selects matching CUDA 12.6 wheels for the RTX 4080.
