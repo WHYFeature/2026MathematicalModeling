@@ -1,0 +1,122 @@
+{
+  "train": {
+    "n": 3395,
+    "shapes": {
+      "text": [
+        3395,
+        50,
+        768
+      ],
+      "text_bert": [
+        3395,
+        3,
+        50
+      ],
+      "audio": [
+        3395,
+        500,
+        74
+      ],
+      "vision": [
+        3395,
+        500,
+        35
+      ]
+    },
+    "nonfinite": {
+      "text": 0,
+      "audio": 0,
+      "vision": 0
+    },
+    "length_ranges": {
+      "audio_lengths": [
+        8,
+        500
+      ],
+      "vision_lengths": [
+        1,
+        500
+      ]
+    }
+  },
+  "valid": {
+    "n": 728,
+    "shapes": {
+      "text": [
+        728,
+        50,
+        768
+      ],
+      "text_bert": [
+        728,
+        3,
+        50
+      ],
+      "audio": [
+        728,
+        500,
+        74
+      ],
+      "vision": [
+        728,
+        500,
+        35
+      ]
+    },
+    "nonfinite": {
+      "text": 0,
+      "audio": 0,
+      "vision": 0
+    },
+    "length_ranges": {
+      "audio_lengths": [
+        12,
+        500
+      ],
+      "vision_lengths": [
+        1,
+        500
+      ]
+    }
+  },
+  "test": {
+    "n": 727,
+    "shapes": {
+      "text": [
+        727,
+        50,
+        768
+      ],
+      "text_bert": [
+        727,
+        3,
+        50
+      ],
+      "audio": [
+        727,
+        500,
+        74
+      ],
+      "vision": [
+        727,
+        500,
+        35
+      ]
+    },
+    "nonfinite": {
+      "text": 0,
+      "audio": 0,
+      "vision": 0
+    },
+    "length_ranges": {
+      "audio_lengths": [
+        23,
+        500
+      ],
+      "vision_lengths": [
+        1,
+        456
+      ]
+    }
+  }
+}
