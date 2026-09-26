@@ -1,0 +1,198 @@
+{
+  "id": "14",
+  "variant": "unaligned",
+  "video_path": "D:\\E_math\\DATA\\attachment_4_explainability\\unaligned\\videos\\sample_14.mp4",
+  "raw_text": "He is the co-founder of Rossen and Vettese Limited and the former Executive Director of Uniform Final Examination (UFE) courses at Toronto's York University.",
+  "predicted_class": 1,
+  "predicted_label": "Neutral",
+  "confidence": 0.4196358025074005,
+  "probabilities": [
+    0.2491775006055832,
+    0.4196358025074005,
+    0.3311866819858551
+  ],
+  "regression_prediction": -0.023791633546352386,
+  "modality_attention": {
+    "text": 0.7849960327148438,
+    "audio": 0.16168034076690674,
+    "vision": 0.053323667496442795
+  },
+  "modality_contribution": {
+    "text": 0.7619939817180492,
+    "audio": 0.23800601828195084,
+    "vision": 0.0
+  },
+  "main_modality": "text",
+  "evidence": {
+    "text": [
+      {
+        "bin": 7,
+        "start_bin": 7,
+        "end_bin": 8,
+        "occlusion_drop": 0.006746560335159302,
+        "attention": 0.02445405162870884,
+        "token_position": 5,
+        "token": "-"
+      },
+      {
+        "bin": 6,
+        "start_bin": 6,
+        "end_bin": 7,
+        "occlusion_drop": 0.0008530020713806152,
+        "attention": 0.023334559053182602,
+        "token_position": 4,
+        "token": "co"
+      },
+      {
+        "bin": 29,
+        "start_bin": 29,
+        "end_bin": 30,
+        "occlusion_drop": -0.00550273060798645,
+        "attention": 0.025630610063672066,
+        "token_position": 21,
+        "token": "uniform"
+      },
+      {
+        "bin": 20,
+        "start_bin": 20,
+        "end_bin": 21,
+        "occlusion_drop": -0.007048308849334717,
+        "attention": 0.025081032887101173,
+        "token_position": 15,
+        "token": "and"
+      },
+      {
+        "bin": 18,
+        "start_bin": 18,
+        "end_bin": 19,
+        "occlusion_drop": -0.009310811758041382,
+        "attention": 0.026071349158883095,
+        "token_position": 13,
+        "token": "##e"
+      }
+    ],
+    "audio": [
+      {
+        "bin": 18,
+        "start_bin": 18,
+        "end_bin": 19,
+        "occlusion_drop": 0.0011134147644042969,
+        "attention": 0.005369740072637796,
+        "start_seconds": 0.36,
+        "end_seconds": 0.38,
+        "frame_start": 2,
+        "frame_end": 2
+      },
+      {
+        "bin": 7,
+        "start_bin": 7,
+        "end_bin": 8,
+        "occlusion_drop": 0.0008147954940795898,
+        "attention": 0.005036635790020227,
+        "start_seconds": 0.14,
+        "end_seconds": 0.16,
+        "frame_start": 1,
+        "frame_end": 1
+      },
+      {
+        "bin": 20,
+        "start_bin": 20,
+        "end_bin": 21,
+        "occlusion_drop": 0.0004297196865081787,
+        "attention": 0.0051657711155712605,
+        "start_seconds": 0.4,
+        "end_seconds": 0.42,
+        "frame_start": 2,
+        "frame_end": 2
+      },
+      {
+        "bin": 6,
+        "start_bin": 6,
+        "end_bin": 7,
+        "occlusion_drop": 1.576542854309082e-05,
+        "attention": 0.004806062206625938,
+        "start_seconds": 0.12,
+        "end_seconds": 0.14,
+        "frame_start": 1,
+        "frame_end": 1
+      },
+      {
+        "bin": 29,
+        "start_bin": 29,
+        "end_bin": 30,
+        "occlusion_drop": 0.0,
+        "attention": 0.005278964061290026,
+        "start_seconds": 0.58,
+        "end_seconds": 0.6,
+        "frame_start": 3,
+        "frame_end": 3
+      }
+    ],
+    "vision": [
+      {
+        "bin": 18,
+        "start_bin": 18,
+        "end_bin": 19,
+        "occlusion_drop": 0.0,
+        "attention": 0.0017709897365421057,
+        "start_seconds": 0.36,
+        "end_seconds": 0.38,
+        "frame_start": 2,
+        "frame_end": 2
+      },
+      {
+        "bin": 29,
+        "start_bin": 29,
+        "end_bin": 30,
+        "occlusion_drop": 0.0,
+        "attention": 0.0017410509753972292,
+        "start_seconds": 0.58,
+        "end_seconds": 0.6,
+        "frame_start": 3,
+        "frame_end": 3
+      },
+      {
+        "bin": 20,
+        "start_bin": 20,
+        "end_bin": 21,
+        "occlusion_drop": 0.0,
+        "attention": 0.0017037190264090896,
+        "start_seconds": 0.4,
+        "end_seconds": 0.42,
+        "frame_start": 2,
+        "frame_end": 2
+      },
+      {
+        "bin": 7,
+        "start_bin": 7,
+        "end_bin": 8,
+        "occlusion_drop": -0.0003186166286468506,
+        "attention": 0.0016611289465799928,
+        "start_seconds": 0.14,
+        "end_seconds": 0.16,
+        "frame_start": 1,
+        "frame_end": 1
+      },
+      {
+        "bin": 6,
+        "start_bin": 6,
+        "end_bin": 7,
+        "occlusion_drop": -0.0003770589828491211,
+        "attention": 0.0015850835479795933,
+        "start_seconds": 0.12,
+        "end_seconds": 0.14,
+        "frame_start": 1,
+        "frame_end": 1
+      }
+    ]
+  },
+  "text_tokens": [
+    "-",
+    "co",
+    "uniform",
+    "and",
+    "##e"
+  ],
+  "duration_seconds": 1.0,
+  "evidence_definition": "Positive occlusion_drop means the predicted-class probability decreased when the local span was masked."
+}

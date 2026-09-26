@@ -1,0 +1,198 @@
+{
+  "id": "15",
+  "variant": "unaligned",
+  "video_path": "D:\\E_math\\DATA\\attachment_4_explainability\\unaligned\\videos\\sample_15.mp4",
+  "raw_text": "However, despite their poverty, the family prioritize education because they believed in its power to transform lives",
+  "predicted_class": 2,
+  "predicted_label": "Positive",
+  "confidence": 0.8585864901542664,
+  "probabilities": [
+    0.025233792141079903,
+    0.1161796823143959,
+    0.8585864901542664
+  ],
+  "regression_prediction": 1.0112042427062988,
+  "modality_attention": {
+    "text": 0.6169552803039551,
+    "audio": 0.282173752784729,
+    "vision": 0.1008709967136383
+  },
+  "modality_contribution": {
+    "text": 0.3107245559627855,
+    "audio": 0.4649111925570905,
+    "vision": 0.22436425148012404
+  },
+  "main_modality": "audio",
+  "evidence": {
+    "text": [
+      {
+        "bin": 8,
+        "start_bin": 8,
+        "end_bin": 9,
+        "occlusion_drop": 0.0016750097274780273,
+        "attention": 0.02972346916794777,
+        "token_position": 4,
+        "token": "their"
+      },
+      {
+        "bin": 19,
+        "start_bin": 19,
+        "end_bin": 20,
+        "occlusion_drop": 0.0016096234321594238,
+        "attention": 0.028918081894516945,
+        "token_position": 9,
+        "token": "prior"
+      },
+      {
+        "bin": 5,
+        "start_bin": 5,
+        "end_bin": 6,
+        "occlusion_drop": -0.0009859800338745117,
+        "attention": 0.029036985710263252,
+        "token_position": 2,
+        "token": ","
+      },
+      {
+        "bin": 7,
+        "start_bin": 7,
+        "end_bin": 8,
+        "occlusion_drop": -0.0020467638969421387,
+        "attention": 0.02939467690885067,
+        "token_position": 3,
+        "token": "despite"
+      },
+      {
+        "bin": 3,
+        "start_bin": 3,
+        "end_bin": 4,
+        "occlusion_drop": -0.005274295806884766,
+        "attention": 0.029144132509827614,
+        "token_position": 1,
+        "token": "however"
+      }
+    ],
+    "audio": [
+      {
+        "bin": 3,
+        "start_bin": 3,
+        "end_bin": 4,
+        "occlusion_drop": 0.0015888810157775879,
+        "attention": 0.01332950685173273,
+        "start_seconds": 0.06,
+        "end_seconds": 0.08,
+        "frame_start": 0,
+        "frame_end": 0
+      },
+      {
+        "bin": 7,
+        "start_bin": 7,
+        "end_bin": 8,
+        "occlusion_drop": 0.001389622688293457,
+        "attention": 0.01344409678131342,
+        "start_seconds": 0.14,
+        "end_seconds": 0.16,
+        "frame_start": 1,
+        "frame_end": 1
+      },
+      {
+        "bin": 5,
+        "start_bin": 5,
+        "end_bin": 6,
+        "occlusion_drop": 0.0012202262878417969,
+        "attention": 0.013280500657856464,
+        "start_seconds": 0.1,
+        "end_seconds": 0.12,
+        "frame_start": 0,
+        "frame_end": 1
+      },
+      {
+        "bin": 8,
+        "start_bin": 8,
+        "end_bin": 9,
+        "occlusion_drop": 0.000715792179107666,
+        "attention": 0.013594473712146282,
+        "start_seconds": 0.16,
+        "end_seconds": 0.18,
+        "frame_start": 1,
+        "frame_end": 1
+      },
+      {
+        "bin": 19,
+        "start_bin": 19,
+        "end_bin": 20,
+        "occlusion_drop": -5.960464477539063e-08,
+        "attention": 0.013226118870079517,
+        "start_seconds": 0.38,
+        "end_seconds": 0.4,
+        "frame_start": 2,
+        "frame_end": 2
+      }
+    ],
+    "vision": [
+      {
+        "bin": 5,
+        "start_bin": 5,
+        "end_bin": 6,
+        "occlusion_drop": 0.0007008910179138184,
+        "attention": 0.004747490864247084,
+        "start_seconds": 0.1,
+        "end_seconds": 0.12,
+        "frame_start": 0,
+        "frame_end": 1
+      },
+      {
+        "bin": 3,
+        "start_bin": 3,
+        "end_bin": 4,
+        "occlusion_drop": 0.000670313835144043,
+        "attention": 0.004765009507536888,
+        "start_seconds": 0.06,
+        "end_seconds": 0.08,
+        "frame_start": 0,
+        "frame_end": 0
+      },
+      {
+        "bin": 8,
+        "start_bin": 8,
+        "end_bin": 9,
+        "occlusion_drop": 0.0005078911781311035,
+        "attention": 0.004859729669988155,
+        "start_seconds": 0.16,
+        "end_seconds": 0.18,
+        "frame_start": 1,
+        "frame_end": 1
+      },
+      {
+        "bin": 7,
+        "start_bin": 7,
+        "end_bin": 8,
+        "occlusion_drop": 0.0004926323890686035,
+        "attention": 0.004805972799658775,
+        "start_seconds": 0.14,
+        "end_seconds": 0.16,
+        "frame_start": 1,
+        "frame_end": 1
+      },
+      {
+        "bin": 19,
+        "start_bin": 19,
+        "end_bin": 20,
+        "occlusion_drop": -5.960464477539063e-08,
+        "attention": 0.00472805043682456,
+        "start_seconds": 0.38,
+        "end_seconds": 0.4,
+        "frame_start": 2,
+        "frame_end": 2
+      }
+    ]
+  },
+  "text_tokens": [
+    "their",
+    "prior",
+    ",",
+    "despite",
+    "however"
+  ],
+  "duration_seconds": 1.0,
+  "evidence_definition": "Positive occlusion_drop means the predicted-class probability decreased when the local span was masked."
+}

@@ -1,0 +1,198 @@
+{
+  "id": "13",
+  "variant": "unaligned",
+  "video_path": "D:\\E_math\\DATA\\attachment_4_explainability\\unaligned\\videos\\sample_13.mp4",
+  "raw_text": "For example, I could take a set of data and from that data, I can find a relationship between any two of the given factors or more.",
+  "predicted_class": 1,
+  "predicted_label": "Neutral",
+  "confidence": 0.4875531792640686,
+  "probabilities": [
+    0.07359211146831512,
+    0.4875531792640686,
+    0.4388546347618103
+  ],
+  "regression_prediction": 0.20825053751468658,
+  "modality_attention": {
+    "text": 0.9523200988769531,
+    "audio": 0.029379913583397865,
+    "vision": 0.018299952149391174
+  },
+  "modality_contribution": {
+    "text": 0.987469732934146,
+    "audio": 0.012530267065853978,
+    "vision": 0.0
+  },
+  "main_modality": "text",
+  "evidence": {
+    "text": [
+      {
+        "bin": 5,
+        "start_bin": 5,
+        "end_bin": 6,
+        "occlusion_drop": 0.0027095675468444824,
+        "attention": 0.032086942344903946,
+        "token_position": 3,
+        "token": ","
+      },
+      {
+        "bin": 17,
+        "start_bin": 17,
+        "end_bin": 18,
+        "occlusion_drop": 0.0009906888008117676,
+        "attention": 0.03210845962166786,
+        "token_position": 11,
+        "token": "and"
+      },
+      {
+        "bin": 23,
+        "start_bin": 23,
+        "end_bin": 24,
+        "occlusion_drop": 0.0008804798126220703,
+        "attention": 0.03229476884007454,
+        "token_position": 15,
+        "token": ","
+      },
+      {
+        "bin": 20,
+        "start_bin": 20,
+        "end_bin": 21,
+        "occlusion_drop": 0.00035372376441955566,
+        "attention": 0.03270893171429634,
+        "token_position": 13,
+        "token": "that"
+      },
+      {
+        "bin": 2,
+        "start_bin": 2,
+        "end_bin": 3,
+        "occlusion_drop": -0.002148866653442383,
+        "attention": 0.03257355839014053,
+        "token_position": 1,
+        "token": "for"
+      }
+    ],
+    "audio": [
+      {
+        "bin": 5,
+        "start_bin": 5,
+        "end_bin": 6,
+        "occlusion_drop": 6.261467933654785e-05,
+        "attention": 0.0009899104479700327,
+        "start_seconds": 0.1,
+        "end_seconds": 0.12,
+        "frame_start": 0,
+        "frame_end": 1
+      },
+      {
+        "bin": 20,
+        "start_bin": 20,
+        "end_bin": 21,
+        "occlusion_drop": 0.0,
+        "attention": 0.0010090993018820882,
+        "start_seconds": 0.4,
+        "end_seconds": 0.42,
+        "frame_start": 2,
+        "frame_end": 2
+      },
+      {
+        "bin": 23,
+        "start_bin": 23,
+        "end_bin": 24,
+        "occlusion_drop": 0.0,
+        "attention": 0.000996322138234973,
+        "start_seconds": 0.46,
+        "end_seconds": 0.48,
+        "frame_start": 2,
+        "frame_end": 2
+      },
+      {
+        "bin": 2,
+        "start_bin": 2,
+        "end_bin": 3,
+        "occlusion_drop": -0.00019276142120361328,
+        "attention": 0.0010049230186268687,
+        "start_seconds": 0.04,
+        "end_seconds": 0.06,
+        "frame_start": 0,
+        "frame_end": 0
+      },
+      {
+        "bin": 17,
+        "start_bin": 17,
+        "end_bin": 18,
+        "occlusion_drop": -0.0002454221248626709,
+        "attention": 0.0009905742481350899,
+        "start_seconds": 0.34,
+        "end_seconds": 0.36,
+        "frame_start": 2,
+        "frame_end": 2
+      }
+    ],
+    "vision": [
+      {
+        "bin": 20,
+        "start_bin": 20,
+        "end_bin": 21,
+        "occlusion_drop": 0.0,
+        "attention": 0.0006285406416282058,
+        "start_seconds": 0.4,
+        "end_seconds": 0.42,
+        "frame_start": 2,
+        "frame_end": 2
+      },
+      {
+        "bin": 2,
+        "start_bin": 2,
+        "end_bin": 3,
+        "occlusion_drop": 0.0,
+        "attention": 0.000625939283054322,
+        "start_seconds": 0.04,
+        "end_seconds": 0.06,
+        "frame_start": 0,
+        "frame_end": 0
+      },
+      {
+        "bin": 23,
+        "start_bin": 23,
+        "end_bin": 24,
+        "occlusion_drop": 0.0,
+        "attention": 0.0006205820245668292,
+        "start_seconds": 0.46,
+        "end_seconds": 0.48,
+        "frame_start": 2,
+        "frame_end": 2
+      },
+      {
+        "bin": 17,
+        "start_bin": 17,
+        "end_bin": 18,
+        "occlusion_drop": 0.0,
+        "attention": 0.0006170019041746855,
+        "start_seconds": 0.34,
+        "end_seconds": 0.36,
+        "frame_start": 2,
+        "frame_end": 2
+      },
+      {
+        "bin": 5,
+        "start_bin": 5,
+        "end_bin": 6,
+        "occlusion_drop": 0.0,
+        "attention": 0.0006165883969515562,
+        "start_seconds": 0.1,
+        "end_seconds": 0.12,
+        "frame_start": 0,
+        "frame_end": 1
+      }
+    ]
+  },
+  "text_tokens": [
+    ",",
+    "and",
+    ",",
+    "that",
+    "for"
+  ],
+  "duration_seconds": 1.0,
+  "evidence_definition": "Positive occlusion_drop means the predicted-class probability decreased when the local span was masked."
+}

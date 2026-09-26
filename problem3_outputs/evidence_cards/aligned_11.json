@@ -1,0 +1,198 @@
+{
+  "id": "11",
+  "variant": "aligned",
+  "video_path": "D:\\E_math\\DATA\\attachment_4_explainability\\aligned\\videos\\sample_11.mp4",
+  "raw_text": "I would be ashamed to have made this film if I was a director",
+  "predicted_class": 0,
+  "predicted_label": "Negative",
+  "confidence": 0.7189950346946716,
+  "probabilities": [
+    0.7189950346946716,
+    0.06354661285877228,
+    0.2174583226442337
+  ],
+  "regression_prediction": -0.805457353591919,
+  "modality_attention": {
+    "text": 0.9690762758255005,
+    "audio": 0.01820026896893978,
+    "vision": 0.012723485007882118
+  },
+  "modality_contribution": {
+    "text": 0.9729165337789221,
+    "audio": 0.019633307322109758,
+    "vision": 0.007450158898968155
+  },
+  "main_modality": "text",
+  "evidence": {
+    "text": [
+      {
+        "bin": 6,
+        "start_bin": 6,
+        "end_bin": 7,
+        "occlusion_drop": 0.0755150318145752,
+        "attention": 0.07586714625358582,
+        "token_position": 2,
+        "token": "would"
+      },
+      {
+        "bin": 4,
+        "start_bin": 4,
+        "end_bin": 5,
+        "occlusion_drop": 0.05963069200515747,
+        "attention": 0.08232898265123367,
+        "token_position": 1,
+        "token": "i"
+      },
+      {
+        "bin": 5,
+        "start_bin": 5,
+        "end_bin": 6,
+        "occlusion_drop": 0.05072188377380371,
+        "attention": 0.07322767376899719,
+        "token_position": 2,
+        "token": "would"
+      },
+      {
+        "bin": 1,
+        "start_bin": 1,
+        "end_bin": 2,
+        "occlusion_drop": 0.004727423191070557,
+        "attention": 0.08240091800689697,
+        "token_position": 0,
+        "token": "[CLS]"
+      },
+      {
+        "bin": 11,
+        "start_bin": 11,
+        "end_bin": 12,
+        "occlusion_drop": 0.003960371017456055,
+        "attention": 0.07637584954500198,
+        "token_position": 3,
+        "token": "be"
+      }
+    ],
+    "audio": [
+      {
+        "bin": 1,
+        "start_bin": 1,
+        "end_bin": 2,
+        "occlusion_drop": 0.0011701583862304688,
+        "attention": 0.0015475756954401731,
+        "start_seconds": 0.02,
+        "end_seconds": 0.04,
+        "frame_start": 0,
+        "frame_end": 0
+      },
+      {
+        "bin": 6,
+        "start_bin": 6,
+        "end_bin": 7,
+        "occlusion_drop": 0.001166999340057373,
+        "attention": 0.0014248646330088377,
+        "start_seconds": 0.12,
+        "end_seconds": 0.14,
+        "frame_start": 1,
+        "frame_end": 1
+      },
+      {
+        "bin": 11,
+        "start_bin": 11,
+        "end_bin": 12,
+        "occlusion_drop": 0.0010578036308288574,
+        "attention": 0.0014344184892252088,
+        "start_seconds": 0.22,
+        "end_seconds": 0.24,
+        "frame_start": 1,
+        "frame_end": 1
+      },
+      {
+        "bin": 4,
+        "start_bin": 4,
+        "end_bin": 5,
+        "occlusion_drop": 0.0005037784576416016,
+        "attention": 0.0015462245792150497,
+        "start_seconds": 0.08,
+        "end_seconds": 0.1,
+        "frame_start": 0,
+        "frame_end": 0
+      },
+      {
+        "bin": 5,
+        "start_bin": 5,
+        "end_bin": 6,
+        "occlusion_drop": 2.7358531951904297e-05,
+        "attention": 0.0013752925442531705,
+        "start_seconds": 0.1,
+        "end_seconds": 0.12,
+        "frame_start": 0,
+        "frame_end": 1
+      }
+    ],
+    "vision": [
+      {
+        "bin": 4,
+        "start_bin": 4,
+        "end_bin": 5,
+        "occlusion_drop": 0.0004108548164367676,
+        "attention": 0.0010809381492435932,
+        "start_seconds": 0.08,
+        "end_seconds": 0.1,
+        "frame_start": 0,
+        "frame_end": 0
+      },
+      {
+        "bin": 1,
+        "start_bin": 1,
+        "end_bin": 2,
+        "occlusion_drop": 0.00034993886947631836,
+        "attention": 0.001081882743164897,
+        "start_seconds": 0.02,
+        "end_seconds": 0.04,
+        "frame_start": 0,
+        "frame_end": 0
+      },
+      {
+        "bin": 5,
+        "start_bin": 5,
+        "end_bin": 6,
+        "occlusion_drop": 0.0002713203430175781,
+        "attention": 0.0009614425944164395,
+        "start_seconds": 0.1,
+        "end_seconds": 0.12,
+        "frame_start": 0,
+        "frame_end": 1
+      },
+      {
+        "bin": 11,
+        "start_bin": 11,
+        "end_bin": 12,
+        "occlusion_drop": 0.00024825334548950195,
+        "attention": 0.0010027765529230237,
+        "start_seconds": 0.22,
+        "end_seconds": 0.24,
+        "frame_start": 1,
+        "frame_end": 1
+      },
+      {
+        "bin": 6,
+        "start_bin": 6,
+        "end_bin": 7,
+        "occlusion_drop": 0.00020945072174072266,
+        "attention": 0.0009960975730791688,
+        "start_seconds": 0.12,
+        "end_seconds": 0.14,
+        "frame_start": 1,
+        "frame_end": 1
+      }
+    ]
+  },
+  "text_tokens": [
+    "would",
+    "i",
+    "would",
+    "[CLS]",
+    "be"
+  ],
+  "duration_seconds": 1.0,
+  "evidence_definition": "Positive occlusion_drop means the predicted-class probability decreased when the local span was masked."
+}

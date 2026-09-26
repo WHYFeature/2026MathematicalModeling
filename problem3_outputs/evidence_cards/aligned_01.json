@@ -1,0 +1,198 @@
+{
+  "id": "01",
+  "variant": "aligned",
+  "video_path": "D:\\E_math\\DATA\\attachment_4_explainability\\aligned\\videos\\sample_01.mp4",
+  "raw_text": "Replacing these wear components when replacing the timing belt is essential to ensuring the new belt performs to its mileage requirements",
+  "predicted_class": 1,
+  "predicted_label": "Neutral",
+  "confidence": 0.4764288067817688,
+  "probabilities": [
+    0.19831910729408264,
+    0.4764288067817688,
+    0.32525208592414856
+  ],
+  "regression_prediction": -0.006493832916021347,
+  "modality_attention": {
+    "text": 0.9549142122268677,
+    "audio": 0.013105045072734356,
+    "vision": 0.03198075294494629
+  },
+  "modality_contribution": {
+    "text": 0.9709935721650615,
+    "audio": 0.029006427834938463,
+    "vision": 0.0
+  },
+  "main_modality": "text",
+  "evidence": {
+    "text": [
+      {
+        "bin": 12,
+        "start_bin": 12,
+        "end_bin": 13,
+        "occlusion_drop": 0.009203404188156128,
+        "attention": 0.04310934245586395,
+        "token_position": 6,
+        "token": "replacing"
+      },
+      {
+        "bin": 17,
+        "start_bin": 17,
+        "end_bin": 18,
+        "occlusion_drop": 0.003130972385406494,
+        "attention": 0.04667770117521286,
+        "token_position": 8,
+        "token": "timing"
+      },
+      {
+        "bin": 8,
+        "start_bin": 8,
+        "end_bin": 9,
+        "occlusion_drop": 0.0008563697338104248,
+        "attention": 0.0439717061817646,
+        "token_position": 4,
+        "token": "components"
+      },
+      {
+        "bin": 11,
+        "start_bin": 11,
+        "end_bin": 12,
+        "occlusion_drop": -0.006215214729309082,
+        "attention": 0.04761328175663948,
+        "token_position": 5,
+        "token": "when"
+      },
+      {
+        "bin": 0,
+        "start_bin": 0,
+        "end_bin": 1,
+        "occlusion_drop": -0.006843447685241699,
+        "attention": 0.04343631863594055,
+        "token_position": 0,
+        "token": "[CLS]"
+      }
+    ],
+    "audio": [
+      {
+        "bin": 11,
+        "start_bin": 11,
+        "end_bin": 12,
+        "occlusion_drop": 0.00019484758377075195,
+        "attention": 0.0006534348358400166,
+        "start_seconds": 0.22,
+        "end_seconds": 0.24,
+        "frame_start": 1,
+        "frame_end": 1
+      },
+      {
+        "bin": 12,
+        "start_bin": 12,
+        "end_bin": 13,
+        "occlusion_drop": 0.0001449882984161377,
+        "attention": 0.0005916237132623792,
+        "start_seconds": 0.24,
+        "end_seconds": 0.26,
+        "frame_start": 1,
+        "frame_end": 1
+      },
+      {
+        "bin": 17,
+        "start_bin": 17,
+        "end_bin": 18,
+        "occlusion_drop": 5.4210424423217773e-05,
+        "attention": 0.0006405950989574194,
+        "start_seconds": 0.34,
+        "end_seconds": 0.36,
+        "frame_start": 2,
+        "frame_end": 2
+      },
+      {
+        "bin": 0,
+        "start_bin": 0,
+        "end_bin": 1,
+        "occlusion_drop": 0.0,
+        "attention": 0.0005961110582575202,
+        "start_seconds": 0.0,
+        "end_seconds": 0.02,
+        "frame_start": 0,
+        "frame_end": 0
+      },
+      {
+        "bin": 8,
+        "start_bin": 8,
+        "end_bin": 9,
+        "occlusion_drop": -0.0001849532127380371,
+        "attention": 0.0006034586112946272,
+        "start_seconds": 0.16,
+        "end_seconds": 0.18,
+        "frame_start": 1,
+        "frame_end": 1
+      }
+    ],
+    "vision": [
+      {
+        "bin": 0,
+        "start_bin": 0,
+        "end_bin": 1,
+        "occlusion_drop": 0.0,
+        "attention": 0.0014547130558639765,
+        "start_seconds": 0.0,
+        "end_seconds": 0.02,
+        "frame_start": 0,
+        "frame_end": 0
+      },
+      {
+        "bin": 8,
+        "start_bin": 8,
+        "end_bin": 9,
+        "occlusion_drop": -7.292628288269043e-05,
+        "attention": 0.0014726435765624046,
+        "start_seconds": 0.16,
+        "end_seconds": 0.18,
+        "frame_start": 1,
+        "frame_end": 1
+      },
+      {
+        "bin": 17,
+        "start_bin": 17,
+        "end_bin": 18,
+        "occlusion_drop": -0.00013458728790283203,
+        "attention": 0.001563269179314375,
+        "start_seconds": 0.34,
+        "end_seconds": 0.36,
+        "frame_start": 2,
+        "frame_end": 2
+      },
+      {
+        "bin": 11,
+        "start_bin": 11,
+        "end_bin": 12,
+        "occlusion_drop": -0.00014010071754455566,
+        "attention": 0.0015946024795994163,
+        "start_seconds": 0.22,
+        "end_seconds": 0.24,
+        "frame_start": 1,
+        "frame_end": 1
+      },
+      {
+        "bin": 12,
+        "start_bin": 12,
+        "end_bin": 13,
+        "occlusion_drop": -0.00015878677368164062,
+        "attention": 0.0014437624486163259,
+        "start_seconds": 0.24,
+        "end_seconds": 0.26,
+        "frame_start": 1,
+        "frame_end": 1
+      }
+    ]
+  },
+  "text_tokens": [
+    "replacing",
+    "timing",
+    "components",
+    "when",
+    "[CLS]"
+  ],
+  "duration_seconds": 1.0,
+  "evidence_definition": "Positive occlusion_drop means the predicted-class probability decreased when the local span was masked."
+}

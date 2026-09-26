@@ -1,0 +1,198 @@
+{
+  "id": "07",
+  "variant": "unaligned",
+  "video_path": "D:\\E_math\\DATA\\attachment_4_explainability\\unaligned\\videos\\sample_07.mp4",
+  "raw_text": "As Linn’s associate editor Michael Baadke reports in our November 28 issue, attendees “enthusiastically discussed the topics of growing the hobby, the future of stamp shows, and dealers and philatelic partnerships, along with ways the leading organizations involved in the stamp hobby can work together to make it succeed and grow",
+  "predicted_class": 2,
+  "predicted_label": "Positive",
+  "confidence": 0.6650920510292053,
+  "probabilities": [
+    0.027083290740847588,
+    0.3078247010707855,
+    0.6650920510292053
+  ],
+  "regression_prediction": 0.5751883387565613,
+  "modality_attention": {
+    "text": 0.8527529239654541,
+    "audio": 0.08647337555885315,
+    "vision": 0.06077376380562782
+  },
+  "modality_contribution": {
+    "text": 0.935519699320002,
+    "audio": 0.01819263952611033,
+    "vision": 0.04628766115388761
+  },
+  "main_modality": "text",
+  "evidence": {
+    "text": [
+      {
+        "bin": 49,
+        "start_bin": 49,
+        "end_bin": 50,
+        "occlusion_drop": 0.008648931980133057,
+        "attention": 0.02020985260605812,
+        "token_position": 49,
+        "token": "[SEP]"
+      },
+      {
+        "bin": 44,
+        "start_bin": 44,
+        "end_bin": 45,
+        "occlusion_drop": 0.0052825212478637695,
+        "attention": 0.020786235108971596,
+        "token_position": 44,
+        "token": "along"
+      },
+      {
+        "bin": 29,
+        "start_bin": 29,
+        "end_bin": 30,
+        "occlusion_drop": 0.004345238208770752,
+        "attention": 0.020639833062887192,
+        "token_position": 29,
+        "token": ","
+      },
+      {
+        "bin": 45,
+        "start_bin": 45,
+        "end_bin": 46,
+        "occlusion_drop": 0.003031492233276367,
+        "attention": 0.01994655840098858,
+        "token_position": 45,
+        "token": "with"
+      },
+      {
+        "bin": 30,
+        "start_bin": 30,
+        "end_bin": 31,
+        "occlusion_drop": 0.002488851547241211,
+        "attention": 0.0200782660394907,
+        "token_position": 30,
+        "token": "the"
+      }
+    ],
+    "audio": [
+      {
+        "bin": 29,
+        "start_bin": 29,
+        "end_bin": 30,
+        "occlusion_drop": 0.0003502368927001953,
+        "attention": 0.0020929814781993628,
+        "start_seconds": 0.58,
+        "end_seconds": 0.6,
+        "frame_start": 3,
+        "frame_end": 3
+      },
+      {
+        "bin": 30,
+        "start_bin": 30,
+        "end_bin": 31,
+        "occlusion_drop": 0.0001125335693359375,
+        "attention": 0.0020360357593744993,
+        "start_seconds": 0.6,
+        "end_seconds": 0.62,
+        "frame_start": 3,
+        "frame_end": 3
+      },
+      {
+        "bin": 44,
+        "start_bin": 44,
+        "end_bin": 45,
+        "occlusion_drop": 0.0,
+        "attention": 0.002107827225700021,
+        "start_seconds": 0.88,
+        "end_seconds": 0.9,
+        "frame_start": 4,
+        "frame_end": 4
+      },
+      {
+        "bin": 49,
+        "start_bin": 49,
+        "end_bin": 50,
+        "occlusion_drop": 0.0,
+        "attention": 0.0020493792835623026,
+        "start_seconds": 0.98,
+        "end_seconds": 1.0,
+        "frame_start": 5,
+        "frame_end": 5
+      },
+      {
+        "bin": 45,
+        "start_bin": 45,
+        "end_bin": 46,
+        "occlusion_drop": 0.0,
+        "attention": 0.0020226798951625824,
+        "start_seconds": 0.9,
+        "end_seconds": 0.92,
+        "frame_start": 4,
+        "frame_end": 5
+      }
+    ],
+    "vision": [
+      {
+        "bin": 30,
+        "start_bin": 30,
+        "end_bin": 31,
+        "occlusion_drop": 0.0006139874458312988,
+        "attention": 0.0014309324324131012,
+        "start_seconds": 0.6,
+        "end_seconds": 0.62,
+        "frame_start": 3,
+        "frame_end": 3
+      },
+      {
+        "bin": 29,
+        "start_bin": 29,
+        "end_bin": 30,
+        "occlusion_drop": 0.0005634427070617676,
+        "attention": 0.0014709540409967303,
+        "start_seconds": 0.58,
+        "end_seconds": 0.6,
+        "frame_start": 3,
+        "frame_end": 3
+      },
+      {
+        "bin": 44,
+        "start_bin": 44,
+        "end_bin": 45,
+        "occlusion_drop": 0.0,
+        "attention": 0.0014813877642154694,
+        "start_seconds": 0.88,
+        "end_seconds": 0.9,
+        "frame_start": 4,
+        "frame_end": 4
+      },
+      {
+        "bin": 49,
+        "start_bin": 49,
+        "end_bin": 50,
+        "occlusion_drop": 0.0,
+        "attention": 0.00144031026866287,
+        "start_seconds": 0.98,
+        "end_seconds": 1.0,
+        "frame_start": 5,
+        "frame_end": 5
+      },
+      {
+        "bin": 45,
+        "start_bin": 45,
+        "end_bin": 46,
+        "occlusion_drop": 0.0,
+        "attention": 0.0014215458650141954,
+        "start_seconds": 0.9,
+        "end_seconds": 0.92,
+        "frame_start": 4,
+        "frame_end": 5
+      }
+    ]
+  },
+  "text_tokens": [
+    "[SEP]",
+    "along",
+    ",",
+    "with",
+    "the"
+  ],
+  "duration_seconds": 1.0,
+  "evidence_definition": "Positive occlusion_drop means the predicted-class probability decreased when the local span was masked."
+}

@@ -1,0 +1,198 @@
+{
+  "id": "12",
+  "variant": "unaligned",
+  "video_path": "D:\\E_math\\DATA\\attachment_4_explainability\\unaligned\\videos\\sample_12.mp4",
+  "raw_text": "Or worse, an individual previously had good credit, but usually by no fault of their own, or perhaps by fault of their own, they have let their credit sag, and credit scores is very low.",
+  "predicted_class": 0,
+  "predicted_label": "Negative",
+  "confidence": 0.7025639414787292,
+  "probabilities": [
+    0.7025639414787292,
+    0.15660695731639862,
+    0.14082908630371094
+  ],
+  "regression_prediction": -0.7203006148338318,
+  "modality_attention": {
+    "text": 0.9578455090522766,
+    "audio": 0.034952979534864426,
+    "vision": 0.0072014727629721165
+  },
+  "modality_contribution": {
+    "text": 0.9922247263361237,
+    "audio": 0.0,
+    "vision": 0.007775273663876368
+  },
+  "main_modality": "text",
+  "evidence": {
+    "text": [
+      {
+        "bin": 41,
+        "start_bin": 41,
+        "end_bin": 42,
+        "occlusion_drop": 0.009132742881774902,
+        "attention": 0.028373923152685165,
+        "token_position": 36,
+        "token": "and"
+      },
+      {
+        "bin": 24,
+        "start_bin": 24,
+        "end_bin": 25,
+        "occlusion_drop": 0.008274853229522705,
+        "attention": 0.025545326992869377,
+        "token_position": 21,
+        "token": "perhaps"
+      },
+      {
+        "bin": 6,
+        "start_bin": 6,
+        "end_bin": 7,
+        "occlusion_drop": 0.0009616613388061523,
+        "attention": 0.026787880808115005,
+        "token_position": 5,
+        "token": "individual"
+      },
+      {
+        "bin": 21,
+        "start_bin": 21,
+        "end_bin": 22,
+        "occlusion_drop": -0.0015826225280761719,
+        "attention": 0.024841010570526123,
+        "token_position": 18,
+        "token": "own"
+      },
+      {
+        "bin": 29,
+        "start_bin": 29,
+        "end_bin": 30,
+        "occlusion_drop": -0.0028901100158691406,
+        "attention": 0.028521407395601273,
+        "token_position": 25,
+        "token": "their"
+      }
+    ],
+    "audio": [
+      {
+        "bin": 29,
+        "start_bin": 29,
+        "end_bin": 30,
+        "occlusion_drop": 0.0,
+        "attention": 0.0010407817317172885,
+        "start_seconds": 0.58,
+        "end_seconds": 0.6,
+        "frame_start": 3,
+        "frame_end": 3
+      },
+      {
+        "bin": 41,
+        "start_bin": 41,
+        "end_bin": 42,
+        "occlusion_drop": 0.0,
+        "attention": 0.0010353999678045511,
+        "start_seconds": 0.82,
+        "end_seconds": 0.84,
+        "frame_start": 4,
+        "frame_end": 4
+      },
+      {
+        "bin": 6,
+        "start_bin": 6,
+        "end_bin": 7,
+        "occlusion_drop": -0.00011432170867919922,
+        "attention": 0.0009775232756510377,
+        "start_seconds": 0.12,
+        "end_seconds": 0.14,
+        "frame_start": 1,
+        "frame_end": 1
+      },
+      {
+        "bin": 21,
+        "start_bin": 21,
+        "end_bin": 22,
+        "occlusion_drop": -0.00012069940567016602,
+        "attention": 0.0009064795449376106,
+        "start_seconds": 0.42,
+        "end_seconds": 0.44,
+        "frame_start": 2,
+        "frame_end": 2
+      },
+      {
+        "bin": 24,
+        "start_bin": 24,
+        "end_bin": 25,
+        "occlusion_drop": -0.00018018484115600586,
+        "attention": 0.0009321809047833085,
+        "start_seconds": 0.48,
+        "end_seconds": 0.5,
+        "frame_start": 2,
+        "frame_end": 2
+      }
+    ],
+    "vision": [
+      {
+        "bin": 6,
+        "start_bin": 6,
+        "end_bin": 7,
+        "occlusion_drop": 0.00014394521713256836,
+        "attention": 0.00020140220294706523,
+        "start_seconds": 0.12,
+        "end_seconds": 0.14,
+        "frame_start": 1,
+        "frame_end": 1
+      },
+      {
+        "bin": 29,
+        "start_bin": 29,
+        "end_bin": 30,
+        "occlusion_drop": 0.0,
+        "attention": 0.00021443555306177586,
+        "start_seconds": 0.58,
+        "end_seconds": 0.6,
+        "frame_start": 3,
+        "frame_end": 3
+      },
+      {
+        "bin": 41,
+        "start_bin": 41,
+        "end_bin": 42,
+        "occlusion_drop": 0.0,
+        "attention": 0.00021332671167328954,
+        "start_seconds": 0.82,
+        "end_seconds": 0.84,
+        "frame_start": 4,
+        "frame_end": 4
+      },
+      {
+        "bin": 24,
+        "start_bin": 24,
+        "end_bin": 25,
+        "occlusion_drop": 0.0,
+        "attention": 0.0001920601789606735,
+        "start_seconds": 0.48,
+        "end_seconds": 0.5,
+        "frame_start": 2,
+        "frame_end": 2
+      },
+      {
+        "bin": 21,
+        "start_bin": 21,
+        "end_bin": 22,
+        "occlusion_drop": 0.0,
+        "attention": 0.0001867648388724774,
+        "start_seconds": 0.42,
+        "end_seconds": 0.44,
+        "frame_start": 2,
+        "frame_end": 2
+      }
+    ]
+  },
+  "text_tokens": [
+    "and",
+    "perhaps",
+    "individual",
+    "own",
+    "their"
+  ],
+  "duration_seconds": 1.0,
+  "evidence_definition": "Positive occlusion_drop means the predicted-class probability decreased when the local span was masked."
+}

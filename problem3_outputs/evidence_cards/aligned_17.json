@@ -1,0 +1,198 @@
+{
+  "id": "17",
+  "variant": "aligned",
+  "video_path": "D:\\E_math\\DATA\\attachment_4_explainability\\aligned\\videos\\sample_17.mp4",
+  "raw_text": "Applying these four design concepts to your presentations is simple, easy and will make people think you turned into a design guru.",
+  "predicted_class": 2,
+  "predicted_label": "Positive",
+  "confidence": 0.7801129817962646,
+  "probabilities": [
+    0.02066643163561821,
+    0.19922050833702087,
+    0.7801129817962646
+  ],
+  "regression_prediction": 0.8121458888053894,
+  "modality_attention": {
+    "text": 0.44910553097724915,
+    "audio": 0.4941466450691223,
+    "vision": 0.05674785003066063
+  },
+  "modality_contribution": {
+    "text": 0.9607402924130891,
+    "audio": 0.0,
+    "vision": 0.0392597075869109
+  },
+  "main_modality": "text",
+  "evidence": {
+    "text": [
+      {
+        "bin": 15,
+        "start_bin": 15,
+        "end_bin": 16,
+        "occlusion_drop": 0.03010624647140503,
+        "attention": 0.020781004801392555,
+        "token_position": 8,
+        "token": "presentations"
+      },
+      {
+        "bin": 16,
+        "start_bin": 16,
+        "end_bin": 17,
+        "occlusion_drop": 0.023691952228546143,
+        "attention": 0.019304705783724785,
+        "token_position": 8,
+        "token": "presentations"
+      },
+      {
+        "bin": 20,
+        "start_bin": 20,
+        "end_bin": 21,
+        "occlusion_drop": 0.01962900161743164,
+        "attention": 0.019695520401000977,
+        "token_position": 10,
+        "token": "simple"
+      },
+      {
+        "bin": 14,
+        "start_bin": 14,
+        "end_bin": 15,
+        "occlusion_drop": 0.017407715320587158,
+        "attention": 0.019588006660342216,
+        "token_position": 7,
+        "token": "your"
+      },
+      {
+        "bin": 6,
+        "start_bin": 6,
+        "end_bin": 7,
+        "occlusion_drop": 0.008793950080871582,
+        "attention": 0.018929939717054367,
+        "token_position": 3,
+        "token": "four"
+      }
+    ],
+    "audio": [
+      {
+        "bin": 15,
+        "start_bin": 15,
+        "end_bin": 16,
+        "occlusion_drop": -0.007363557815551758,
+        "attention": 0.02286514639854431,
+        "start_seconds": 0.3,
+        "end_seconds": 0.32,
+        "frame_start": 2,
+        "frame_end": 2
+      },
+      {
+        "bin": 16,
+        "start_bin": 16,
+        "end_bin": 17,
+        "occlusion_drop": -0.010712742805480957,
+        "attention": 0.02124078758060932,
+        "start_seconds": 0.32,
+        "end_seconds": 0.34,
+        "frame_start": 2,
+        "frame_end": 2
+      },
+      {
+        "bin": 6,
+        "start_bin": 6,
+        "end_bin": 7,
+        "occlusion_drop": -0.012998819351196289,
+        "attention": 0.02082843706011772,
+        "start_seconds": 0.12,
+        "end_seconds": 0.14,
+        "frame_start": 1,
+        "frame_end": 1
+      },
+      {
+        "bin": 20,
+        "start_bin": 20,
+        "end_bin": 21,
+        "occlusion_drop": -0.01576554775238037,
+        "attention": 0.02167079783976078,
+        "start_seconds": 0.4,
+        "end_seconds": 0.42,
+        "frame_start": 2,
+        "frame_end": 2
+      },
+      {
+        "bin": 14,
+        "start_bin": 14,
+        "end_bin": 15,
+        "occlusion_drop": -0.02216339111328125,
+        "attention": 0.021552501246333122,
+        "start_seconds": 0.28,
+        "end_seconds": 0.3,
+        "frame_start": 1,
+        "frame_end": 2
+      }
+    ],
+    "vision": [
+      {
+        "bin": 16,
+        "start_bin": 16,
+        "end_bin": 17,
+        "occlusion_drop": 0.0010910630226135254,
+        "attention": 0.0024392942432314157,
+        "start_seconds": 0.32,
+        "end_seconds": 0.34,
+        "frame_start": 2,
+        "frame_end": 2
+      },
+      {
+        "bin": 6,
+        "start_bin": 6,
+        "end_bin": 7,
+        "occlusion_drop": 0.0010541677474975586,
+        "attention": 0.00239193974994123,
+        "start_seconds": 0.12,
+        "end_seconds": 0.14,
+        "frame_start": 1,
+        "frame_end": 1
+      },
+      {
+        "bin": 15,
+        "start_bin": 15,
+        "end_bin": 16,
+        "occlusion_drop": 0.0008312463760375977,
+        "attention": 0.0026258358266204596,
+        "start_seconds": 0.3,
+        "end_seconds": 0.32,
+        "frame_start": 2,
+        "frame_end": 2
+      },
+      {
+        "bin": 14,
+        "start_bin": 14,
+        "end_bin": 15,
+        "occlusion_drop": 0.0007663369178771973,
+        "attention": 0.002475091489031911,
+        "start_seconds": 0.28,
+        "end_seconds": 0.3,
+        "frame_start": 1,
+        "frame_end": 2
+      },
+      {
+        "bin": 20,
+        "start_bin": 20,
+        "end_bin": 21,
+        "occlusion_drop": 0.00032842159271240234,
+        "attention": 0.0024886764585971832,
+        "start_seconds": 0.4,
+        "end_seconds": 0.42,
+        "frame_start": 2,
+        "frame_end": 2
+      }
+    ]
+  },
+  "text_tokens": [
+    "presentations",
+    "presentations",
+    "simple",
+    "your",
+    "four"
+  ],
+  "duration_seconds": 1.0,
+  "evidence_definition": "Positive occlusion_drop means the predicted-class probability decreased when the local span was masked."
+}

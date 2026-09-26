@@ -1,0 +1,198 @@
+{
+  "id": "18",
+  "variant": "unaligned",
+  "video_path": "D:\\E_math\\DATA\\attachment_4_explainability\\unaligned\\videos\\sample_18.mp4",
+  "raw_text": "-And in Denmark - the first Baltic Cod fishery has been MSC – certified -Meanwhile, the Faeroese Mackerel Fishery has been denied MSC certification based on the fact that the fishery has failed to reach an agreement on mackerel quotas with Norway and the European Union.",
+  "predicted_class": 0,
+  "predicted_label": "Negative",
+  "confidence": 0.43506187200546265,
+  "probabilities": [
+    0.43506187200546265,
+    0.32181739807128906,
+    0.2431207001209259
+  ],
+  "regression_prediction": -0.2564457654953003,
+  "modality_attention": {
+    "text": 0.9591972827911377,
+    "audio": 0.01034416165202856,
+    "vision": 0.030458608642220497
+  },
+  "modality_contribution": {
+    "text": 0.9890907487871697,
+    "audio": 0.003988848289381345,
+    "vision": 0.006920402923448953
+  },
+  "main_modality": "text",
+  "evidence": {
+    "text": [
+      {
+        "bin": 29,
+        "start_bin": 29,
+        "end_bin": 30,
+        "occlusion_drop": 0.03026449680328369,
+        "attention": 0.022905368357896805,
+        "token_position": 29,
+        "token": "denied"
+      },
+      {
+        "bin": 28,
+        "start_bin": 28,
+        "end_bin": 29,
+        "occlusion_drop": 0.011079341173171997,
+        "attention": 0.023495303466916084,
+        "token_position": 28,
+        "token": "been"
+      },
+      {
+        "bin": 3,
+        "start_bin": 3,
+        "end_bin": 4,
+        "occlusion_drop": 0.00011351704597473145,
+        "attention": 0.025949278846383095,
+        "token_position": 3,
+        "token": "in"
+      },
+      {
+        "bin": 14,
+        "start_bin": 14,
+        "end_bin": 15,
+        "occlusion_drop": -9.843707084655762e-05,
+        "attention": 0.025108052417635918,
+        "token_position": 14,
+        "token": "–"
+      },
+      {
+        "bin": 45,
+        "start_bin": 45,
+        "end_bin": 46,
+        "occlusion_drop": -0.002838641405105591,
+        "attention": 0.02497936598956585,
+        "token_position": 45,
+        "token": "on"
+      }
+    ],
+    "audio": [
+      {
+        "bin": 28,
+        "start_bin": 28,
+        "end_bin": 29,
+        "occlusion_drop": 0.0001671910285949707,
+        "attention": 0.00025337771512567997,
+        "start_seconds": 0.56,
+        "end_seconds": 0.58,
+        "frame_start": 3,
+        "frame_end": 3
+      },
+      {
+        "bin": 45,
+        "start_bin": 45,
+        "end_bin": 46,
+        "occlusion_drop": -2.9802322387695312e-08,
+        "attention": 0.0002693821443244815,
+        "start_seconds": 0.9,
+        "end_seconds": 0.92,
+        "frame_start": 4,
+        "frame_end": 5
+      },
+      {
+        "bin": 3,
+        "start_bin": 3,
+        "end_bin": 4,
+        "occlusion_drop": -8.255243301391602e-06,
+        "attention": 0.0002798418281599879,
+        "start_seconds": 0.06,
+        "end_seconds": 0.08,
+        "frame_start": 0,
+        "frame_end": 0
+      },
+      {
+        "bin": 14,
+        "start_bin": 14,
+        "end_bin": 15,
+        "occlusion_drop": -7.280707359313965e-05,
+        "attention": 0.0002707699022721499,
+        "start_seconds": 0.28,
+        "end_seconds": 0.3,
+        "frame_start": 1,
+        "frame_end": 2
+      },
+      {
+        "bin": 29,
+        "start_bin": 29,
+        "end_bin": 30,
+        "occlusion_drop": -8.288025856018066e-05,
+        "attention": 0.0002470157342031598,
+        "start_seconds": 0.58,
+        "end_seconds": 0.6,
+        "frame_start": 3,
+        "frame_end": 3
+      }
+    ],
+    "vision": [
+      {
+        "bin": 3,
+        "start_bin": 3,
+        "end_bin": 4,
+        "occlusion_drop": 0.00015747547149658203,
+        "attention": 0.0008240003953687847,
+        "start_seconds": 0.06,
+        "end_seconds": 0.08,
+        "frame_start": 0,
+        "frame_end": 0
+      },
+      {
+        "bin": 14,
+        "start_bin": 14,
+        "end_bin": 15,
+        "occlusion_drop": 0.00013259053230285645,
+        "attention": 0.000797287852037698,
+        "start_seconds": 0.28,
+        "end_seconds": 0.3,
+        "frame_start": 1,
+        "frame_end": 2
+      },
+      {
+        "bin": 45,
+        "start_bin": 45,
+        "end_bin": 46,
+        "occlusion_drop": -2.9802322387695312e-08,
+        "attention": 0.0007932015578262508,
+        "start_seconds": 0.9,
+        "end_seconds": 0.92,
+        "frame_start": 4,
+        "frame_end": 5
+      },
+      {
+        "bin": 28,
+        "start_bin": 28,
+        "end_bin": 29,
+        "occlusion_drop": -2.9802322387695312e-08,
+        "attention": 0.0007460761698894203,
+        "start_seconds": 0.56,
+        "end_seconds": 0.58,
+        "frame_start": 3,
+        "frame_end": 3
+      },
+      {
+        "bin": 29,
+        "start_bin": 29,
+        "end_bin": 30,
+        "occlusion_drop": -2.9802322387695312e-08,
+        "attention": 0.0007273431983776391,
+        "start_seconds": 0.58,
+        "end_seconds": 0.6,
+        "frame_start": 3,
+        "frame_end": 3
+      }
+    ]
+  },
+  "text_tokens": [
+    "denied",
+    "been",
+    "in",
+    "–",
+    "on"
+  ],
+  "duration_seconds": 1.0,
+  "evidence_definition": "Positive occlusion_drop means the predicted-class probability decreased when the local span was masked."
+}

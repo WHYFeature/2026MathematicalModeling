@@ -1,0 +1,198 @@
+{
+  "id": "20",
+  "variant": "aligned",
+  "video_path": "D:\\E_math\\DATA\\attachment_4_explainability\\aligned\\videos\\sample_20.mp4",
+  "raw_text": "And of course, click in the link of the description of this video for more, and we'll have more live updates and a stock market video (wrap-up) at the end of the day today.",
+  "predicted_class": 2,
+  "predicted_label": "Positive",
+  "confidence": 0.805114209651947,
+  "probabilities": [
+    0.021371470764279366,
+    0.173514261841774,
+    0.805114209651947
+  ],
+  "regression_prediction": 0.812812089920044,
+  "modality_attention": {
+    "text": 0.7317166328430176,
+    "audio": 0.024826038628816605,
+    "vision": 0.2434573620557785
+  },
+  "modality_contribution": {
+    "text": 0.3036293777097017,
+    "audio": 0.08314078766323113,
+    "vision": 0.6132298346270671
+  },
+  "main_modality": "vision",
+  "evidence": {
+    "text": [
+      {
+        "bin": 18,
+        "start_bin": 18,
+        "end_bin": 19,
+        "occlusion_drop": 0.002348482608795166,
+        "attention": 0.018539588898420334,
+        "token_position": 16,
+        "token": "more"
+      },
+      {
+        "bin": 21,
+        "start_bin": 21,
+        "end_bin": 22,
+        "occlusion_drop": 0.001805424690246582,
+        "attention": 0.01894683577120304,
+        "token_position": 19,
+        "token": "we"
+      },
+      {
+        "bin": 17,
+        "start_bin": 17,
+        "end_bin": 18,
+        "occlusion_drop": 2.872943878173828e-05,
+        "attention": 0.018377477303147316,
+        "token_position": 15,
+        "token": "for"
+      },
+      {
+        "bin": 8,
+        "start_bin": 8,
+        "end_bin": 9,
+        "occlusion_drop": -0.0005234479904174805,
+        "attention": 0.01815742440521717,
+        "token_position": 7,
+        "token": "the"
+      },
+      {
+        "bin": 14,
+        "start_bin": 14,
+        "end_bin": 15,
+        "occlusion_drop": -0.004403293132781982,
+        "attention": 0.018323469907045364,
+        "token_position": 13,
+        "token": "this"
+      }
+    ],
+    "audio": [
+      {
+        "bin": 8,
+        "start_bin": 8,
+        "end_bin": 9,
+        "occlusion_drop": 0.00031578540802001953,
+        "attention": 0.0006160539342090487,
+        "start_seconds": 0.16,
+        "end_seconds": 0.18,
+        "frame_start": 1,
+        "frame_end": 1
+      },
+      {
+        "bin": 14,
+        "start_bin": 14,
+        "end_bin": 15,
+        "occlusion_drop": 0.00030410289764404297,
+        "attention": 0.0006216876208782196,
+        "start_seconds": 0.28,
+        "end_seconds": 0.3,
+        "frame_start": 1,
+        "frame_end": 2
+      },
+      {
+        "bin": 17,
+        "start_bin": 17,
+        "end_bin": 18,
+        "occlusion_drop": 0.00022095441818237305,
+        "attention": 0.0006235199980437756,
+        "start_seconds": 0.34,
+        "end_seconds": 0.36,
+        "frame_start": 2,
+        "frame_end": 2
+      },
+      {
+        "bin": 18,
+        "start_bin": 18,
+        "end_bin": 19,
+        "occlusion_drop": 0.0001811981201171875,
+        "attention": 0.0006290202145464718,
+        "start_seconds": 0.36,
+        "end_seconds": 0.38,
+        "frame_start": 2,
+        "frame_end": 2
+      },
+      {
+        "bin": 21,
+        "start_bin": 21,
+        "end_bin": 22,
+        "occlusion_drop": 0.0001232624053955078,
+        "attention": 0.0006428374908864498,
+        "start_seconds": 0.42,
+        "end_seconds": 0.44,
+        "frame_start": 2,
+        "frame_end": 2
+      }
+    ],
+    "vision": [
+      {
+        "bin": 21,
+        "start_bin": 21,
+        "end_bin": 22,
+        "occlusion_drop": 0.0018737316131591797,
+        "attention": 0.0063040065579116344,
+        "start_seconds": 0.42,
+        "end_seconds": 0.44,
+        "frame_start": 2,
+        "frame_end": 2
+      },
+      {
+        "bin": 14,
+        "start_bin": 14,
+        "end_bin": 15,
+        "occlusion_drop": 0.0016933679580688477,
+        "attention": 0.006096600089222193,
+        "start_seconds": 0.28,
+        "end_seconds": 0.3,
+        "frame_start": 1,
+        "frame_end": 2
+      },
+      {
+        "bin": 8,
+        "start_bin": 8,
+        "end_bin": 9,
+        "occlusion_drop": 0.0016899704933166504,
+        "attention": 0.006041353102773428,
+        "start_seconds": 0.16,
+        "end_seconds": 0.18,
+        "frame_start": 1,
+        "frame_end": 1
+      },
+      {
+        "bin": 17,
+        "start_bin": 17,
+        "end_bin": 18,
+        "occlusion_drop": 0.001620173454284668,
+        "attention": 0.006114569492638111,
+        "start_seconds": 0.34,
+        "end_seconds": 0.36,
+        "frame_start": 2,
+        "frame_end": 2
+      },
+      {
+        "bin": 18,
+        "start_bin": 18,
+        "end_bin": 19,
+        "occlusion_drop": 0.001570284366607666,
+        "attention": 0.006168507505208254,
+        "start_seconds": 0.36,
+        "end_seconds": 0.38,
+        "frame_start": 2,
+        "frame_end": 2
+      }
+    ]
+  },
+  "text_tokens": [
+    "more",
+    "we",
+    "for",
+    "the",
+    "this"
+  ],
+  "duration_seconds": 1.0,
+  "evidence_definition": "Positive occlusion_drop means the predicted-class probability decreased when the local span was masked."
+}

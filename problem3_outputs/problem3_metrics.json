@@ -1,0 +1,85 @@
+{
+  "device": "cuda",
+  "best_epoch": 1,
+  "config": {
+    "data_root": "D:\\E_math\\DATA",
+    "text_model": "D:\\E_math\\models\\bert-base-uncased",
+    "output_root": "D:\\E_math\\problem3_outputs",
+    "epochs": 50,
+    "batch_size": 64,
+    "hidden": 160,
+    "heads": 8,
+    "layers": 2,
+    "dropout": 0.15,
+    "lr": 0.0003,
+    "weight_decay": 0.0005,
+    "reg_weight": 0.15,
+    "patience": 50,
+    "seed": 42,
+    "top_k": 5,
+    "occlusion_span": 1,
+    "skip_figures": false,
+    "skip_attachment4": false,
+    "overwrite": false
+  },
+  "valid": {
+    "accuracy": 0.6222527472527473,
+    "macro_f1": 0.5767346129048256,
+    "f1_by_class": {
+      "Negative": 0.6595744680851063,
+      "Neutral": 0.3706293706293707,
+      "Positive": 0.7
+    },
+    "confusion_matrix": [
+      [
+        155,
+        12,
+        39
+      ],
+      [
+        53,
+        53,
+        78
+      ],
+      [
+        56,
+        37,
+        245
+      ]
+    ],
+    "mae": 0.6612825051185439,
+    "rmse": 0.8880490312866021,
+    "pearson": 0.5581920772221911
+  },
+  "test": {
+    "accuracy": 0.640990371389271,
+    "macro_f1": 0.5515648988514017,
+    "f1_by_class": {
+      "Negative": 0.6583333333333333,
+      "Neutral": 0.24669603524229072,
+      "Positive": 0.7496653279785811
+    },
+    "confusion_matrix": [
+      [
+        158,
+        10,
+        39
+      ],
+      [
+        64,
+        28,
+        66
+      ],
+      [
+        51,
+        31,
+        280
+      ]
+    ],
+    "mae": 0.6928641619532275,
+    "rmse": 0.9141141249642397,
+    "pearson": 0.6216517194478093
+  },
+  "attachment4_count": 40,
+  "explanation": "Modality/time attention is accompanied by local occlusion drops for the top evidence bins; Attachment 4 has no labels."
+}

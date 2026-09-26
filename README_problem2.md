@@ -138,6 +138,83 @@ problem2_outputs_bert_av_reproduce/
 
 若输出 `unverified`，复现未满足完全一致门槛，尝试日志留在 `history_recovery/replay_*`，不会给原模型挂接曲线。不能仅凭验证指标接近或准确率相同判定权重一致，也不能直接使用另一份 20 轮实验的曲线。
 
+## 问题二专项：受控缺失率、位置、连续时长和模态消融
+
+问题二的鲁棒性实验使用一个独立输出目录，不覆盖已有的
+`problem2_outputs_bert_av_reproduce`。脚本读取附件二的 `aligned_50.pkl`，以训练集统计量归一化；每个条件只修改有效时间 bin 的 mask，因此原有 padding 不会被算成缺失。每个 seed 训练同一份 `HybridStatsFusionNet`，随后在验证集和测试集上评价相同的条件。
+
+默认条件包括：完整输入、单模态/双模态/三模态消融，10%--40% 缺失率，prefix/middle/suffix/random 位置以及 short/medium/long 连续时长。默认使用 42、43、44 三个随机种子，并报告均值和标准差。附件三 aligned 与 unaligned 只分别推理，不能报告准确率，因为附件三没有标签。
+
+先做小规模 smoke test：
+
+```powershell
+Set-Location 'D:\E_math'
+.\run_problem2_missingness_experiment.ps1 `
+  -Seeds '42' -Epochs 1 -BatchSize 256 `
+  -OutputRoot 'D:\E_math\problem2_missingness_smoke' `
+  -SkipAttachment3
+```
+
+正式运行：
+
+```powershell
+Set-Location 'D:\E_math'
+.\run_problem2_missingness_experiment.ps1 `
+  -Seeds '42,43,44' -Epochs 20 -BatchSize 64 `
+  -OutputRoot 'D:\E_math\problem2_missingness_experiment'
+```
+
+`aligned` 是正式主实验的默认版本；如需对非对齐版本做独立专项实验，必须使用另一个输出目录：
+
+```powershell
+.\run_problem2_missingness_experiment.ps1 `
+  -FeatureVersion unaligned -Seeds '42,43,44' -Epochs 20 -BatchSize 64 `
+  -OutputRoot 'D:\E_math\problem2_missingness_experiment_unaligned'
+```
+
+如果要完成截图要求的 BERT-AV 配对消融，使用下面的独立入口。`baseline` 是已有 BERT-AV 结构，`robust_noaug` 使用 availability-aware 结构但关闭局部缺失增强，`robust` 在同一结构上打开局部连续缺失增强：
+
+```powershell
+Set-Location 'D:\E_math'
+.\run_problem2_experiment2.ps1 `
+  -Models 'baseline,robust_noaug,robust' `
+  -Seeds '42,43,44' -Epochs 8 -BatchSize 20 `
+  -OutputRoot 'D:\E_math\problem2_experiment2'
+```
+
+这条实验会重新训练 BERT，因此耗时明显高于已有摘要模型。若只先验证代码：
+
+```powershell
+.\run_problem2_experiment2.ps1 -Models 'robust' -Seeds '42' -Epochs 1 -BatchSize 128 `
+  -SkipAttachment3 -OutputRoot 'D:\E_math\problem2_experiment2_smoke'
+```
+
+它生成 `condition_metrics.csv`、`ablation_summary.csv`、`model_summary.csv`、每个模型/seed 的训练历史和 `figures/`。不要把 smoke test 的数值写入正式结论。
+
+如果目标目录已有本次实验结果，必须显式使用 `-Overwrite`；旧目录会先重命名为带时间随机后缀的备份目录。输出包括：
+
+```text
+problem2_missingness_experiment/
+  experiment_config.json
+  normalization.json
+  seed_summary.csv
+  condition_metrics.csv
+  ablation_summary.csv
+  attachment3_predictions.csv
+  attachment3_summary.json
+  seed_42/seed_43/seed_44/
+    checkpoint.pt
+    training_history.json
+    training_history.csv
+  figures/
+    missingness_curves.png/.pdf
+    position_duration_heatmap.png/.pdf
+    modality_ablation.png/.pdf
+    training_curves_seed_*.png/.pdf
+```
+
+`effective_missing_rate` 定义为“被实验 mask 掉的原始有效 bin 数 / 原始有效 bin 数”。`condition_metrics.csv` 保留每个 seed、split、条件的完整结果；`ablation_summary.csv` 再按条件汇总均值和标准差。附件三的 `attachment3_predictions.csv` 只包含预测类别、回归值、概率和各模态有效率，不能当作有标签准确率。
+
 ## 新的独立训练实验：记录训练曲线
 
 已采用的 71.80% 模型没有逐轮历史，无法从权重或最终预测恢复。以下命令在新目录开始一次独立训练，保留旧模型与结果；新实验的指标可能不同，不把它的曲线冒充旧实验历史：

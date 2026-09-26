@@ -1,0 +1,198 @@
+{
+  "id": "03",
+  "variant": "aligned",
+  "video_path": "D:\\E_math\\DATA\\attachment_4_explainability\\aligned\\videos\\sample_03.mp4",
+  "raw_text": "There's one lender at the moment which I think is just Bankwest who don't take rental income into account, they take rental yield into account.",
+  "predicted_class": 0,
+  "predicted_label": "Negative",
+  "confidence": 0.418159157037735,
+  "probabilities": [
+    0.418159157037735,
+    0.28585150837898254,
+    0.29598936438560486
+  ],
+  "regression_prediction": -0.1991495043039322,
+  "modality_attention": {
+    "text": 0.9751821160316467,
+    "audio": 0.0030341478995978832,
+    "vision": 0.02178378961980343
+  },
+  "modality_contribution": {
+    "text": 0.9846320570958825,
+    "audio": 0.0017039171331037209,
+    "vision": 0.013664025771013708
+  },
+  "main_modality": "text",
+  "evidence": {
+    "text": [
+      {
+        "bin": 24,
+        "start_bin": 24,
+        "end_bin": 25,
+        "occlusion_drop": 0.06612226366996765,
+        "attention": 0.04462994635105133,
+        "token_position": 17,
+        "token": "who"
+      },
+      {
+        "bin": 31,
+        "start_bin": 31,
+        "end_bin": 32,
+        "occlusion_drop": 0.06343075633049011,
+        "attention": 0.03611178323626518,
+        "token_position": 22,
+        "token": "rental"
+      },
+      {
+        "bin": 20,
+        "start_bin": 20,
+        "end_bin": 21,
+        "occlusion_drop": 0.05758941173553467,
+        "attention": 0.03772223740816116,
+        "token_position": 14,
+        "token": "just"
+      },
+      {
+        "bin": 14,
+        "start_bin": 14,
+        "end_bin": 15,
+        "occlusion_drop": 0.013042420148849487,
+        "attention": 0.03517889976501465,
+        "token_position": 10,
+        "token": "which"
+      },
+      {
+        "bin": 17,
+        "start_bin": 17,
+        "end_bin": 18,
+        "occlusion_drop": -0.00471004843711853,
+        "attention": 0.040418680757284164,
+        "token_position": 12,
+        "token": "think"
+      }
+    ],
+    "audio": [
+      {
+        "bin": 24,
+        "start_bin": 24,
+        "end_bin": 25,
+        "occlusion_drop": 0.0003319680690765381,
+        "attention": 0.0001388600649079308,
+        "start_seconds": 0.48,
+        "end_seconds": 0.5,
+        "frame_start": 2,
+        "frame_end": 2
+      },
+      {
+        "bin": 20,
+        "start_bin": 20,
+        "end_bin": 21,
+        "occlusion_drop": 1.4454126358032227e-05,
+        "attention": 0.00011736766464309767,
+        "start_seconds": 0.4,
+        "end_seconds": 0.42,
+        "frame_start": 2,
+        "frame_end": 2
+      },
+      {
+        "bin": 17,
+        "start_bin": 17,
+        "end_bin": 18,
+        "occlusion_drop": -3.4183263778686523e-05,
+        "attention": 0.00012575728760566562,
+        "start_seconds": 0.34,
+        "end_seconds": 0.36,
+        "frame_start": 2,
+        "frame_end": 2
+      },
+      {
+        "bin": 14,
+        "start_bin": 14,
+        "end_bin": 15,
+        "occlusion_drop": -3.463029861450195e-05,
+        "attention": 0.00010945440590148792,
+        "start_seconds": 0.28,
+        "end_seconds": 0.3,
+        "frame_start": 1,
+        "frame_end": 2
+      },
+      {
+        "bin": 31,
+        "start_bin": 31,
+        "end_bin": 32,
+        "occlusion_drop": -0.00011205673217773438,
+        "attention": 0.00011235695274081081,
+        "start_seconds": 0.62,
+        "end_seconds": 0.64,
+        "frame_start": 3,
+        "frame_end": 3
+      }
+    ],
+    "vision": [
+      {
+        "bin": 24,
+        "start_bin": 24,
+        "end_bin": 25,
+        "occlusion_drop": 0.0007090270519256592,
+        "attention": 0.0009969515958800912,
+        "start_seconds": 0.48,
+        "end_seconds": 0.5,
+        "frame_start": 2,
+        "frame_end": 2
+      },
+      {
+        "bin": 14,
+        "start_bin": 14,
+        "end_bin": 15,
+        "occlusion_drop": 0.0006072521209716797,
+        "attention": 0.0007858324097469449,
+        "start_seconds": 0.28,
+        "end_seconds": 0.3,
+        "frame_start": 1,
+        "frame_end": 2
+      },
+      {
+        "bin": 31,
+        "start_bin": 31,
+        "end_bin": 32,
+        "occlusion_drop": 0.0006014108657836914,
+        "attention": 0.0008066713344305754,
+        "start_seconds": 0.62,
+        "end_seconds": 0.64,
+        "frame_start": 3,
+        "frame_end": 3
+      },
+      {
+        "bin": 17,
+        "start_bin": 17,
+        "end_bin": 18,
+        "occlusion_drop": 0.0004474222660064697,
+        "attention": 0.0009028795757330954,
+        "start_seconds": 0.34,
+        "end_seconds": 0.36,
+        "frame_start": 2,
+        "frame_end": 2
+      },
+      {
+        "bin": 20,
+        "start_bin": 20,
+        "end_bin": 21,
+        "occlusion_drop": 0.00041291117668151855,
+        "attention": 0.0008426459389738739,
+        "start_seconds": 0.4,
+        "end_seconds": 0.42,
+        "frame_start": 2,
+        "frame_end": 2
+      }
+    ]
+  },
+  "text_tokens": [
+    "who",
+    "rental",
+    "just",
+    "which",
+    "think"
+  ],
+  "duration_seconds": 1.0,
+  "evidence_definition": "Positive occlusion_drop means the predicted-class probability decreased when the local span was masked."
+}

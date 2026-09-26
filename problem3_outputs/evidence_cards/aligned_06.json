@@ -1,0 +1,198 @@
+{
+  "id": "06",
+  "variant": "aligned",
+  "video_path": "D:\\E_math\\DATA\\attachment_4_explainability\\aligned\\videos\\sample_06.mp4",
+  "raw_text": "If you're a fan of dancing in that sense, just like to watch people dance, see impressive dance moves then you might want to check out this movie solely for that",
+  "predicted_class": 2,
+  "predicted_label": "Positive",
+  "confidence": 0.804142415523529,
+  "probabilities": [
+    0.057637449353933334,
+    0.1382201611995697,
+    0.804142415523529
+  ],
+  "regression_prediction": 0.6828761100769043,
+  "modality_attention": {
+    "text": 0.8582626581192017,
+    "audio": 0.10956447571516037,
+    "vision": 0.03217282146215439
+  },
+  "modality_contribution": {
+    "text": 0.9254347359778693,
+    "audio": 0.07456526402213066,
+    "vision": 0.0
+  },
+  "main_modality": "text",
+  "evidence": {
+    "text": [
+      {
+        "bin": 6,
+        "start_bin": 6,
+        "end_bin": 7,
+        "occlusion_drop": 0.00843513011932373,
+        "attention": 0.030714886263012886,
+        "token_position": 4,
+        "token": "re"
+      },
+      {
+        "bin": 15,
+        "start_bin": 15,
+        "end_bin": 16,
+        "occlusion_drop": 0.004572510719299316,
+        "attention": 0.02932220697402954,
+        "token_position": 11,
+        "token": "sense"
+      },
+      {
+        "bin": 9,
+        "start_bin": 9,
+        "end_bin": 10,
+        "occlusion_drop": 0.0019073486328125,
+        "attention": 0.031661469489336014,
+        "token_position": 7,
+        "token": "of"
+      },
+      {
+        "bin": 28,
+        "start_bin": 28,
+        "end_bin": 29,
+        "occlusion_drop": -0.002605915069580078,
+        "attention": 0.027015773579478264,
+        "token_position": 21,
+        "token": "impressive"
+      },
+      {
+        "bin": 32,
+        "start_bin": 32,
+        "end_bin": 33,
+        "occlusion_drop": -0.0027367472648620605,
+        "attention": 0.026787169277668,
+        "token_position": 24,
+        "token": "then"
+      }
+    ],
+    "audio": [
+      {
+        "bin": 9,
+        "start_bin": 9,
+        "end_bin": 10,
+        "occlusion_drop": 0.0003364682197570801,
+        "attention": 0.004041853826493025,
+        "start_seconds": 0.18,
+        "end_seconds": 0.2,
+        "frame_start": 1,
+        "frame_end": 1
+      },
+      {
+        "bin": 6,
+        "start_bin": 6,
+        "end_bin": 7,
+        "occlusion_drop": 0.0003018975257873535,
+        "attention": 0.0039210147224366665,
+        "start_seconds": 0.12,
+        "end_seconds": 0.14,
+        "frame_start": 1,
+        "frame_end": 1
+      },
+      {
+        "bin": 15,
+        "start_bin": 15,
+        "end_bin": 16,
+        "occlusion_drop": 0.0002289414405822754,
+        "attention": 0.0037432273384183645,
+        "start_seconds": 0.3,
+        "end_seconds": 0.32,
+        "frame_start": 2,
+        "frame_end": 2
+      },
+      {
+        "bin": 32,
+        "start_bin": 32,
+        "end_bin": 33,
+        "occlusion_drop": 0.0002218484878540039,
+        "attention": 0.0034196083433926105,
+        "start_seconds": 0.64,
+        "end_seconds": 0.66,
+        "frame_start": 3,
+        "frame_end": 3
+      },
+      {
+        "bin": 28,
+        "start_bin": 28,
+        "end_bin": 29,
+        "occlusion_drop": 0.00011259317398071289,
+        "attention": 0.0034487915690988302,
+        "start_seconds": 0.56,
+        "end_seconds": 0.58,
+        "frame_start": 3,
+        "frame_end": 3
+      }
+    ],
+    "vision": [
+      {
+        "bin": 28,
+        "start_bin": 28,
+        "end_bin": 29,
+        "occlusion_drop": -0.0003529787063598633,
+        "attention": 0.001012712949886918,
+        "start_seconds": 0.56,
+        "end_seconds": 0.58,
+        "frame_start": 3,
+        "frame_end": 3
+      },
+      {
+        "bin": 32,
+        "start_bin": 32,
+        "end_bin": 33,
+        "occlusion_drop": -0.00037866830825805664,
+        "attention": 0.0010041433852165937,
+        "start_seconds": 0.64,
+        "end_seconds": 0.66,
+        "frame_start": 3,
+        "frame_end": 3
+      },
+      {
+        "bin": 6,
+        "start_bin": 6,
+        "end_bin": 7,
+        "occlusion_drop": -0.00040477514266967773,
+        "attention": 0.0011513778008520603,
+        "start_seconds": 0.12,
+        "end_seconds": 0.14,
+        "frame_start": 1,
+        "frame_end": 1
+      },
+      {
+        "bin": 9,
+        "start_bin": 9,
+        "end_bin": 10,
+        "occlusion_drop": -0.00041216611862182617,
+        "attention": 0.0011868614237755537,
+        "start_seconds": 0.18,
+        "end_seconds": 0.2,
+        "frame_start": 1,
+        "frame_end": 1
+      },
+      {
+        "bin": 15,
+        "start_bin": 15,
+        "end_bin": 16,
+        "occlusion_drop": -0.0004490017890930176,
+        "attention": 0.0010991718154400587,
+        "start_seconds": 0.3,
+        "end_seconds": 0.32,
+        "frame_start": 2,
+        "frame_end": 2
+      }
+    ]
+  },
+  "text_tokens": [
+    "re",
+    "sense",
+    "of",
+    "impressive",
+    "then"
+  ],
+  "duration_seconds": 1.0,
+  "evidence_definition": "Positive occlusion_drop means the predicted-class probability decreased when the local span was masked."
+}

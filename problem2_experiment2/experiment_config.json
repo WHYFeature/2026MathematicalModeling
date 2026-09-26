@@ -1,0 +1,640 @@
+{
+  "protocol": "aligned_50 only; train-only normalization; attachment-3 labels unused",
+  "device": "cuda",
+  "models": [
+    "baseline",
+    "robust_noaug",
+    "robust"
+  ],
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "conditions": [
+    {
+      "condition_id": "baseline__complete__r0p00__none__none",
+      "group": "baseline",
+      "missing_modalities": [],
+      "missing_rate": 0.0,
+      "position": "none",
+      "duration": "none"
+    },
+    {
+      "condition_id": "rate__text__r0p10__random__medium",
+      "group": "rate",
+      "missing_modalities": [
+        "text"
+      ],
+      "missing_rate": 0.1,
+      "position": "random",
+      "duration": "medium"
+    },
+    {
+      "condition_id": "rate__text__r0p20__random__medium",
+      "group": "rate",
+      "missing_modalities": [
+        "text"
+      ],
+      "missing_rate": 0.2,
+      "position": "random",
+      "duration": "medium"
+    },
+    {
+      "condition_id": "rate__text__r0p30__random__medium",
+      "group": "rate",
+      "missing_modalities": [
+        "text"
+      ],
+      "missing_rate": 0.3,
+      "position": "random",
+      "duration": "medium"
+    },
+    {
+      "condition_id": "rate__text__r0p40__random__medium",
+      "group": "rate",
+      "missing_modalities": [
+        "text"
+      ],
+      "missing_rate": 0.4,
+      "position": "random",
+      "duration": "medium"
+    },
+    {
+      "condition_id": "rate__audio__r0p10__random__medium",
+      "group": "rate",
+      "missing_modalities": [
+        "audio"
+      ],
+      "missing_rate": 0.1,
+      "position": "random",
+      "duration": "medium"
+    },
+    {
+      "condition_id": "rate__audio__r0p20__random__medium",
+      "group": "rate",
+      "missing_modalities": [
+        "audio"
+      ],
+      "missing_rate": 0.2,
+      "position": "random",
+      "duration": "medium"
+    },
+    {
+      "condition_id": "rate__audio__r0p30__random__medium",
+      "group": "rate",
+      "missing_modalities": [
+        "audio"
+      ],
+      "missing_rate": 0.3,
+      "position": "random",
+      "duration": "medium"
+    },
+    {
+      "condition_id": "rate__audio__r0p40__random__medium",
+      "group": "rate",
+      "missing_modalities": [
+        "audio"
+      ],
+      "missing_rate": 0.4,
+      "position": "random",
+      "duration": "medium"
+    },
+    {
+      "condition_id": "rate__vision__r0p10__random__medium",
+      "group": "rate",
+      "missing_modalities": [
+        "vision"
+      ],
+      "missing_rate": 0.1,
+      "position": "random",
+      "duration": "medium"
+    },
+    {
+      "condition_id": "rate__vision__r0p20__random__medium",
+      "group": "rate",
+      "missing_modalities": [
+        "vision"
+      ],
+      "missing_rate": 0.2,
+      "position": "random",
+      "duration": "medium"
+    },
+    {
+      "condition_id": "rate__vision__r0p30__random__medium",
+      "group": "rate",
+      "missing_modalities": [
+        "vision"
+      ],
+      "missing_rate": 0.3,
+      "position": "random",
+      "duration": "medium"
+    },
+    {
+      "condition_id": "rate__vision__r0p40__random__medium",
+      "group": "rate",
+      "missing_modalities": [
+        "vision"
+      ],
+      "missing_rate": 0.4,
+      "position": "random",
+      "duration": "medium"
+    },
+    {
+      "condition_id": "rate__text+audio__r0p10__random__medium",
+      "group": "rate",
+      "missing_modalities": [
+        "text",
+        "audio"
+      ],
+      "missing_rate": 0.1,
+      "position": "random",
+      "duration": "medium"
+    },
+    {
+      "condition_id": "rate__text+audio__r0p20__random__medium",
+      "group": "rate",
+      "missing_modalities": [
+        "text",
+        "audio"
+      ],
+      "missing_rate": 0.2,
+      "position": "random",
+      "duration": "medium"
+    },
+    {
+      "condition_id": "rate__text+audio__r0p30__random__medium",
+      "group": "rate",
+      "missing_modalities": [
+        "text",
+        "audio"
+      ],
+      "missing_rate": 0.3,
+      "position": "random",
+      "duration": "medium"
+    },
+    {
+      "condition_id": "rate__text+audio__r0p40__random__medium",
+      "group": "rate",
+      "missing_modalities": [
+        "text",
+        "audio"
+      ],
+      "missing_rate": 0.4,
+      "position": "random",
+      "duration": "medium"
+    },
+    {
+      "condition_id": "rate__text+vision__r0p10__random__medium",
+      "group": "rate",
+      "missing_modalities": [
+        "text",
+        "vision"
+      ],
+      "missing_rate": 0.1,
+      "position": "random",
+      "duration": "medium"
+    },
+    {
+      "condition_id": "rate__text+vision__r0p20__random__medium",
+      "group": "rate",
+      "missing_modalities": [
+        "text",
+        "vision"
+      ],
+      "missing_rate": 0.2,
+      "position": "random",
+      "duration": "medium"
+    },
+    {
+      "condition_id": "rate__text+vision__r0p30__random__medium",
+      "group": "rate",
+      "missing_modalities": [
+        "text",
+        "vision"
+      ],
+      "missing_rate": 0.3,
+      "position": "random",
+      "duration": "medium"
+    },
+    {
+      "condition_id": "rate__text+vision__r0p40__random__medium",
+      "group": "rate",
+      "missing_modalities": [
+        "text",
+        "vision"
+      ],
+      "missing_rate": 0.4,
+      "position": "random",
+      "duration": "medium"
+    },
+    {
+      "condition_id": "rate__audio+vision__r0p10__random__medium",
+      "group": "rate",
+      "missing_modalities": [
+        "audio",
+        "vision"
+      ],
+      "missing_rate": 0.1,
+      "position": "random",
+      "duration": "medium"
+    },
+    {
+      "condition_id": "rate__audio+vision__r0p20__random__medium",
+      "group": "rate",
+      "missing_modalities": [
+        "audio",
+        "vision"
+      ],
+      "missing_rate": 0.2,
+      "position": "random",
+      "duration": "medium"
+    },
+    {
+      "condition_id": "rate__audio+vision__r0p30__random__medium",
+      "group": "rate",
+      "missing_modalities": [
+        "audio",
+        "vision"
+      ],
+      "missing_rate": 0.3,
+      "position": "random",
+      "duration": "medium"
+    },
+    {
+      "condition_id": "rate__audio+vision__r0p40__random__medium",
+      "group": "rate",
+      "missing_modalities": [
+        "audio",
+        "vision"
+      ],
+      "missing_rate": 0.4,
+      "position": "random",
+      "duration": "medium"
+    },
+    {
+      "condition_id": "rate__text+audio+vision__r0p10__random__medium",
+      "group": "rate",
+      "missing_modalities": [
+        "text",
+        "audio",
+        "vision"
+      ],
+      "missing_rate": 0.1,
+      "position": "random",
+      "duration": "medium"
+    },
+    {
+      "condition_id": "rate__text+audio+vision__r0p20__random__medium",
+      "group": "rate",
+      "missing_modalities": [
+        "text",
+        "audio",
+        "vision"
+      ],
+      "missing_rate": 0.2,
+      "position": "random",
+      "duration": "medium"
+    },
+    {
+      "condition_id": "rate__text+audio+vision__r0p30__random__medium",
+      "group": "rate",
+      "missing_modalities": [
+        "text",
+        "audio",
+        "vision"
+      ],
+      "missing_rate": 0.3,
+      "position": "random",
+      "duration": "medium"
+    },
+    {
+      "condition_id": "rate__text+audio+vision__r0p40__random__medium",
+      "group": "rate",
+      "missing_modalities": [
+        "text",
+        "audio",
+        "vision"
+      ],
+      "missing_rate": 0.4,
+      "position": "random",
+      "duration": "medium"
+    },
+    {
+      "condition_id": "position__text__r0p30__prefix__medium",
+      "group": "position",
+      "missing_modalities": [
+        "text"
+      ],
+      "missing_rate": 0.3,
+      "position": "prefix",
+      "duration": "medium"
+    },
+    {
+      "condition_id": "position__text__r0p30__middle__medium",
+      "group": "position",
+      "missing_modalities": [
+        "text"
+      ],
+      "missing_rate": 0.3,
+      "position": "middle",
+      "duration": "medium"
+    },
+    {
+      "condition_id": "position__text__r0p30__suffix__medium",
+      "group": "position",
+      "missing_modalities": [
+        "text"
+      ],
+      "missing_rate": 0.3,
+      "position": "suffix",
+      "duration": "medium"
+    },
+    {
+      "condition_id": "position__text__r0p30__random__medium",
+      "group": "position",
+      "missing_modalities": [
+        "text"
+      ],
+      "missing_rate": 0.3,
+      "position": "random",
+      "duration": "medium"
+    },
+    {
+      "condition_id": "duration__text__r0p30__random__short",
+      "group": "duration",
+      "missing_modalities": [
+        "text"
+      ],
+      "missing_rate": 0.3,
+      "position": "random",
+      "duration": "short"
+    },
+    {
+      "condition_id": "duration__text__r0p30__random__medium",
+      "group": "duration",
+      "missing_modalities": [
+        "text"
+      ],
+      "missing_rate": 0.3,
+      "position": "random",
+      "duration": "medium"
+    },
+    {
+      "condition_id": "duration__text__r0p30__random__long",
+      "group": "duration",
+      "missing_modalities": [
+        "text"
+      ],
+      "missing_rate": 0.3,
+      "position": "random",
+      "duration": "long"
+    },
+    {
+      "condition_id": "position__audio__r0p30__prefix__medium",
+      "group": "position",
+      "missing_modalities": [
+        "audio"
+      ],
+      "missing_rate": 0.3,
+      "position": "prefix",
+      "duration": "medium"
+    },
+    {
+      "condition_id": "position__audio__r0p30__middle__medium",
+      "group": "position",
+      "missing_modalities": [
+        "audio"
+      ],
+      "missing_rate": 0.3,
+      "position": "middle",
+      "duration": "medium"
+    },
+    {
+      "condition_id": "position__audio__r0p30__suffix__medium",
+      "group": "position",
+      "missing_modalities": [
+        "audio"
+      ],
+      "missing_rate": 0.3,
+      "position": "suffix",
+      "duration": "medium"
+    },
+    {
+      "condition_id": "position__audio__r0p30__random__medium",
+      "group": "position",
+      "missing_modalities": [
+        "audio"
+      ],
+      "missing_rate": 0.3,
+      "position": "random",
+      "duration": "medium"
+    },
+    {
+      "condition_id": "duration__audio__r0p30__random__short",
+      "group": "duration",
+      "missing_modalities": [
+        "audio"
+      ],
+      "missing_rate": 0.3,
+      "position": "random",
+      "duration": "short"
+    },
+    {
+      "condition_id": "duration__audio__r0p30__random__medium",
+      "group": "duration",
+      "missing_modalities": [
+        "audio"
+      ],
+      "missing_rate": 0.3,
+      "position": "random",
+      "duration": "medium"
+    },
+    {
+      "condition_id": "duration__audio__r0p30__random__long",
+      "group": "duration",
+      "missing_modalities": [
+        "audio"
+      ],
+      "missing_rate": 0.3,
+      "position": "random",
+      "duration": "long"
+    },
+    {
+      "condition_id": "position__vision__r0p30__prefix__medium",
+      "group": "position",
+      "missing_modalities": [
+        "vision"
+      ],
+      "missing_rate": 0.3,
+      "position": "prefix",
+      "duration": "medium"
+    },
+    {
+      "condition_id": "position__vision__r0p30__middle__medium",
+      "group": "position",
+      "missing_modalities": [
+        "vision"
+      ],
+      "missing_rate": 0.3,
+      "position": "middle",
+      "duration": "medium"
+    },
+    {
+      "condition_id": "position__vision__r0p30__suffix__medium",
+      "group": "position",
+      "missing_modalities": [
+        "vision"
+      ],
+      "missing_rate": 0.3,
+      "position": "suffix",
+      "duration": "medium"
+    },
+    {
+      "condition_id": "position__vision__r0p30__random__medium",
+      "group": "position",
+      "missing_modalities": [
+        "vision"
+      ],
+      "missing_rate": 0.3,
+      "position": "random",
+      "duration": "medium"
+    },
+    {
+      "condition_id": "duration__vision__r0p30__random__short",
+      "group": "duration",
+      "missing_modalities": [
+        "vision"
+      ],
+      "missing_rate": 0.3,
+      "position": "random",
+      "duration": "short"
+    },
+    {
+      "condition_id": "duration__vision__r0p30__random__medium",
+      "group": "duration",
+      "missing_modalities": [
+        "vision"
+      ],
+      "missing_rate": 0.3,
+      "position": "random",
+      "duration": "medium"
+    },
+    {
+      "condition_id": "duration__vision__r0p30__random__long",
+      "group": "duration",
+      "missing_modalities": [
+        "vision"
+      ],
+      "missing_rate": 0.3,
+      "position": "random",
+      "duration": "long"
+    },
+    {
+      "condition_id": "ablation__complete__r0p00__none__none",
+      "group": "ablation",
+      "missing_modalities": [],
+      "missing_rate": 0.0,
+      "position": "none",
+      "duration": "none"
+    },
+    {
+      "condition_id": "ablation__text__r1p00__random__long",
+      "group": "ablation",
+      "missing_modalities": [
+        "text"
+      ],
+      "missing_rate": 1.0,
+      "position": "random",
+      "duration": "long"
+    },
+    {
+      "condition_id": "ablation__audio__r1p00__random__long",
+      "group": "ablation",
+      "missing_modalities": [
+        "audio"
+      ],
+      "missing_rate": 1.0,
+      "position": "random",
+      "duration": "long"
+    },
+    {
+      "condition_id": "ablation__vision__r1p00__random__long",
+      "group": "ablation",
+      "missing_modalities": [
+        "vision"
+      ],
+      "missing_rate": 1.0,
+      "position": "random",
+      "duration": "long"
+    },
+    {
+      "condition_id": "ablation__text+audio__r1p00__random__long",
+      "group": "ablation",
+      "missing_modalities": [
+        "text",
+        "audio"
+      ],
+      "missing_rate": 1.0,
+      "position": "random",
+      "duration": "long"
+    },
+    {
+      "condition_id": "ablation__text+vision__r1p00__random__long",
+      "group": "ablation",
+      "missing_modalities": [
+        "text",
+        "vision"
+      ],
+      "missing_rate": 1.0,
+      "position": "random",
+      "duration": "long"
+    },
+    {
+      "condition_id": "ablation__audio+vision__r1p00__random__long",
+      "group": "ablation",
+      "missing_modalities": [
+        "audio",
+        "vision"
+      ],
+      "missing_rate": 1.0,
+      "position": "random",
+      "duration": "long"
+    },
+    {
+      "condition_id": "ablation__text+audio+vision__r1p00__random__long",
+      "group": "ablation",
+      "missing_modalities": [
+        "text",
+        "audio",
+        "vision"
+      ],
+      "missing_rate": 1.0,
+      "position": "random",
+      "duration": "long"
+    }
+  ],
+  "args": {
+    "data_root": "D:\\E_math\\DATA",
+    "text_model": "D:\\E_math\\models\\bert-base-uncased",
+    "output_root": "D:\\E_math\\problem2_experiment2",
+    "models": "baseline,robust_noaug,robust",
+    "seeds": [
+      42,
+      43,
+      44
+    ],
+    "epochs": 8,
+    "batch_size": 20,
+    "lr": 1.5e-05,
+    "dropout": 0.25,
+    "train_dropout": 0.35,
+    "max_blocks": 2,
+    "max_length": 10,
+    "patience": 4,
+    "weight_decay": 0.01,
+    "balanced": false,
+    "skip_attachment3": false,
+    "overwrite": false
+  }
+}

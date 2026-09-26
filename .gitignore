@@ -13,3 +13,7 @@ models/
 
 # 运行产生的临时文件
 tmp/
+.venv_problem1/
+__pycache__/
+**/__pycache__/
+DATA/

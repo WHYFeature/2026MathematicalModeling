@@ -1,0 +1,198 @@
+{
+  "id": "04",
+  "variant": "aligned",
+  "video_path": "D:\\E_math\\DATA\\attachment_4_explainability\\aligned\\videos\\sample_04.mp4",
+  "raw_text": "If I blow it at the team exercise, should I kiss my chances of cheering \"GO BLUE\" goodbye?] Absolutely not.",
+  "predicted_class": 0,
+  "predicted_label": "Negative",
+  "confidence": 0.7815203666687012,
+  "probabilities": [
+    0.7815203666687012,
+    0.08965136855840683,
+    0.1288282871246338
+  ],
+  "regression_prediction": -1.0964056253433228,
+  "modality_attention": {
+    "text": 0.8246785402297974,
+    "audio": 0.16518312692642212,
+    "vision": 0.010138346813619137
+  },
+  "modality_contribution": {
+    "text": 0.9998974191415881,
+    "audio": 0.0,
+    "vision": 0.00010258085841182036
+  },
+  "main_modality": "text",
+  "evidence": {
+    "text": [
+      {
+        "bin": 25,
+        "start_bin": 25,
+        "end_bin": 26,
+        "occlusion_drop": 0.017478585243225098,
+        "attention": 0.03647884353995323,
+        "token_position": 14,
+        "token": "chances"
+      },
+      {
+        "bin": 23,
+        "start_bin": 23,
+        "end_bin": 24,
+        "occlusion_drop": 0.016323328018188477,
+        "attention": 0.034217655658721924,
+        "token_position": 13,
+        "token": "my"
+      },
+      {
+        "bin": 21,
+        "start_bin": 21,
+        "end_bin": 22,
+        "occlusion_drop": 0.016221046447753906,
+        "attention": 0.03591058403253555,
+        "token_position": 12,
+        "token": "kiss"
+      },
+      {
+        "bin": 12,
+        "start_bin": 12,
+        "end_bin": 13,
+        "occlusion_drop": 0.015068292617797852,
+        "attention": 0.03622753545641899,
+        "token_position": 7,
+        "token": "team"
+      },
+      {
+        "bin": 15,
+        "start_bin": 15,
+        "end_bin": 16,
+        "occlusion_drop": 0.013342499732971191,
+        "attention": 0.03667118400335312,
+        "token_position": 8,
+        "token": "exercise"
+      }
+    ],
+    "audio": [
+      {
+        "bin": 12,
+        "start_bin": 12,
+        "end_bin": 13,
+        "occlusion_drop": -0.0021370649337768555,
+        "attention": 0.007256376091390848,
+        "start_seconds": 0.24,
+        "end_seconds": 0.26,
+        "frame_start": 1,
+        "frame_end": 1
+      },
+      {
+        "bin": 23,
+        "start_bin": 23,
+        "end_bin": 24,
+        "occlusion_drop": -0.0026862025260925293,
+        "attention": 0.006853797473013401,
+        "start_seconds": 0.46,
+        "end_seconds": 0.48,
+        "frame_start": 2,
+        "frame_end": 2
+      },
+      {
+        "bin": 21,
+        "start_bin": 21,
+        "end_bin": 22,
+        "occlusion_drop": -0.0027690529823303223,
+        "attention": 0.007192890625447035,
+        "start_seconds": 0.42,
+        "end_seconds": 0.44,
+        "frame_start": 2,
+        "frame_end": 2
+      },
+      {
+        "bin": 25,
+        "start_bin": 25,
+        "end_bin": 26,
+        "occlusion_drop": -0.0038358569145202637,
+        "attention": 0.00730671314522624,
+        "start_seconds": 0.5,
+        "end_seconds": 0.52,
+        "frame_start": 2,
+        "frame_end": 3
+      },
+      {
+        "bin": 15,
+        "start_bin": 15,
+        "end_bin": 16,
+        "occlusion_drop": -0.005556643009185791,
+        "attention": 0.007345239166170359,
+        "start_seconds": 0.3,
+        "end_seconds": 0.32,
+        "frame_start": 2,
+        "frame_end": 2
+      }
+    ],
+    "vision": [
+      {
+        "bin": 12,
+        "start_bin": 12,
+        "end_bin": 13,
+        "occlusion_drop": 8.046627044677734e-06,
+        "attention": 0.0004453703004401177,
+        "start_seconds": 0.24,
+        "end_seconds": 0.26,
+        "frame_start": 1,
+        "frame_end": 1
+      },
+      {
+        "bin": 15,
+        "start_bin": 15,
+        "end_bin": 16,
+        "occlusion_drop": -1.8417835235595703e-05,
+        "attention": 0.00045082438737154007,
+        "start_seconds": 0.3,
+        "end_seconds": 0.32,
+        "frame_start": 2,
+        "frame_end": 2
+      },
+      {
+        "bin": 23,
+        "start_bin": 23,
+        "end_bin": 24,
+        "occlusion_drop": -6.520748138427734e-05,
+        "attention": 0.0004206614685244858,
+        "start_seconds": 0.46,
+        "end_seconds": 0.48,
+        "frame_start": 2,
+        "frame_end": 2
+      },
+      {
+        "bin": 21,
+        "start_bin": 21,
+        "end_bin": 22,
+        "occlusion_drop": -7.402896881103516e-05,
+        "attention": 0.00044147379230707884,
+        "start_seconds": 0.42,
+        "end_seconds": 0.44,
+        "frame_start": 2,
+        "frame_end": 2
+      },
+      {
+        "bin": 25,
+        "start_bin": 25,
+        "end_bin": 26,
+        "occlusion_drop": -8.392333984375e-05,
+        "attention": 0.0004484597884584218,
+        "start_seconds": 0.5,
+        "end_seconds": 0.52,
+        "frame_start": 2,
+        "frame_end": 3
+      }
+    ]
+  },
+  "text_tokens": [
+    "chances",
+    "my",
+    "kiss",
+    "team",
+    "exercise"
+  ],
+  "duration_seconds": 1.0,
+  "evidence_definition": "Positive occlusion_drop means the predicted-class probability decreased when the local span was masked."
+}
