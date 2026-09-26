@@ -1,0 +1,4 @@
+﻿modality,samples_with_expected_shape,samples_with_finite_values,feature_dim,valid_bins,source_intervals
+text,100,100,768,3670,2447
+audio,100,100,74,4966,77510
+vision,100,100,35,5000,3936

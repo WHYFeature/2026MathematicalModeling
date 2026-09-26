@@ -1,0 +1,92 @@
+[
+  {
+    "path": "problem2_outputs_bert_av_reproduce\\problem2_valid_predictions.csv",
+    "previous_sha256": "1c85b306f21136b08709018b3fb5e1ba71f4c8f3c81cdfa07d875c98e16c1f8b",
+    "current_sha256": "1c85b306f21136b08709018b3fb5e1ba71f4c8f3c81cdfa07d875c98e16c1f8b",
+    "status": "unchanged"
+  },
+  {
+    "path": "problem2_outputs_bert_av_reproduce\\problem2_test_predictions.csv",
+    "previous_sha256": "d68ff5f3542f871fdc8965d2b6105d0e7b52d9a0750a9729a0b8af5616e868d3",
+    "current_sha256": "d68ff5f3542f871fdc8965d2b6105d0e7b52d9a0750a9729a0b8af5616e868d3",
+    "status": "unchanged"
+  },
+  {
+    "path": "problem2_outputs_bert_av_reproduce\\problem2_missing_aligned_predictions.csv",
+    "previous_sha256": "7e38e23fbd986f2638c332c9e6d235c261b2561de1d64b43eca6b3f4cf5940b3",
+    "current_sha256": "7e38e23fbd986f2638c332c9e6d235c261b2561de1d64b43eca6b3f4cf5940b3",
+    "status": "unchanged"
+  },
+  {
+    "path": "problem2_outputs_bert_av_reproduce\\problem2_missing_unaligned_predictions.csv",
+    "previous_sha256": "c3acb417cd6c8373b32051f1e60cd713288f11cfd0504f7f4933eaebda2a4bd7",
+    "current_sha256": "c3acb417cd6c8373b32051f1e60cd713288f11cfd0504f7f4933eaebda2a4bd7",
+    "status": "unchanged"
+  },
+  {
+    "path": "problem2_outputs_bert_av_reproduce\\metrics.json",
+    "previous_sha256": "5f71369ec69af8d3c63f4c0de978de8027ba90fef41be87ffc3d4b20ae17b53a",
+    "current_sha256": "5f71369ec69af8d3c63f4c0de978de8027ba90fef41be87ffc3d4b20ae17b53a",
+    "status": "unchanged"
+  },
+  {
+    "path": "problem2_outputs_bert_av_reproduce\\history_recovery\\training_history.json",
+    "previous_sha256": "d8243df06db29faf838f12e888a47da9d6546f14092996cd9e01f4e7b3cb4ef3",
+    "current_sha256": "d8243df06db29faf838f12e888a47da9d6546f14092996cd9e01f4e7b3cb4ef3",
+    "status": "unchanged"
+  },
+  {
+    "path": "problem2_outputs\\problem2_test_predictions.csv",
+    "previous_sha256": "9dce6b6865bcf260d602ff1c3882aa7de7cd2a11ff23fd5387ffc54c8562c688",
+    "current_sha256": "9dce6b6865bcf260d602ff1c3882aa7de7cd2a11ff23fd5387ffc54c8562c688",
+    "status": "unchanged"
+  },
+  {
+    "path": "problem2_outputs_hybrid_cosine\\problem2_test_predictions.csv",
+    "previous_sha256": "18f84049bac4cbc2156fd68c027cdcc771dd03da55f3a4206a3632799f65f2d9",
+    "current_sha256": "18f84049bac4cbc2156fd68c027cdcc771dd03da55f3a4206a3632799f65f2d9",
+    "status": "unchanged"
+  },
+  {
+    "path": "problem2_outputs_ordinal\\problem2_test_predictions.csv",
+    "previous_sha256": "4788ca1fe466414c4191239a0188c589cb5ec47434c3f732746af12ee599aa9a",
+    "current_sha256": "4788ca1fe466414c4191239a0188c589cb5ec47434c3f732746af12ee599aa9a",
+    "status": "unchanged"
+  },
+  {
+    "path": "problem2_outputs_bert_av_history\\problem2_test_predictions.csv",
+    "previous_sha256": "50ba92b7798acf31aff6df3e8e64859d433e6811f39acfffc015c9a299469450",
+    "current_sha256": "50ba92b7798acf31aff6df3e8e64859d433e6811f39acfffc015c9a299469450",
+    "status": "unchanged"
+  },
+  {
+    "path": "problem1_outputs\\problem1_feature_summary.csv",
+    "previous_sha256": "fee652e66ae3ff44979fe0865dcae2e8174689fb067ba2342dd403d0df2dc04f",
+    "current_sha256": "fee652e66ae3ff44979fe0865dcae2e8174689fb067ba2342dd403d0df2dc04f",
+    "status": "unchanged"
+  },
+  {
+    "path": "problem1_outputs\\problem1_text_truncation.csv",
+    "previous_sha256": "4cdcfcfd6d6ae5fc2b508d4dae5dba3777da2b27d22895a4ecfdac039d057dac",
+    "current_sha256": "4cdcfcfd6d6ae5fc2b508d4dae5dba3777da2b27d22895a4ecfdac039d057dac",
+    "status": "unchanged"
+  },
+  {
+    "path": "problem1_outputs\\typical_sample_bins.csv",
+    "previous_sha256": "939f38c8d1c2cca03c52f20ea263a79df4089e274bfac9e47a05d6fd336c6dd3",
+    "current_sha256": "939f38c8d1c2cca03c52f20ea263a79df4089e274bfac9e47a05d6fd336c6dd3",
+    "status": "unchanged"
+  },
+  {
+    "path": "problem1_outputs\\typical_sample_words.csv",
+    "previous_sha256": "052da3cdf7fcf9d61e0551d9593f4b180ee8389399b0ac73050fefdae45983be",
+    "current_sha256": "052da3cdf7fcf9d61e0551d9593f4b180ee8389399b0ac73050fefdae45983be",
+    "status": "unchanged"
+  },
+  {
+    "path": "problem1_outputs\\problem1_aligned_features.pkl",
+    "previous_sha256": "a3c6b894bb45c2638d2e165ef767e65c5f14e1d65d47e90bda908e11252e51d8",
+    "current_sha256": "a3c6b894bb45c2638d2e165ef767e65c5f14e1d65d47e90bda908e11252e51d8",
+    "status": "unchanged"
+  }
+]

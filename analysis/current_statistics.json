@@ -1,0 +1,1237 @@
+{
+  "controlled_dimensions": {
+    "rows": 1044,
+    "conditions_per_run": 58,
+    "unique_conditions_excluding_complete_duplicate": 57,
+    "seeds": [
+      42,
+      43,
+      44
+    ]
+  },
+  "problem3": {
+    "valid": {
+      "metrics": {
+        "accuracy": 0.6222527472527473,
+        "macro_f1": 0.5767346129048256,
+        "mae": 0.6612825051185439,
+        "rmse": 0.8880490312866021,
+        "pearson": 0.5581920772221911,
+        "bias": -0.13266665911670406
+      },
+      "confusion": [
+        [
+          155,
+          12,
+          39
+        ],
+        [
+          53,
+          53,
+          78
+        ],
+        [
+          56,
+          37,
+          245
+        ]
+      ],
+      "regression_slope": 0.39149723590566965,
+      "ece": 0.06739816221070813,
+      "high_confidence_errors": 38
+    },
+    "test": {
+      "metrics": {
+        "accuracy": 0.640990371389271,
+        "macro_f1": 0.5515648988514017,
+        "mae": 0.6928641619532275,
+        "rmse": 0.9141141249642397,
+        "pearson": 0.6216517194478093,
+        "bias": -0.10603788404877937
+      },
+      "confusion": [
+        [
+          158,
+          10,
+          39
+        ],
+        [
+          64,
+          28,
+          66
+        ],
+        [
+          51,
+          31,
+          280
+        ]
+      ],
+      "regression_slope": 0.4137868965793086,
+      "ece": 0.050133358087631516,
+      "high_confidence_errors": 42
+    }
+  },
+  "local_concentration": [
+    {
+      "variant": "aligned",
+      "id": "01",
+      "main_modality": "text",
+      "sum_importance": 1.0,
+      "positive_bins": 10,
+      "top_bin": 10,
+      "top5_mass": 0.8716345629345688,
+      "signed_drop_sum": -0.07061338424682617
+    },
+    {
+      "variant": "aligned",
+      "id": "02",
+      "main_modality": "text",
+      "sum_importance": 1.0,
+      "positive_bins": 15,
+      "top_bin": 18,
+      "top5_mass": 0.7061088395911681,
+      "signed_drop_sum": 0.23394694924354553
+    },
+    {
+      "variant": "aligned",
+      "id": "03",
+      "main_modality": "text",
+      "sum_importance": 1.0,
+      "positive_bins": 34,
+      "top_bin": 24,
+      "top5_mass": 0.5366889721826269,
+      "signed_drop_sum": 0.282611608505249
+    },
+    {
+      "variant": "aligned",
+      "id": "04",
+      "main_modality": "text",
+      "sum_importance": 1.0,
+      "positive_bins": 26,
+      "top_bin": 24,
+      "top5_mass": 0.2961030822888861,
+      "signed_drop_sum": 0.2880746126174927
+    },
+    {
+      "variant": "aligned",
+      "id": "05",
+      "main_modality": "vision",
+      "sum_importance": 1.0,
+      "positive_bins": 15,
+      "top_bin": 4,
+      "top5_mass": 0.4244511847695294,
+      "signed_drop_sum": 0.09446072578430176
+    },
+    {
+      "variant": "aligned",
+      "id": "06",
+      "main_modality": "text",
+      "sum_importance": 1.0,
+      "positive_bins": 22,
+      "top_bin": 24,
+      "top5_mass": 0.490681061145947,
+      "signed_drop_sum": 0.04343909025192261
+    },
+    {
+      "variant": "aligned",
+      "id": "07",
+      "main_modality": "text",
+      "sum_importance": 1.0,
+      "positive_bins": 24,
+      "top_bin": 21,
+      "top5_mass": 0.4730459529388152,
+      "signed_drop_sum": 0.01053917407989502
+    },
+    {
+      "variant": "aligned",
+      "id": "08",
+      "main_modality": "text",
+      "sum_importance": 1.0,
+      "positive_bins": 13,
+      "top_bin": 2,
+      "top5_mass": 0.5886347515799986,
+      "signed_drop_sum": 0.5282680094242096
+    },
+    {
+      "variant": "aligned",
+      "id": "09",
+      "main_modality": "text",
+      "sum_importance": 1.0,
+      "positive_bins": 14,
+      "top_bin": 18,
+      "top5_mass": 0.586070231226534,
+      "signed_drop_sum": 0.017521440982818604
+    },
+    {
+      "variant": "aligned",
+      "id": "10",
+      "main_modality": "text",
+      "sum_importance": 0.9999999999999999,
+      "positive_bins": 42,
+      "top_bin": 30,
+      "top5_mass": 0.45224211613699844,
+      "signed_drop_sum": 0.1558588147163391
+    },
+    {
+      "variant": "aligned",
+      "id": "11",
+      "main_modality": "text",
+      "sum_importance": 1.0000000000000002,
+      "positive_bins": 12,
+      "top_bin": 7,
+      "top5_mass": 0.7421077336742027,
+      "signed_drop_sum": 0.43249696493148804
+    },
+    {
+      "variant": "aligned",
+      "id": "12",
+      "main_modality": "text",
+      "sum_importance": 1.0,
+      "positive_bins": 33,
+      "top_bin": 41,
+      "top5_mass": 0.34728766647780895,
+      "signed_drop_sum": 0.12407046556472778
+    },
+    {
+      "variant": "aligned",
+      "id": "13",
+      "main_modality": "text",
+      "sum_importance": 1.0,
+      "positive_bins": 31,
+      "top_bin": 6,
+      "top5_mass": 0.6700038948588979,
+      "signed_drop_sum": -0.01685565710067749
+    },
+    {
+      "variant": "aligned",
+      "id": "14",
+      "main_modality": "text",
+      "sum_importance": 1.0,
+      "positive_bins": 19,
+      "top_bin": 2,
+      "top5_mass": 0.5758928743469554,
+      "signed_drop_sum": -0.0434756875038147
+    },
+    {
+      "variant": "aligned",
+      "id": "15",
+      "main_modality": "text",
+      "sum_importance": 1.0,
+      "positive_bins": 9,
+      "top_bin": 20,
+      "top5_mass": 0.7071571669306487,
+      "signed_drop_sum": -0.0014195442199707031
+    },
+    {
+      "variant": "aligned",
+      "id": "16",
+      "main_modality": "text",
+      "sum_importance": 1.0,
+      "positive_bins": 12,
+      "top_bin": 11,
+      "top5_mass": 0.6978801476527496,
+      "signed_drop_sum": 0.035320281982421875
+    },
+    {
+      "variant": "aligned",
+      "id": "17",
+      "main_modality": "text",
+      "sum_importance": 1.0,
+      "positive_bins": 26,
+      "top_bin": 15,
+      "top5_mass": 0.3361576863588738,
+      "signed_drop_sum": 0.34525150060653687
+    },
+    {
+      "variant": "aligned",
+      "id": "18",
+      "main_modality": "text",
+      "sum_importance": 1.0,
+      "positive_bins": 30,
+      "top_bin": 29,
+      "top5_mass": 0.5252535743278723,
+      "signed_drop_sum": 0.1727856993675232
+    },
+    {
+      "variant": "aligned",
+      "id": "19",
+      "main_modality": "text",
+      "sum_importance": 1.0,
+      "positive_bins": 39,
+      "top_bin": 17,
+      "top5_mass": 0.32130537545114823,
+      "signed_drop_sum": 0.2673931121826172
+    },
+    {
+      "variant": "aligned",
+      "id": "20",
+      "main_modality": "vision",
+      "sum_importance": 1.0,
+      "positive_bins": 43,
+      "top_bin": 20,
+      "top5_mass": 0.16033285394266567,
+      "signed_drop_sum": 0.06005340814590454
+    },
+    {
+      "variant": "unaligned",
+      "id": "01",
+      "main_modality": "text",
+      "sum_importance": 1.0,
+      "positive_bins": 12,
+      "top_bin": 10,
+      "top5_mass": 0.594371432571594,
+      "signed_drop_sum": 0.01089826226234436
+    },
+    {
+      "variant": "unaligned",
+      "id": "02",
+      "main_modality": "text",
+      "sum_importance": 0.9999999999999999,
+      "positive_bins": 12,
+      "top_bin": 18,
+      "top5_mass": 0.7421371697089096,
+      "signed_drop_sum": 0.10716372728347778
+    },
+    {
+      "variant": "unaligned",
+      "id": "03",
+      "main_modality": "text",
+      "sum_importance": 1.0,
+      "positive_bins": 33,
+      "top_bin": 24,
+      "top5_mass": 0.5466899253827762,
+      "signed_drop_sum": 0.22101595997810364
+    },
+    {
+      "variant": "unaligned",
+      "id": "04",
+      "main_modality": "text",
+      "sum_importance": 1.0,
+      "positive_bins": 23,
+      "top_bin": 1,
+      "top5_mass": 0.3698518520857874,
+      "signed_drop_sum": 0.07528495788574219
+    },
+    {
+      "variant": "unaligned",
+      "id": "05",
+      "main_modality": "audio",
+      "sum_importance": 1.0,
+      "positive_bins": 11,
+      "top_bin": 9,
+      "top5_mass": 0.6999044179633251,
+      "signed_drop_sum": 0.1163068413734436
+    },
+    {
+      "variant": "unaligned",
+      "id": "06",
+      "main_modality": "text",
+      "sum_importance": 1.0,
+      "positive_bins": 19,
+      "top_bin": 24,
+      "top5_mass": 0.5417968390793109,
+      "signed_drop_sum": 0.022525131702423096
+    },
+    {
+      "variant": "unaligned",
+      "id": "07",
+      "main_modality": "text",
+      "sum_importance": 1.0,
+      "positive_bins": 23,
+      "top_bin": 21,
+      "top5_mass": 0.4783226027564934,
+      "signed_drop_sum": 0.004429757595062256
+    },
+    {
+      "variant": "unaligned",
+      "id": "08",
+      "main_modality": "text",
+      "sum_importance": 1.0,
+      "positive_bins": 9,
+      "top_bin": 2,
+      "top5_mass": 0.8617576960420084,
+      "signed_drop_sum": 0.15484124422073364
+    },
+    {
+      "variant": "unaligned",
+      "id": "09",
+      "main_modality": "text",
+      "sum_importance": 1.0,
+      "positive_bins": 14,
+      "top_bin": 18,
+      "top5_mass": 0.5931655652547134,
+      "signed_drop_sum": 0.010404765605926514
+    },
+    {
+      "variant": "unaligned",
+      "id": "10",
+      "main_modality": "text",
+      "sum_importance": 1.0,
+      "positive_bins": 22,
+      "top_bin": 11,
+      "top5_mass": 0.5036768187347908,
+      "signed_drop_sum": 0.1106576919555664
+    },
+    {
+      "variant": "unaligned",
+      "id": "11",
+      "main_modality": "text",
+      "sum_importance": 1.0,
+      "positive_bins": 45,
+      "top_bin": 7,
+      "top5_mass": 0.7662636958518273,
+      "signed_drop_sum": 0.3963395357131958
+    },
+    {
+      "variant": "unaligned",
+      "id": "12",
+      "main_modality": "text",
+      "sum_importance": 1.0,
+      "positive_bins": 28,
+      "top_bin": 41,
+      "top5_mass": 0.35424278816772153,
+      "signed_drop_sum": 0.08872026205062866
+    },
+    {
+      "variant": "unaligned",
+      "id": "13",
+      "main_modality": "text",
+      "sum_importance": 1.0,
+      "positive_bins": 17,
+      "top_bin": 6,
+      "top5_mass": 0.6010283462576381,
+      "signed_drop_sum": -0.0035194456577301025
+    },
+    {
+      "variant": "unaligned",
+      "id": "14",
+      "main_modality": "text",
+      "sum_importance": 1.0,
+      "positive_bins": 20,
+      "top_bin": 2,
+      "top5_mass": 0.5563012283838863,
+      "signed_drop_sum": -0.027603179216384888
+    },
+    {
+      "variant": "unaligned",
+      "id": "15",
+      "main_modality": "audio",
+      "sum_importance": 1.0,
+      "positive_bins": 50,
+      "top_bin": 14,
+      "top5_mass": 0.42014194459409265,
+      "signed_drop_sum": 0.017812788486480713
+    },
+    {
+      "variant": "unaligned",
+      "id": "16",
+      "main_modality": "text",
+      "sum_importance": 1.0,
+      "positive_bins": 46,
+      "top_bin": 11,
+      "top5_mass": 0.8356054575984204,
+      "signed_drop_sum": 0.01729106903076172
+    },
+    {
+      "variant": "unaligned",
+      "id": "17",
+      "main_modality": "text",
+      "sum_importance": 0.9999999999999999,
+      "positive_bins": 26,
+      "top_bin": 15,
+      "top5_mass": 0.3696669841048962,
+      "signed_drop_sum": 0.19446474313735962
+    },
+    {
+      "variant": "unaligned",
+      "id": "18",
+      "main_modality": "text",
+      "sum_importance": 1.0,
+      "positive_bins": 29,
+      "top_bin": 29,
+      "top5_mass": 0.542675678447416,
+      "signed_drop_sum": 0.14801165461540222
+    },
+    {
+      "variant": "unaligned",
+      "id": "19",
+      "main_modality": "text",
+      "sum_importance": 1.0,
+      "positive_bins": 28,
+      "top_bin": 17,
+      "top5_mass": 0.3576986966777466,
+      "signed_drop_sum": 0.1971445083618164
+    },
+    {
+      "variant": "unaligned",
+      "id": "20",
+      "main_modality": "text",
+      "sum_importance": 1.0,
+      "positive_bins": 20,
+      "top_bin": 18,
+      "top5_mass": 0.5415357439849982,
+      "signed_drop_sum": -0.01791602373123169
+    }
+  ],
+  "evidence_time": [
+    {
+      "variant": "aligned",
+      "id": "01",
+      "reported_duration_s": 1.0,
+      "container_duration_s": 9.0,
+      "ratio_reported_to_container": 0.1111111111111111
+    },
+    {
+      "variant": "aligned",
+      "id": "02",
+      "reported_duration_s": 1.0,
+      "container_duration_s": 3.7,
+      "ratio_reported_to_container": 0.27027027027027023
+    },
+    {
+      "variant": "aligned",
+      "id": "03",
+      "reported_duration_s": 1.0,
+      "container_duration_s": 16.0,
+      "ratio_reported_to_container": 0.0625
+    },
+    {
+      "variant": "aligned",
+      "id": "04",
+      "reported_duration_s": 1.0,
+      "container_duration_s": 9.3,
+      "ratio_reported_to_container": 0.1075268817204301
+    },
+    {
+      "variant": "aligned",
+      "id": "05",
+      "reported_duration_s": 1.0,
+      "container_duration_s": 6.167,
+      "ratio_reported_to_container": 0.16215339711366952
+    },
+    {
+      "variant": "aligned",
+      "id": "06",
+      "reported_duration_s": 1.0,
+      "container_duration_s": 9.8,
+      "ratio_reported_to_container": 0.1020408163265306
+    },
+    {
+      "variant": "aligned",
+      "id": "07",
+      "reported_duration_s": 1.0,
+      "container_duration_s": 24.134,
+      "ratio_reported_to_container": 0.041435319466313084
+    },
+    {
+      "variant": "aligned",
+      "id": "08",
+      "reported_duration_s": 1.0,
+      "container_duration_s": 8.067,
+      "ratio_reported_to_container": 0.12396181975951406
+    },
+    {
+      "variant": "aligned",
+      "id": "09",
+      "reported_duration_s": 1.0,
+      "container_duration_s": 11.3,
+      "ratio_reported_to_container": 0.08849557522123894
+    },
+    {
+      "variant": "aligned",
+      "id": "10",
+      "reported_duration_s": 1.0,
+      "container_duration_s": 10.934,
+      "ratio_reported_to_container": 0.09145783793671118
+    },
+    {
+      "variant": "aligned",
+      "id": "11",
+      "reported_duration_s": 1.0,
+      "container_duration_s": 11.424,
+      "ratio_reported_to_container": 0.08753501400560225
+    },
+    {
+      "variant": "aligned",
+      "id": "12",
+      "reported_duration_s": 1.0,
+      "container_duration_s": 20.367,
+      "ratio_reported_to_container": 0.04909903274905484
+    },
+    {
+      "variant": "aligned",
+      "id": "13",
+      "reported_duration_s": 1.0,
+      "container_duration_s": 8.68,
+      "ratio_reported_to_container": 0.1152073732718894
+    },
+    {
+      "variant": "aligned",
+      "id": "14",
+      "reported_duration_s": 1.0,
+      "container_duration_s": 13.9,
+      "ratio_reported_to_container": 0.07194244604316546
+    },
+    {
+      "variant": "aligned",
+      "id": "15",
+      "reported_duration_s": 1.0,
+      "container_duration_s": 7.334,
+      "ratio_reported_to_container": 0.13635124079629124
+    },
+    {
+      "variant": "aligned",
+      "id": "16",
+      "reported_duration_s": 1.0,
+      "container_duration_s": 5.573,
+      "ratio_reported_to_container": 0.1794365691727974
+    },
+    {
+      "variant": "aligned",
+      "id": "17",
+      "reported_duration_s": 1.0,
+      "container_duration_s": 14.0,
+      "ratio_reported_to_container": 0.07142857142857142
+    },
+    {
+      "variant": "aligned",
+      "id": "18",
+      "reported_duration_s": 1.0,
+      "container_duration_s": 22.967,
+      "ratio_reported_to_container": 0.04354073235511822
+    },
+    {
+      "variant": "aligned",
+      "id": "19",
+      "reported_duration_s": 1.0,
+      "container_duration_s": 18.734,
+      "ratio_reported_to_container": 0.05337888331376107
+    },
+    {
+      "variant": "aligned",
+      "id": "20",
+      "reported_duration_s": 1.0,
+      "container_duration_s": 18.767,
+      "ratio_reported_to_container": 0.053285021580433745
+    },
+    {
+      "variant": "unaligned",
+      "id": "01",
+      "reported_duration_s": 1.0,
+      "container_duration_s": 9.0,
+      "ratio_reported_to_container": 0.1111111111111111
+    },
+    {
+      "variant": "unaligned",
+      "id": "02",
+      "reported_duration_s": 1.0,
+      "container_duration_s": 3.7,
+      "ratio_reported_to_container": 0.27027027027027023
+    },
+    {
+      "variant": "unaligned",
+      "id": "03",
+      "reported_duration_s": 1.0,
+      "container_duration_s": 16.0,
+      "ratio_reported_to_container": 0.0625
+    },
+    {
+      "variant": "unaligned",
+      "id": "04",
+      "reported_duration_s": 1.0,
+      "container_duration_s": 9.3,
+      "ratio_reported_to_container": 0.1075268817204301
+    },
+    {
+      "variant": "unaligned",
+      "id": "05",
+      "reported_duration_s": 1.0,
+      "container_duration_s": 6.167,
+      "ratio_reported_to_container": 0.16215339711366952
+    },
+    {
+      "variant": "unaligned",
+      "id": "06",
+      "reported_duration_s": 1.0,
+      "container_duration_s": 9.8,
+      "ratio_reported_to_container": 0.1020408163265306
+    },
+    {
+      "variant": "unaligned",
+      "id": "07",
+      "reported_duration_s": 1.0,
+      "container_duration_s": 24.134,
+      "ratio_reported_to_container": 0.041435319466313084
+    },
+    {
+      "variant": "unaligned",
+      "id": "08",
+      "reported_duration_s": 1.0,
+      "container_duration_s": 8.067,
+      "ratio_reported_to_container": 0.12396181975951406
+    },
+    {
+      "variant": "unaligned",
+      "id": "09",
+      "reported_duration_s": 1.0,
+      "container_duration_s": 11.3,
+      "ratio_reported_to_container": 0.08849557522123894
+    },
+    {
+      "variant": "unaligned",
+      "id": "10",
+      "reported_duration_s": 1.0,
+      "container_duration_s": 10.934,
+      "ratio_reported_to_container": 0.09145783793671118
+    },
+    {
+      "variant": "unaligned",
+      "id": "11",
+      "reported_duration_s": 1.0,
+      "container_duration_s": 11.424,
+      "ratio_reported_to_container": 0.08753501400560225
+    },
+    {
+      "variant": "unaligned",
+      "id": "12",
+      "reported_duration_s": 1.0,
+      "container_duration_s": 20.367,
+      "ratio_reported_to_container": 0.04909903274905484
+    },
+    {
+      "variant": "unaligned",
+      "id": "13",
+      "reported_duration_s": 1.0,
+      "container_duration_s": 8.68,
+      "ratio_reported_to_container": 0.1152073732718894
+    },
+    {
+      "variant": "unaligned",
+      "id": "14",
+      "reported_duration_s": 1.0,
+      "container_duration_s": 13.9,
+      "ratio_reported_to_container": 0.07194244604316546
+    },
+    {
+      "variant": "unaligned",
+      "id": "15",
+      "reported_duration_s": 1.0,
+      "container_duration_s": 7.334,
+      "ratio_reported_to_container": 0.13635124079629124
+    },
+    {
+      "variant": "unaligned",
+      "id": "16",
+      "reported_duration_s": 1.0,
+      "container_duration_s": 5.573,
+      "ratio_reported_to_container": 0.1794365691727974
+    },
+    {
+      "variant": "unaligned",
+      "id": "17",
+      "reported_duration_s": 1.0,
+      "container_duration_s": 14.0,
+      "ratio_reported_to_container": 0.07142857142857142
+    },
+    {
+      "variant": "unaligned",
+      "id": "18",
+      "reported_duration_s": 1.0,
+      "container_duration_s": 22.967,
+      "ratio_reported_to_container": 0.04354073235511822
+    },
+    {
+      "variant": "unaligned",
+      "id": "19",
+      "reported_duration_s": 1.0,
+      "container_duration_s": 18.734,
+      "ratio_reported_to_container": 0.05337888331376107
+    },
+    {
+      "variant": "unaligned",
+      "id": "20",
+      "reported_duration_s": 1.0,
+      "container_duration_s": 18.767,
+      "ratio_reported_to_container": 0.053285021580433745
+    }
+  ],
+  "sources": {
+    "analysis\\source_comparison.json": "b871a0934b6afb8ca87588477a1c911a5cb6be97ae144846de3197eda48d6f12",
+    "results_analysis_20260924\\analysis.json": "6c026a3fcc6f17a6ba9682bf1bf0442547a3bc95d36a5527324c918a38ba56b9",
+    "problem2_experiment2\\condition_metrics.csv": "a15a7ee5bc883276bb0e1eac87a36e50764f957f49b980ee3c1da49c76408b7c",
+    "problem2_experiment2\\attachment3_predictions.csv": "a8bb6e879a7679b0f1931172bf27759653d985f2409d9be06d56e1684407adde",
+    "problem2_experiment2\\experiment_config.json": "807b408ad5770c89ee6ed4601f0456ee71b4ba9ee2b69c610569bd8aa02066ef",
+    "problem2_experiment2\\baseline\\seed_42\\training_history.csv": "65569eadc8bf8a63b4e37465d46d9a7d6917beb592343bad92a9ec42468c882a",
+    "problem2_experiment2\\baseline\\seed_43\\training_history.csv": "50ce2537376c7f7922ec75043f6b708f73c2b5368df77c6c212816943c6d98d2",
+    "problem2_experiment2\\baseline\\seed_44\\training_history.csv": "d9d49ca12adf1bf3b9e9dc9f6d1315cd5014cd80e119961d96ccf26704734a1e",
+    "problem2_experiment2\\robust_noaug\\seed_42\\training_history.csv": "640494f0e9ff2e2aa0a1e037115f92f8107fdb3d6f763e1f008677cb370cf0ab",
+    "problem2_experiment2\\robust_noaug\\seed_43\\training_history.csv": "00dc42b4cbe1a1e729c0d84835786813f04335e481b50b1aeac4e45e8c8172a3",
+    "problem2_experiment2\\robust_noaug\\seed_44\\training_history.csv": "7de88507d8c7d46f3c6d5106ef8026ed472af48402dcb754fedd73767cb44908",
+    "problem2_experiment2\\robust\\seed_42\\training_history.csv": "244ca2e42b9d18b564ffba44fa3d840699231a199a6ddd07e1e9cd8882edd376",
+    "problem2_experiment2\\robust\\seed_43\\training_history.csv": "68ac96ec8c174fd02e7f848ef40ebd5f8e0f51f14c9d937781af250d46358414",
+    "problem2_experiment2\\robust\\seed_44\\training_history.csv": "09d5ee3ddb24d198701cce41b0d52ce8df92d4c432cb9d3eb1d1829b3031a134",
+    "problem3_outputs\\problem3_valid_predictions.csv": "b6c95c521c9ac02d342f6c52368ed71d8cc70b9998fd1925bed942987df0c821",
+    "problem3_outputs\\problem3_test_predictions.csv": "53a26eff32c695eeb872740381b1efa60c0d30d1b820334fe34ecbef1f65a41a",
+    "problem3_outputs\\problem3_metrics.json": "d97290e2d41f6909bc5963d05ae0bdd03e789e30dd1fccceda9f211b1ca960b5",
+    "problem3_outputs\\training_history.csv": "279e795b9256b5fb173f270462786850220b0c16264a1bd51eb3e63915903d70",
+    "problem3_outputs\\attachment4_explanations.csv": "fd837de28970d2eb7a5e8d1e1d5551f8866e15ac76daf8dc593d39a024a1ea92",
+    "problem3_outputs\\primary_modality_local_importance_samples.csv": "917e036932eef0f8bb555113e1fe05ff9f60757eb9d01f8878438753bb4a36df",
+    "problem3_outputs\\evidence_cards\\aligned_01.json": "af8a1279195a6162bd7705a4931c5330ea3c0cfb23adbe4c085c2508d638a2b9",
+    "problem3_outputs\\evidence_cards\\aligned_02.json": "eef7cc3607d72725efbf0769a3bde01aa36ad3b4d6557fc341bc8faeb07a219c",
+    "problem3_outputs\\evidence_cards\\aligned_03.json": "67abf1fd43205024882f4e14116bb71bc5314fd212dd55de09018aece8858953",
+    "problem3_outputs\\evidence_cards\\aligned_04.json": "87b607fd66a44c0ecfe262bb519f564c1ef119f0362266857ee5715561d15aac",
+    "problem3_outputs\\evidence_cards\\aligned_05.json": "78dbcfe26a963cc718e60d9c6feb55aee315f9ee05172f475de8af80536fde81",
+    "problem3_outputs\\evidence_cards\\aligned_06.json": "9fa643e708b6768394abc9d9e99029991013c526da735c369b734ba88e2434c1",
+    "problem3_outputs\\evidence_cards\\aligned_07.json": "cfa04b14ca35101fcced867300dfad082ce117bfcffe116334e44b18da1b92e9",
+    "problem3_outputs\\evidence_cards\\aligned_08.json": "48e7cd64291d16e72479df692845f55b644b41c965dd1804596ff223a3e4a2df",
+    "problem3_outputs\\evidence_cards\\aligned_09.json": "4c0cc431fff155708f331666ebec6449cffd3486653c99352dd5c25f8997e810",
+    "problem3_outputs\\evidence_cards\\aligned_10.json": "de7f33f01b497d3ee6579da06c44fd81d3780c3fe19260a0fd85eedf1426902b",
+    "problem3_outputs\\evidence_cards\\aligned_11.json": "a63539a35488c6439b08d03e6dfeabc5c54760850e6acc9555c2dd675c6cdbcc",
+    "problem3_outputs\\evidence_cards\\aligned_12.json": "e0741648479c0903232df1282bb5c356c28a3b81e77071c4e507153c578dd7dc",
+    "problem3_outputs\\evidence_cards\\aligned_13.json": "0ebf73195d05f01c35ba046886370fb6420c7f3e50f08823a9783c89f969e275",
+    "problem3_outputs\\evidence_cards\\aligned_14.json": "00ba6b242f729af6bcaec76253a8aa008b2ba9eefdef50055248482027fc68b5",
+    "problem3_outputs\\evidence_cards\\aligned_15.json": "4840070b816e6177f1b3e25b7f3082e583e011e645b5b624a25020454958a954",
+    "problem3_outputs\\evidence_cards\\aligned_16.json": "1163d82c14041fb65c1bdbcc9e920f3948382db3af71193fbc505df7b6a73ac8",
+    "problem3_outputs\\evidence_cards\\aligned_17.json": "d60c0abad31b7ca4132909c73d9c3feb3f7bcb4b4ba0c1f934070a11b3b3a306",
+    "problem3_outputs\\evidence_cards\\aligned_18.json": "0510319d7a07b543e91c46f812dbd3b7bad2c9555b761d7008ddd417b3d50081",
+    "problem3_outputs\\evidence_cards\\aligned_19.json": "1aa7acc0764fd497520d54d09e48ca9bebd37bd785b322f48a9e7a784c8a117b",
+    "problem3_outputs\\evidence_cards\\aligned_20.json": "269d71c476f1e8c2c26e9f554a2780f090ffce9dd71c266d3f4bc5e3c61e4d71",
+    "problem3_outputs\\evidence_cards\\unaligned_01.json": "55bf01982618d6bb7828faacc4ec35bde5f9c5743fbc4b1e556edc3afa55e67f",
+    "problem3_outputs\\evidence_cards\\unaligned_02.json": "9a54c72ab1e4c1a09f0a65c793b2e464308568a12074b940abed7d39834ba146",
+    "problem3_outputs\\evidence_cards\\unaligned_03.json": "3446f143c1897684d5348e9df3215d70c86fcf1a3e0a4415c4cb4a2465841ba2",
+    "problem3_outputs\\evidence_cards\\unaligned_04.json": "afe2ddbd9da41f329b87f69cb3596cac539aacdaae5fece1e0970043518257db",
+    "problem3_outputs\\evidence_cards\\unaligned_05.json": "db5aa8d5f85757139472181d528e95f50c3a2f4fa2db27ff40d8429770c56e61",
+    "problem3_outputs\\evidence_cards\\unaligned_06.json": "72c05bc6e1967e041a7d83de45833bf756b8145bc702f5b8f3efa62e7f1f11f0",
+    "problem3_outputs\\evidence_cards\\unaligned_07.json": "b7455b8a4d41d2a1100105f5e498b40bca795ced41df8df0aa7b4b8c9405abd0",
+    "problem3_outputs\\evidence_cards\\unaligned_08.json": "17d17af536e5558b389896d989992643e9c9fad3022a933023eb55733361870e",
+    "problem3_outputs\\evidence_cards\\unaligned_09.json": "067f459ab37afe1a18d6b2ec15c36375647e5c90056a5cf77a33720f1995b1cb",
+    "problem3_outputs\\evidence_cards\\unaligned_10.json": "867da1fe1761dac2a48bac0f20007d0cf22ef1088705892bc801d3fc80356120",
+    "problem3_outputs\\evidence_cards\\unaligned_11.json": "7f01b3887dca0d7fe742aa57c2968701b54a13d7f590084039d181be7b57048e",
+    "problem3_outputs\\evidence_cards\\unaligned_12.json": "cba26e6646a16f80aace5962ff71b1b22430f18b8dbd639451075df579807df9",
+    "problem3_outputs\\evidence_cards\\unaligned_13.json": "d7f1415485fe3bb6dbfdaba9742d2f530ac4e910dc9b199fecf82a1e751b5683",
+    "problem3_outputs\\evidence_cards\\unaligned_14.json": "007fa32ff2e0319b51bfe92a13913494ef1c912134489df89f7789d5d614f4e5",
+    "problem3_outputs\\evidence_cards\\unaligned_15.json": "06aff771a6b58e5e27d9d1006ae4d1b55882c34f30f20e6bb2a344e294ef1b87",
+    "problem3_outputs\\evidence_cards\\unaligned_16.json": "d75e888f7492c81cf5bfa9963658ff09d8a298b7ac74d16e3a116c65dccbe82c",
+    "problem3_outputs\\evidence_cards\\unaligned_17.json": "7bb44d637ea36aab6bc1e8ea84b77879e310ef286bc218bca8989175d8b2ccbd",
+    "problem3_outputs\\evidence_cards\\unaligned_18.json": "000421976cb6772462601e17f84c27971eaef6a26e59cd581e5c1f18759e3a62",
+    "problem3_outputs\\evidence_cards\\unaligned_19.json": "60740856a2a50342ec7d5275cc63408540d028992ba1b58f01112829a01134f6",
+    "problem3_outputs\\evidence_cards\\unaligned_20.json": "714dc3c1cb26e57881b052953671559b36a933206bcd6629cb2b53b43f2cfd5c",
+    "DATA\\attachment_4_explainability\\aligned\\videos\\sample_01.mp4": "3057e24aee7a48fcf15bd618b663bd7f0d061fb8893286c458986a7e1c6d17cf",
+    "DATA\\attachment_4_explainability\\aligned\\videos\\sample_02.mp4": "6b651e908aefd86959f85b78f945f7d5a5d9e767eb4c095926e1df2ed9629ff9",
+    "DATA\\attachment_4_explainability\\aligned\\videos\\sample_03.mp4": "556b83449ac17fd8cb99ed1dcd6f11c287dd6e0198885e88555579f9bcab84f3",
+    "DATA\\attachment_4_explainability\\aligned\\videos\\sample_04.mp4": "766db8dc32508b8f7f8faaa47656e0eedc8d1707b809fe8235db1e74e15d3369",
+    "DATA\\attachment_4_explainability\\aligned\\videos\\sample_05.mp4": "715d7c1dd52a78eac6c0a10cd78ba1c4f632dc778839c86fcf7a510ea4184420",
+    "DATA\\attachment_4_explainability\\aligned\\videos\\sample_06.mp4": "22e0a0e7c0880d3e92e4eb5e98070e5128884dd21eebc8367852570feb1b1d7f",
+    "DATA\\attachment_4_explainability\\aligned\\videos\\sample_07.mp4": "f3b47ceaddf31d472c367259788cb68e93511b14ae117577836f196e22ecedc5",
+    "DATA\\attachment_4_explainability\\aligned\\videos\\sample_08.mp4": "962057312eb9b751ff907ba5799f455dedfc271cabb5d45abd40803e08f88d79",
+    "DATA\\attachment_4_explainability\\aligned\\videos\\sample_09.mp4": "7ecb03c24c8fc45b66bff4eb56bdf2adba033e96db52dd2d858abd93fae9d749",
+    "DATA\\attachment_4_explainability\\aligned\\videos\\sample_10.mp4": "21047991667edfdde0cb848dfd80aa41ccb871bc02742bd24f28d512a70f53db",
+    "DATA\\attachment_4_explainability\\aligned\\videos\\sample_11.mp4": "972bbc9b3f3cd620b2e576672301be7ccba0f54dae3a22b42194a3e322fd7905",
+    "DATA\\attachment_4_explainability\\aligned\\videos\\sample_12.mp4": "5d4da7ef7e6a4a344a2b9657fadfa2207c3565a9f7c1fb806e629c95b453aff3",
+    "DATA\\attachment_4_explainability\\aligned\\videos\\sample_13.mp4": "8a64f1201e0299f79d915aa87b4a9be811e346525589d1f41060c2533599a7cb",
+    "DATA\\attachment_4_explainability\\aligned\\videos\\sample_14.mp4": "8f1c4cb4b1c97b31cd065317faef41465cfcda403ef12d1defce4a5d23b8e18e",
+    "DATA\\attachment_4_explainability\\aligned\\videos\\sample_15.mp4": "bdd4ea47f2dac729a445cdf34009b9dff6d66bdc8ca997b82814bd55dc7fc675",
+    "DATA\\attachment_4_explainability\\aligned\\videos\\sample_16.mp4": "819a4c15dce5b85d8f7717087ea660551c3044daf3cecba1d45d342ae85365e5",
+    "DATA\\attachment_4_explainability\\aligned\\videos\\sample_17.mp4": "8a2f9bad44684ae0ba22f4ad39e848020dbac6acf7e5fe9d974f2448e6902462",
+    "DATA\\attachment_4_explainability\\aligned\\videos\\sample_18.mp4": "0faf17accce9e58d81b2cc4ff6b150f8bc7f1d2f620ba420944f5732f41d6759",
+    "DATA\\attachment_4_explainability\\aligned\\videos\\sample_19.mp4": "26148d75d5b4c1ff6f69a36485cc02a771a74203d2c07d9d08f018bf88658217",
+    "DATA\\attachment_4_explainability\\aligned\\videos\\sample_20.mp4": "0c75c37baddf51add457b20ad35e10166ff7baaa520f77bd6b2af2239c217a1c",
+    "DATA\\attachment_4_explainability\\unaligned\\videos\\sample_01.mp4": "3057e24aee7a48fcf15bd618b663bd7f0d061fb8893286c458986a7e1c6d17cf",
+    "DATA\\attachment_4_explainability\\unaligned\\videos\\sample_02.mp4": "6b651e908aefd86959f85b78f945f7d5a5d9e767eb4c095926e1df2ed9629ff9",
+    "DATA\\attachment_4_explainability\\unaligned\\videos\\sample_03.mp4": "556b83449ac17fd8cb99ed1dcd6f11c287dd6e0198885e88555579f9bcab84f3",
+    "DATA\\attachment_4_explainability\\unaligned\\videos\\sample_04.mp4": "766db8dc32508b8f7f8faaa47656e0eedc8d1707b809fe8235db1e74e15d3369",
+    "DATA\\attachment_4_explainability\\unaligned\\videos\\sample_05.mp4": "715d7c1dd52a78eac6c0a10cd78ba1c4f632dc778839c86fcf7a510ea4184420",
+    "DATA\\attachment_4_explainability\\unaligned\\videos\\sample_06.mp4": "22e0a0e7c0880d3e92e4eb5e98070e5128884dd21eebc8367852570feb1b1d7f",
+    "DATA\\attachment_4_explainability\\unaligned\\videos\\sample_07.mp4": "f3b47ceaddf31d472c367259788cb68e93511b14ae117577836f196e22ecedc5",
+    "DATA\\attachment_4_explainability\\unaligned\\videos\\sample_08.mp4": "962057312eb9b751ff907ba5799f455dedfc271cabb5d45abd40803e08f88d79",
+    "DATA\\attachment_4_explainability\\unaligned\\videos\\sample_09.mp4": "7ecb03c24c8fc45b66bff4eb56bdf2adba033e96db52dd2d858abd93fae9d749",
+    "DATA\\attachment_4_explainability\\unaligned\\videos\\sample_10.mp4": "21047991667edfdde0cb848dfd80aa41ccb871bc02742bd24f28d512a70f53db",
+    "DATA\\attachment_4_explainability\\unaligned\\videos\\sample_11.mp4": "972bbc9b3f3cd620b2e576672301be7ccba0f54dae3a22b42194a3e322fd7905",
+    "DATA\\attachment_4_explainability\\unaligned\\videos\\sample_12.mp4": "5d4da7ef7e6a4a344a2b9657fadfa2207c3565a9f7c1fb806e629c95b453aff3",
+    "DATA\\attachment_4_explainability\\unaligned\\videos\\sample_13.mp4": "8a64f1201e0299f79d915aa87b4a9be811e346525589d1f41060c2533599a7cb",
+    "DATA\\attachment_4_explainability\\unaligned\\videos\\sample_14.mp4": "8f1c4cb4b1c97b31cd065317faef41465cfcda403ef12d1defce4a5d23b8e18e",
+    "DATA\\attachment_4_explainability\\unaligned\\videos\\sample_15.mp4": "bdd4ea47f2dac729a445cdf34009b9dff6d66bdc8ca997b82814bd55dc7fc675",
+    "DATA\\attachment_4_explainability\\unaligned\\videos\\sample_16.mp4": "819a4c15dce5b85d8f7717087ea660551c3044daf3cecba1d45d342ae85365e5",
+    "DATA\\attachment_4_explainability\\unaligned\\videos\\sample_17.mp4": "8a2f9bad44684ae0ba22f4ad39e848020dbac6acf7e5fe9d974f2448e6902462",
+    "DATA\\attachment_4_explainability\\unaligned\\videos\\sample_18.mp4": "0faf17accce9e58d81b2cc4ff6b150f8bc7f1d2f620ba420944f5732f41d6759",
+    "DATA\\attachment_4_explainability\\unaligned\\videos\\sample_19.mp4": "26148d75d5b4c1ff6f69a36485cc02a771a74203d2c07d9d08f018bf88658217",
+    "DATA\\attachment_4_explainability\\unaligned\\videos\\sample_20.mp4": "0c75c37baddf51add457b20ad35e10166ff7baaa520f77bd6b2af2239c217a1c",
+    "problem1_outputs\\problem1_validation.json": "7daf54dbc7a1f71f6c5dc0ac062b39a16138bf6286dd2ab6355e9bb22cc42bfc",
+    "problem1_outputs\\problem1_complete_analysis.json": "77a582586854afab6bcd5e4978bb200591417f4d247de5436e91477316a2ff24",
+    "problem1_outputs\\manifest.csv": "2ca67ba34811ca93263f0388a1f6201b7f05f32b35b18e9aeb6fb448a2d8741c",
+    "problem1_outputs\\problem1_feature_summary.csv": "fee652e66ae3ff44979fe0865dcae2e8174689fb067ba2342dd403d0df2dc04f"
+  },
+  "figures": [
+    {
+      "number": 1,
+      "slug": "01_p1_cohort",
+      "title": "问题一 样本构成与文本长度",
+      "status": "unchanged_moved",
+      "sources": "上次15个源文件全部SHA-256一致；详见source_comparison.json"
+    },
+    {
+      "number": 2,
+      "slug": "02_p1_coverage",
+      "title": "问题一 覆盖率分布与时序覆盖图",
+      "status": "unchanged_moved",
+      "sources": "上次15个源文件全部SHA-256一致；详见source_comparison.json"
+    },
+    {
+      "number": 3,
+      "slug": "03_p1_typical_timeline",
+      "title": "问题一 典型样本的词段与特征对应",
+      "status": "unchanged_moved",
+      "sources": "上次15个源文件全部SHA-256一致；详见source_comparison.json"
+    },
+    {
+      "number": 4,
+      "slug": "04_p2_label_distribution",
+      "title": "问题二 划分组成与真实强度分布",
+      "status": "unchanged_moved",
+      "sources": "上次15个源文件全部SHA-256一致；详见source_comparison.json"
+    },
+    {
+      "number": 5,
+      "slug": "05_p2_metric_intervals",
+      "title": "问题二 基础指标与聚类自助区间",
+      "status": "unchanged_moved",
+      "sources": "上次15个源文件全部SHA-256一致；详见source_comparison.json"
+    },
+    {
+      "number": 6,
+      "slug": "06_p2_confusion",
+      "title": "问题二 行归一化混淆矩阵",
+      "status": "unchanged_moved",
+      "sources": "上次15个源文件全部SHA-256一致；详见source_comparison.json"
+    },
+    {
+      "number": 7,
+      "slug": "07_p2_class_metrics",
+      "title": "问题二 逐类精确率 召回率与F1",
+      "status": "unchanged_moved",
+      "sources": "上次15个源文件全部SHA-256一致；详见source_comparison.json"
+    },
+    {
+      "number": 8,
+      "slug": "08_p2_regression",
+      "title": "问题二 回归预测与强度收缩",
+      "status": "unchanged_moved",
+      "sources": "上次15个源文件全部SHA-256一致；详见source_comparison.json"
+    },
+    {
+      "number": 9,
+      "slug": "09_p2_residuals",
+      "title": "问题二 残差分布与类别方向性偏差",
+      "status": "unchanged_moved",
+      "sources": "上次15个源文件全部SHA-256一致；详见source_comparison.json"
+    },
+    {
+      "number": 10,
+      "slug": "10_p2_intensity_strata",
+      "title": "问题二 不同情感强度的分类与回归表现",
+      "status": "unchanged_moved",
+      "sources": "上次15个源文件全部SHA-256一致；详见source_comparison.json"
+    },
+    {
+      "number": 11,
+      "slug": "11_p2_calibration",
+      "title": "问题二 概率校准与高置信错误",
+      "status": "unchanged_moved",
+      "sources": "上次15个源文件全部SHA-256一致；详见source_comparison.json"
+    },
+    {
+      "number": 12,
+      "slug": "12_p2_selective_prediction",
+      "title": "问题二 置信筛选的覆盖率与错误率权衡",
+      "status": "unchanged_moved",
+      "sources": "上次15个源文件全部SHA-256一致；详见source_comparison.json"
+    },
+    {
+      "number": 13,
+      "slug": "13_p2_roc_pr",
+      "title": "问题二 单类对其余类别的排序能力",
+      "status": "unchanged_moved",
+      "sources": "上次15个源文件全部SHA-256一致；详见source_comparison.json"
+    },
+    {
+      "number": 14,
+      "slug": "14_p2_historical_models",
+      "title": "问题二 历史实验的多指标对比",
+      "status": "unchanged_moved",
+      "sources": "上次15个源文件全部SHA-256一致；详见source_comparison.json"
+    },
+    {
+      "number": 15,
+      "slug": "15_p2_paired_comparison",
+      "title": "问题二 固定预测的配对差异区间",
+      "status": "unchanged_moved",
+      "sources": "上次15个源文件全部SHA-256一致；详见source_comparison.json"
+    },
+    {
+      "number": 16,
+      "slug": "16_p2_training_dynamics",
+      "title": "问题二 已记录复现训练过程",
+      "status": "unchanged_moved",
+      "sources": "上次15个源文件全部SHA-256一致；详见source_comparison.json"
+    },
+    {
+      "number": 17,
+      "slug": "17_p2_joint_outputs",
+      "title": "问题二 分类与回归输出的一致性",
+      "status": "unchanged_moved",
+      "sources": "上次15个源文件全部SHA-256一致；详见source_comparison.json"
+    },
+    {
+      "number": 18,
+      "slug": "18_attachment3_aligned",
+      "title": "附件三 aligned 全量预测",
+      "status": "unchanged_moved",
+      "sources": "上次15个源文件全部SHA-256一致；详见source_comparison.json"
+    },
+    {
+      "number": 19,
+      "slug": "19_attachment3_format_comparison",
+      "title": "附件三 两种既有输出的描述性比较",
+      "status": "unchanged_moved",
+      "sources": "上次15个源文件全部SHA-256一致；详见source_comparison.json"
+    },
+    {
+      "number": 20,
+      "slug": "20_p2_error_overlap",
+      "title": "问题二 不同实验的错误重叠与误差累积分布",
+      "status": "unchanged_moved",
+      "sources": "上次15个源文件全部SHA-256一致；详见source_comparison.json"
+    },
+    {
+      "number": 21,
+      "slug": "21_experiment_coverage",
+      "title": "新增鲁棒性实验的覆盖范围",
+      "status": "new",
+      "sources": "condition_metrics.csv，1044行；3模型×3种子×2划分×58条件。"
+    },
+    {
+      "number": 22,
+      "slug": "22_complete_seed_stability",
+      "title": "完整输入下的多种子性能与稳定性",
+      "status": "new",
+      "sources": "完整输入，3个种子；点为单次训练，误差线为种子样本标准差。"
+    },
+    {
+      "number": 23,
+      "slug": "23_rate_valid_macro_f1",
+      "title": "验证集局部缺失率对Macro-F1的影响",
+      "status": "new",
+      "sources": "rate组，7种模态组合×4个非零缺失率×3模型×3种子；零点取完整输入。"
+    },
+    {
+      "number": 24,
+      "slug": "24_rate_test_macro_f1",
+      "title": "测试集局部缺失率对Macro-F1的影响",
+      "status": "new",
+      "sources": "rate组，7种模态组合×4个非零缺失率×3模型×3种子；零点取完整输入。"
+    },
+    {
+      "number": 25,
+      "slug": "25_rate_valid_mae",
+      "title": "验证集局部缺失率对MAE的影响",
+      "status": "new",
+      "sources": "rate组，7种模态组合×4个非零缺失率×3模型×3种子；零点取完整输入。"
+    },
+    {
+      "number": 26,
+      "slug": "26_rate_test_mae",
+      "title": "测试集局部缺失率对MAE的影响",
+      "status": "new",
+      "sources": "rate组，7种模态组合×4个非零缺失率×3模型×3种子；零点取完整输入。"
+    },
+    {
+      "number": 27,
+      "slug": "27_missing_position",
+      "title": "缺失位置对分类性能的影响",
+      "status": "new",
+      "sources": "请求缺失率固定0.3；仅单模态；分别按位置或连续块时长分组；3种子。"
+    },
+    {
+      "number": 28,
+      "slug": "28_missing_duration",
+      "title": "缺失连续块时长对分类性能的影响",
+      "status": "new",
+      "sources": "请求缺失率固定0.3；仅单模态；分别按位置或连续块时长分组；3种子。"
+    },
+    {
+      "number": 29,
+      "slug": "29_missing_rate_denominators",
+      "title": "请求缺失率与实际缺失率的分母差异",
+      "status": "new",
+      "sources": "测试集baseline，种子均值；读取effective_missing_rate及各模态对应字段。"
+    },
+    {
+      "number": 30,
+      "slug": "30_whole_modality_ablation",
+      "title": "整模态消融与极端信息丢失",
+      "status": "new",
+      "sources": "ablation组，8种保留/删除组合；行标签表示被删除的模态，None表示完整输入。"
+    },
+    {
+      "number": 31,
+      "slug": "31_paired_architecture_augmentation",
+      "title": "架构与训练增强的配对差异",
+      "status": "new",
+      "sources": "同一种子、同一条件相减后，先对条件族等权平均，再对3种子计算均值与标准差。"
+    },
+    {
+      "number": 32,
+      "slug": "32_average_worst_conditions",
+      "title": "局部缺失的平均性能与最差条件",
+      "status": "new",
+      "sources": "对三种子均值再按条件等权汇总；local=49个局部缺失条件，all_stress=56个条件含整模态删除。"
+    },
+    {
+      "number": 33,
+      "slug": "33_class_sensitivity",
+      "title": "文本局部缺失对各情感类别的差异影响",
+      "status": "new",
+      "sources": "保存的逐类F1；文本局部缺失0至0.4，两个划分、3模型、3种子。"
+    },
+    {
+      "number": 34,
+      "slug": "34_controlled_training",
+      "title": "新增九次训练的拟合与泛化过程",
+      "status": "new",
+      "sources": "各模型seed_42/43/44的training_history.csv；实线验证，虚线训练。"
+    },
+    {
+      "number": 35,
+      "slug": "35_attachment3_models",
+      "title": "附件三aligned全量三模型输出",
+      "status": "new",
+      "sources": "attachment3_predictions.csv，30个aligned样本×3模型；不是三种子平均。"
+    },
+    {
+      "number": 36,
+      "slug": "36_attachment3_formats",
+      "title": "附件三类别分布与格式敏感性",
+      "status": "new",
+      "sources": "180行专项输出；同编号aligned/unaligned描述性配对，每模型30对。"
+    },
+    {
+      "number": 37,
+      "slug": "37_p3_overall",
+      "title": "问题三基础性能及与问题二参考结果的关系",
+      "status": "new",
+      "sources": "问题三验证728、测试727条；与旧问题二固定参考的描述性比较。"
+    },
+    {
+      "number": 38,
+      "slug": "38_p3_confusion",
+      "title": "问题三的类别瓶颈与错误流向",
+      "status": "new",
+      "sources": "问题三全部验证/测试预测；颜色为按真实类别归一的比例，计数见下表。"
+    },
+    {
+      "number": 39,
+      "slug": "39_p3_regression",
+      "title": "问题三的强度压缩与强情感误差",
+      "status": "new",
+      "sources": "回归散点保留全部样本；直线为诊断最小二乘拟合，不修改预测；下排按真实绝对强度分层。"
+    },
+    {
+      "number": 40,
+      "slug": "40_p3_confidence",
+      "title": "问题三概率置信度与高置信错误",
+      "status": "new",
+      "sources": "预测表仅保存最大类置信度，使用10个等宽箱；风险曲线每点至少15样本。"
+    },
+    {
+      "number": 41,
+      "slug": "41_p3_training",
+      "title": "问题三50轮训练与早期验证峰值",
+      "status": "new",
+      "sources": "training_history.csv与problem3_metrics.json；保存选择轮为1。"
+    },
+    {
+      "number": 42,
+      "slug": "42_attachment4_predictions",
+      "title": "附件四全部预测与置信度",
+      "status": "new",
+      "sources": "40行=20个编号×两种版本；颜色为极性，圆大小随置信度变化。"
+    },
+    {
+      "number": 43,
+      "slug": "43_modality_contributions",
+      "title": "附件四逐样本三模态作用程度",
+      "status": "new",
+      "sources": "attachment4_explanations.csv，保存的归一化模态作用程度；每行三模态合计约1。"
+    },
+    {
+      "number": 44,
+      "slug": "44_local_importance_heatmap",
+      "title": "主要参考模态内50个局部位置的重要性分布",
+      "status": "new",
+      "sources": "primary_modality_local_importance_samples.csv，40记录×50bin；T/A/V标注主导模态。"
+    },
+    {
+      "number": 45,
+      "slug": "45_local_importance_aggregate",
+      "title": "按主导模态聚合的局部重要性与样本不均衡",
+      "status": "new",
+      "sources": "文本36份、音频2份、视觉2份版本记录；淡线为单记录，粗线为均值。"
+    },
+    {
+      "number": 46,
+      "slug": "46_signed_occlusion",
+      "title": "遮挡效应的正负方向与解释强度",
+      "status": "new",
+      "sources": "2000个主导模态局部位置；负值表示遮挡后当前预测类别概率反而升高。"
+    },
+    {
+      "number": 47,
+      "slug": "47_attention_occlusion_agreement",
+      "title": "注意力权重与遮挡贡献是否一致",
+      "status": "new",
+      "sources": "40张解释卡中的modality_attention与modality_contribution；Spearman为描述性秩相关。"
+    },
+    {
+      "number": 48,
+      "slug": "48_evidence_text",
+      "title": "典型解释卡：text主导的aligned_08",
+      "status": "new",
+      "sources": "真实保存的解释卡；每模态5个候选位置，按原始输出顺序展示。"
+    },
+    {
+      "number": 49,
+      "slug": "49_evidence_audio",
+      "title": "典型解释卡：audio主导的unaligned_05",
+      "status": "new",
+      "sources": "真实保存的解释卡；每模态5个候选位置，按原始输出顺序展示。"
+    },
+    {
+      "number": 50,
+      "slug": "50_evidence_vision",
+      "title": "典型解释卡：vision主导的aligned_05",
+      "status": "new",
+      "sources": "真实保存的解释卡；每模态5个候选位置，按原始输出顺序展示。"
+    },
+    {
+      "number": 51,
+      "slug": "51_attachment4_formats",
+      "title": "附件四预测与解释的跨版本一致性",
+      "status": "new",
+      "sources": "20个编号配对；矩阵行为aligned、列为unaligned。"
+    },
+    {
+      "number": 52,
+      "slug": "52_evidence_time_consistency",
+      "title": "解释位置的物理时间可核验性",
+      "status": "new",
+      "sources": "只读取原始MP4容器mvhd时长，与40张解释卡的duration_seconds比较；未重跑推理。"
+    },
+    {
+      "number": 53,
+      "slug": "53_p1_completeness",
+      "title": "问题一新增汇总中的完整性与可追溯性",
+      "status": "new",
+      "sources": "problem1_complete_analysis.json及problem1_validation.json；已有核验记录，非本次重跑提取。"
+    }
+  ]
+}

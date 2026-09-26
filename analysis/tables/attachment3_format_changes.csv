@@ -1,0 +1,5 @@
+﻿id,aligned_class,unaligned_class,aligned_score,unaligned_score
+sample_07,Neutral,Positive,0.20931556820869446,0.37029170989990234
+sample_17,Neutral,Positive,0.1522635817527771,0.6078908443450928
+sample_24,Negative,Positive,-0.03452545404434204,0.6456272006034851
+sample_25,Neutral,Positive,0.5215892791748047,0.7488890886306763

@@ -1,0 +1,54 @@
+﻿number,slug,title,status,sources
+1,01_p1_cohort,问题一 样本构成与文本长度,unchanged_moved,上次15个源文件全部SHA-256一致；详见source_comparison.json
+2,02_p1_coverage,问题一 覆盖率分布与时序覆盖图,unchanged_moved,上次15个源文件全部SHA-256一致；详见source_comparison.json
+3,03_p1_typical_timeline,问题一 典型样本的词段与特征对应,unchanged_moved,上次15个源文件全部SHA-256一致；详见source_comparison.json
+4,04_p2_label_distribution,问题二 划分组成与真实强度分布,unchanged_moved,上次15个源文件全部SHA-256一致；详见source_comparison.json
+5,05_p2_metric_intervals,问题二 基础指标与聚类自助区间,unchanged_moved,上次15个源文件全部SHA-256一致；详见source_comparison.json
+6,06_p2_confusion,问题二 行归一化混淆矩阵,unchanged_moved,上次15个源文件全部SHA-256一致；详见source_comparison.json
+7,07_p2_class_metrics,问题二 逐类精确率 召回率与F1,unchanged_moved,上次15个源文件全部SHA-256一致；详见source_comparison.json
+8,08_p2_regression,问题二 回归预测与强度收缩,unchanged_moved,上次15个源文件全部SHA-256一致；详见source_comparison.json
+9,09_p2_residuals,问题二 残差分布与类别方向性偏差,unchanged_moved,上次15个源文件全部SHA-256一致；详见source_comparison.json
+10,10_p2_intensity_strata,问题二 不同情感强度的分类与回归表现,unchanged_moved,上次15个源文件全部SHA-256一致；详见source_comparison.json
+11,11_p2_calibration,问题二 概率校准与高置信错误,unchanged_moved,上次15个源文件全部SHA-256一致；详见source_comparison.json
+12,12_p2_selective_prediction,问题二 置信筛选的覆盖率与错误率权衡,unchanged_moved,上次15个源文件全部SHA-256一致；详见source_comparison.json
+13,13_p2_roc_pr,问题二 单类对其余类别的排序能力,unchanged_moved,上次15个源文件全部SHA-256一致；详见source_comparison.json
+14,14_p2_historical_models,问题二 历史实验的多指标对比,unchanged_moved,上次15个源文件全部SHA-256一致；详见source_comparison.json
+15,15_p2_paired_comparison,问题二 固定预测的配对差异区间,unchanged_moved,上次15个源文件全部SHA-256一致；详见source_comparison.json
+16,16_p2_training_dynamics,问题二 已记录复现训练过程,unchanged_moved,上次15个源文件全部SHA-256一致；详见source_comparison.json
+17,17_p2_joint_outputs,问题二 分类与回归输出的一致性,unchanged_moved,上次15个源文件全部SHA-256一致；详见source_comparison.json
+18,18_attachment3_aligned,附件三 aligned 全量预测,unchanged_moved,上次15个源文件全部SHA-256一致；详见source_comparison.json
+19,19_attachment3_format_comparison,附件三 两种既有输出的描述性比较,unchanged_moved,上次15个源文件全部SHA-256一致；详见source_comparison.json
+20,20_p2_error_overlap,问题二 不同实验的错误重叠与误差累积分布,unchanged_moved,上次15个源文件全部SHA-256一致；详见source_comparison.json
+21,21_experiment_coverage,新增鲁棒性实验的覆盖范围,new,condition_metrics.csv，1044行；3模型×3种子×2划分×58条件。
+22,22_complete_seed_stability,完整输入下的多种子性能与稳定性,new,完整输入，3个种子；点为单次训练，误差线为种子样本标准差。
+23,23_rate_valid_macro_f1,验证集局部缺失率对Macro-F1的影响,new,rate组，7种模态组合×4个非零缺失率×3模型×3种子；零点取完整输入。
+24,24_rate_test_macro_f1,测试集局部缺失率对Macro-F1的影响,new,rate组，7种模态组合×4个非零缺失率×3模型×3种子；零点取完整输入。
+25,25_rate_valid_mae,验证集局部缺失率对MAE的影响,new,rate组，7种模态组合×4个非零缺失率×3模型×3种子；零点取完整输入。
+26,26_rate_test_mae,测试集局部缺失率对MAE的影响,new,rate组，7种模态组合×4个非零缺失率×3模型×3种子；零点取完整输入。
+27,27_missing_position,缺失位置对分类性能的影响,new,请求缺失率固定0.3；仅单模态；分别按位置或连续块时长分组；3种子。
+28,28_missing_duration,缺失连续块时长对分类性能的影响,new,请求缺失率固定0.3；仅单模态；分别按位置或连续块时长分组；3种子。
+29,29_missing_rate_denominators,请求缺失率与实际缺失率的分母差异,new,测试集baseline，种子均值；读取effective_missing_rate及各模态对应字段。
+30,30_whole_modality_ablation,整模态消融与极端信息丢失,new,ablation组，8种保留/删除组合；行标签表示被删除的模态，None表示完整输入。
+31,31_paired_architecture_augmentation,架构与训练增强的配对差异,new,同一种子、同一条件相减后，先对条件族等权平均，再对3种子计算均值与标准差。
+32,32_average_worst_conditions,局部缺失的平均性能与最差条件,new,对三种子均值再按条件等权汇总；local=49个局部缺失条件，all_stress=56个条件含整模态删除。
+33,33_class_sensitivity,文本局部缺失对各情感类别的差异影响,new,保存的逐类F1；文本局部缺失0至0.4，两个划分、3模型、3种子。
+34,34_controlled_training,新增九次训练的拟合与泛化过程,new,各模型seed_42/43/44的training_history.csv；实线验证，虚线训练。
+35,35_attachment3_models,附件三aligned全量三模型输出,new,attachment3_predictions.csv，30个aligned样本×3模型；不是三种子平均。
+36,36_attachment3_formats,附件三类别分布与格式敏感性,new,180行专项输出；同编号aligned/unaligned描述性配对，每模型30对。
+37,37_p3_overall,问题三基础性能及与问题二参考结果的关系,new,问题三验证728、测试727条；与旧问题二固定参考的描述性比较。
+38,38_p3_confusion,问题三的类别瓶颈与错误流向,new,问题三全部验证/测试预测；颜色为按真实类别归一的比例，计数见下表。
+39,39_p3_regression,问题三的强度压缩与强情感误差,new,回归散点保留全部样本；直线为诊断最小二乘拟合，不修改预测；下排按真实绝对强度分层。
+40,40_p3_confidence,问题三概率置信度与高置信错误,new,预测表仅保存最大类置信度，使用10个等宽箱；风险曲线每点至少15样本。
+41,41_p3_training,问题三50轮训练与早期验证峰值,new,training_history.csv与problem3_metrics.json；保存选择轮为1。
+42,42_attachment4_predictions,附件四全部预测与置信度,new,40行=20个编号×两种版本；颜色为极性，圆大小随置信度变化。
+43,43_modality_contributions,附件四逐样本三模态作用程度,new,attachment4_explanations.csv，保存的归一化模态作用程度；每行三模态合计约1。
+44,44_local_importance_heatmap,主要参考模态内50个局部位置的重要性分布,new,primary_modality_local_importance_samples.csv，40记录×50bin；T/A/V标注主导模态。
+45,45_local_importance_aggregate,按主导模态聚合的局部重要性与样本不均衡,new,文本36份、音频2份、视觉2份版本记录；淡线为单记录，粗线为均值。
+46,46_signed_occlusion,遮挡效应的正负方向与解释强度,new,2000个主导模态局部位置；负值表示遮挡后当前预测类别概率反而升高。
+47,47_attention_occlusion_agreement,注意力权重与遮挡贡献是否一致,new,40张解释卡中的modality_attention与modality_contribution；Spearman为描述性秩相关。
+48,48_evidence_text,典型解释卡：text主导的aligned_08,new,真实保存的解释卡；每模态5个候选位置，按原始输出顺序展示。
+49,49_evidence_audio,典型解释卡：audio主导的unaligned_05,new,真实保存的解释卡；每模态5个候选位置，按原始输出顺序展示。
+50,50_evidence_vision,典型解释卡：vision主导的aligned_05,new,真实保存的解释卡；每模态5个候选位置，按原始输出顺序展示。
+51,51_attachment4_formats,附件四预测与解释的跨版本一致性,new,20个编号配对；矩阵行为aligned、列为unaligned。
+52,52_evidence_time_consistency,解释位置的物理时间可核验性,new,只读取原始MP4容器mvhd时长，与40张解释卡的duration_seconds比较；未重跑推理。
+53,53_p1_completeness,问题一新增汇总中的完整性与可追溯性,new,problem1_complete_analysis.json及problem1_validation.json；已有核验记录，非本次重跑提取。

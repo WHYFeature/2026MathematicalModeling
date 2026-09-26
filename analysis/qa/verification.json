@@ -1,0 +1,673 @@
+{
+  "pdf_pages": [
+    {
+      "figure": 1,
+      "images": 0,
+      "text_chars": 453
+    },
+    {
+      "figure": 2,
+      "images": 0,
+      "text_chars": 384
+    },
+    {
+      "figure": 3,
+      "images": 0,
+      "text_chars": 446
+    },
+    {
+      "figure": 4,
+      "images": 0,
+      "text_chars": 384
+    },
+    {
+      "figure": 5,
+      "images": 0,
+      "text_chars": 392
+    },
+    {
+      "figure": 6,
+      "images": 0,
+      "text_chars": 429
+    },
+    {
+      "figure": 7,
+      "images": 0,
+      "text_chars": 258
+    },
+    {
+      "figure": 8,
+      "images": 0,
+      "text_chars": 258
+    },
+    {
+      "figure": 9,
+      "images": 0,
+      "text_chars": 411
+    },
+    {
+      "figure": 10,
+      "images": 0,
+      "text_chars": 398
+    },
+    {
+      "figure": 11,
+      "images": 0,
+      "text_chars": 330
+    },
+    {
+      "figure": 12,
+      "images": 0,
+      "text_chars": 318
+    },
+    {
+      "figure": 13,
+      "images": 0,
+      "text_chars": 325
+    },
+    {
+      "figure": 14,
+      "images": 0,
+      "text_chars": 584
+    },
+    {
+      "figure": 15,
+      "images": 0,
+      "text_chars": 318
+    },
+    {
+      "figure": 16,
+      "images": 0,
+      "text_chars": 411
+    },
+    {
+      "figure": 17,
+      "images": 0,
+      "text_chars": 290
+    },
+    {
+      "figure": 18,
+      "images": 0,
+      "text_chars": 397
+    },
+    {
+      "figure": 19,
+      "images": 0,
+      "text_chars": 281
+    },
+    {
+      "figure": 20,
+      "images": 0,
+      "text_chars": 423
+    },
+    {
+      "figure": 21,
+      "images": 0,
+      "text_chars": 248
+    },
+    {
+      "figure": 22,
+      "images": 0,
+      "text_chars": 361
+    },
+    {
+      "figure": 23,
+      "images": 0,
+      "text_chars": 738
+    },
+    {
+      "figure": 24,
+      "images": 0,
+      "text_chars": 707
+    },
+    {
+      "figure": 25,
+      "images": 0,
+      "text_chars": 718
+    },
+    {
+      "figure": 26,
+      "images": 0,
+      "text_chars": 712
+    },
+    {
+      "figure": 27,
+      "images": 0,
+      "text_chars": 520
+    },
+    {
+      "figure": 28,
+      "images": 0,
+      "text_chars": 475
+    },
+    {
+      "figure": 29,
+      "images": 0,
+      "text_chars": 418
+    },
+    {
+      "figure": 30,
+      "images": 0,
+      "text_chars": 822
+    },
+    {
+      "figure": 31,
+      "images": 0,
+      "text_chars": 487
+    },
+    {
+      "figure": 32,
+      "images": 0,
+      "text_chars": 174
+    },
+    {
+      "figure": 33,
+      "images": 0,
+      "text_chars": 728
+    },
+    {
+      "figure": 34,
+      "images": 0,
+      "text_chars": 284
+    },
+    {
+      "figure": 35,
+      "images": 0,
+      "text_chars": 539
+    },
+    {
+      "figure": 36,
+      "images": 0,
+      "text_chars": 256
+    },
+    {
+      "figure": 37,
+      "images": 0,
+      "text_chars": 313
+    },
+    {
+      "figure": 38,
+      "images": 0,
+      "text_chars": 306
+    },
+    {
+      "figure": 39,
+      "images": 0,
+      "text_chars": 455
+    },
+    {
+      "figure": 40,
+      "images": 0,
+      "text_chars": 257
+    },
+    {
+      "figure": 41,
+      "images": 0,
+      "text_chars": 248
+    },
+    {
+      "figure": 42,
+      "images": 0,
+      "text_chars": 239
+    },
+    {
+      "figure": 43,
+      "images": 0,
+      "text_chars": 269
+    },
+    {
+      "figure": 44,
+      "images": 0,
+      "text_chars": 385
+    },
+    {
+      "figure": 45,
+      "images": 0,
+      "text_chars": 346
+    },
+    {
+      "figure": 46,
+      "images": 0,
+      "text_chars": 234
+    },
+    {
+      "figure": 47,
+      "images": 0,
+      "text_chars": 311
+    },
+    {
+      "figure": 48,
+      "images": 0,
+      "text_chars": 280
+    },
+    {
+      "figure": 49,
+      "images": 0,
+      "text_chars": 328
+    },
+    {
+      "figure": 50,
+      "images": 0,
+      "text_chars": 287
+    },
+    {
+      "figure": 51,
+      "images": 0,
+      "text_chars": 298
+    },
+    {
+      "figure": 52,
+      "images": 0,
+      "text_chars": 248
+    },
+    {
+      "figure": 53,
+      "images": 0,
+      "text_chars": 218
+    }
+  ],
+  "svg_files": [
+    {
+      "name": "01_p1_cohort.svg",
+      "images": 0,
+      "text_elements": 65,
+      "sha256": "40c8c0d2433de9a492e488351e12a2aea6ba7d8adff6ba0468e2949879fc406b"
+    },
+    {
+      "name": "02_p1_coverage.svg",
+      "images": 0,
+      "text_elements": 52,
+      "sha256": "52a29dd37bfce0cdaba8f260d70e3152a4d9c31cbeeca8652d64b49bc6aeb3af"
+    },
+    {
+      "name": "03_p1_typical_timeline.svg",
+      "images": 0,
+      "text_elements": 65,
+      "sha256": "7cd55b973b7af3ea0f5eea689db5346da6581f1cb61a390be1c0a4105f9f66a4"
+    },
+    {
+      "name": "04_p2_label_distribution.svg",
+      "images": 0,
+      "text_elements": 50,
+      "sha256": "ef259537e61b067f7153014ce912e90574321291f89ff96641b8dc496c44357d"
+    },
+    {
+      "name": "05_p2_metric_intervals.svg",
+      "images": 0,
+      "text_elements": 53,
+      "sha256": "7a25d4021a8d6698427e90f9c5e26f661ff8237f86f2449c8d5ca10e4dc2b5f2"
+    },
+    {
+      "name": "06_p2_confusion.svg",
+      "images": 0,
+      "text_elements": 54,
+      "sha256": "fec4a55e9e7467c681218c357f7081c934ed7957495f5b48af65f8e4695848bd"
+    },
+    {
+      "name": "07_p2_class_metrics.svg",
+      "images": 0,
+      "text_elements": 46,
+      "sha256": "a9a81d86bf33ffb3c63fad1140bceb7815e4a5b6b8d737f6de8f58796f5cfb9b"
+    },
+    {
+      "name": "08_p2_regression.svg",
+      "images": 0,
+      "text_elements": 44,
+      "sha256": "d847012cbdf1fdad0e261d0c2106fe4ed416a869c80aad09f88d037f16dca292"
+    },
+    {
+      "name": "09_p2_residuals.svg",
+      "images": 0,
+      "text_elements": 67,
+      "sha256": "3a20194501b72ee2da8b02252c6bd13bf044a65079c07b683a05e204625ddcdf"
+    },
+    {
+      "name": "10_p2_intensity_strata.svg",
+      "images": 0,
+      "text_elements": 51,
+      "sha256": "64066242a1187cf36e031df00a70ee705e2ee4229615b06a69c34b3d491941d1"
+    },
+    {
+      "name": "11_p2_calibration.svg",
+      "images": 0,
+      "text_elements": 41,
+      "sha256": "2774ecd98c34543185a984b5174830009766227bc62861e51838e218e442c4b9"
+    },
+    {
+      "name": "12_p2_selective_prediction.svg",
+      "images": 0,
+      "text_elements": 36,
+      "sha256": "f13d55968f9638c7c586e214841331d1f4819b7ad0a476adedb5604905051346"
+    },
+    {
+      "name": "13_p2_roc_pr.svg",
+      "images": 0,
+      "text_elements": 36,
+      "sha256": "dc1376535623870dbbaacc6879208f070d537feec079838927f0fe6d322e33fb"
+    },
+    {
+      "name": "14_p2_historical_models.svg",
+      "images": 0,
+      "text_elements": 56,
+      "sha256": "9f028e54ba9048e4c3fd002605a3d58533b8750015905c90040cc7e35d79bd0c"
+    },
+    {
+      "name": "15_p2_paired_comparison.svg",
+      "images": 0,
+      "text_elements": 31,
+      "sha256": "5d0b97367fcf7cae78435c2d6d98f847d389f988b94e5686511e4700b9fa0499"
+    },
+    {
+      "name": "16_p2_training_dynamics.svg",
+      "images": 0,
+      "text_elements": 68,
+      "sha256": "a8a3b4fe681575a33f45c9ddb9f2174f0f849ab7f70858553bcc1b6c9d54f803"
+    },
+    {
+      "name": "17_p2_joint_outputs.svg",
+      "images": 0,
+      "text_elements": 31,
+      "sha256": "362a49253397953f9b588a5f601361df1741c3782dfd1afd66e2cdeb1b5dde45"
+    },
+    {
+      "name": "18_attachment3_aligned.svg",
+      "images": 0,
+      "text_elements": 80,
+      "sha256": "c2cc1044dcde7b97cf5d5e2b27c700f14b8373cca53946d1e0e7d9f1a6e41789"
+    },
+    {
+      "name": "19_attachment3_format_comparison.svg",
+      "images": 0,
+      "text_elements": 33,
+      "sha256": "7b258126142a2b32a6679d26c1330ce305c207c292100f186754c0e02aa40b69"
+    },
+    {
+      "name": "20_p2_error_overlap.svg",
+      "images": 0,
+      "text_elements": 55,
+      "sha256": "dce288cd1c863dd31dd5f1f569aff7b4afa6db878491912c86c6e110bc661da8"
+    },
+    {
+      "name": "21_experiment_coverage.svg",
+      "images": 0,
+      "text_elements": 40,
+      "sha256": "35b720ff9a5035de555f5c00db30e5c36f7b60587b613a94d312ac907cf51777"
+    },
+    {
+      "name": "22_complete_seed_stability.svg",
+      "images": 0,
+      "text_elements": 42,
+      "sha256": "d2226aa8c0a58f9f4645115ac8006198237cd0029df0656d6b6ece0dda166a68"
+    },
+    {
+      "name": "23_rate_valid_macro_f1.svg",
+      "images": 0,
+      "text_elements": 105,
+      "sha256": "e0986eddf59d09b06465b4221f5cf091fbc69320bb1e3c61910b2b049442ab6f"
+    },
+    {
+      "name": "24_rate_test_macro_f1.svg",
+      "images": 0,
+      "text_elements": 103,
+      "sha256": "5588ebb23daeacb5a7e2221263a4510721d88a224191a92117bbc7e8f0470274"
+    },
+    {
+      "name": "25_rate_valid_mae.svg",
+      "images": 0,
+      "text_elements": 108,
+      "sha256": "d41c2ff3affd08632fa362bae10c05cfb4d8f33d3e2da9875ffb2d8b5a8ae614"
+    },
+    {
+      "name": "26_rate_test_mae.svg",
+      "images": 0,
+      "text_elements": 108,
+      "sha256": "4b3e2d435c6e431d90f27b6691dd5d874430efec7ab26100019716529e7ca378"
+    },
+    {
+      "name": "27_missing_position.svg",
+      "images": 0,
+      "text_elements": 76,
+      "sha256": "197c3fb95c101b4b942f6bee3e046509132d4098c47d7c1ff0362ef82e5ae0b2"
+    },
+    {
+      "name": "28_missing_duration.svg",
+      "images": 0,
+      "text_elements": 73,
+      "sha256": "a3058f963546e4df1a98491296a04b5728812614761f787cac3edf7d15d50a6e"
+    },
+    {
+      "name": "29_missing_rate_denominators.svg",
+      "images": 0,
+      "text_elements": 69,
+      "sha256": "6ba226e58d2f65d037cc713922c42a1ea02560270376f8ad624e6096804d217c"
+    },
+    {
+      "name": "30_whole_modality_ablation.svg",
+      "images": 0,
+      "text_elements": 165,
+      "sha256": "c16ad3ce471f5abb62b2ece0bfc085ab853588e7913b93fc0c170a978a1a0a03"
+    },
+    {
+      "name": "31_paired_architecture_augmentation.svg",
+      "images": 0,
+      "text_elements": 57,
+      "sha256": "363bd452c9b21038f42b2372fbfb5f5cf50ab18768fe7a1b1569e2459f0d342a"
+    },
+    {
+      "name": "32_average_worst_conditions.svg",
+      "images": 0,
+      "text_elements": 30,
+      "sha256": "93e6bb604052cad150c281a76dc7c033dc855fd9fc9625f80accb0b6baaa2f5c"
+    },
+    {
+      "name": "33_class_sensitivity.svg",
+      "images": 0,
+      "text_elements": 114,
+      "sha256": "1cf5c227e0a1581b987f51a8d54fb8a2754019a74e4b1e8e877fe0df5cc03a95"
+    },
+    {
+      "name": "34_controlled_training.svg",
+      "images": 0,
+      "text_elements": 64,
+      "sha256": "ea6c0632407157f8cebe3501d26ce8983c58932ff45b66590c30de7c75244785"
+    },
+    {
+      "name": "35_attachment3_models.svg",
+      "images": 0,
+      "text_elements": 169,
+      "sha256": "ecdbcbe32de5549b34186fbda3d2f11307c63b8a890b74b57499f9b7370d0791"
+    },
+    {
+      "name": "36_attachment3_formats.svg",
+      "images": 0,
+      "text_elements": 37,
+      "sha256": "cd0930eb1c16837a63295c8d4496a202755433955d6b6381840353b38d40c790"
+    },
+    {
+      "name": "37_p3_overall.svg",
+      "images": 0,
+      "text_elements": 52,
+      "sha256": "9ec4dc8b49faafeb249215ef8f0e125a4555e5c0709b0996de1e1a66bf467dea"
+    },
+    {
+      "name": "38_p3_confusion.svg",
+      "images": 0,
+      "text_elements": 48,
+      "sha256": "2c2068e5f6ec6ea6c98b56de9c5d578755f62db87f78e6312ef35bb8b16f2ab5"
+    },
+    {
+      "name": "39_p3_regression.svg",
+      "images": 0,
+      "text_elements": 77,
+      "sha256": "3a8934299a4263d2a4e8999b0c59ea52eaf8a19f7cb97838205b657cf5eb9888"
+    },
+    {
+      "name": "40_p3_confidence.svg",
+      "images": 0,
+      "text_elements": 38,
+      "sha256": "5b9b51683f65fc1fa6d6ffb9f006873d8371d01531bd489a859fbeab03dbebe6"
+    },
+    {
+      "name": "41_p3_training.svg",
+      "images": 0,
+      "text_elements": 52,
+      "sha256": "3bbe637dbe74d423309e012073bcb95c9892172cd8e06b81d7f7bb3274c4b65c"
+    },
+    {
+      "name": "42_attachment4_predictions.svg",
+      "images": 0,
+      "text_elements": 58,
+      "sha256": "69b810f0d2eb7b3d5b7eb197a833d0f27c9be0735b29445ee0694a9d56c83970"
+    },
+    {
+      "name": "43_modality_contributions.svg",
+      "images": 0,
+      "text_elements": 62,
+      "sha256": "e90ee3dee1df15f25eb8d8b8a4dd5faf818fe1c39fcc4166dc886ce8e9fab98b"
+    },
+    {
+      "name": "44_local_importance_heatmap.svg",
+      "images": 0,
+      "text_elements": 72,
+      "sha256": "1b2219f1420d484e23d6be056801f96ef06ca6d1339d1cb961647fa32119e79f"
+    },
+    {
+      "name": "45_local_importance_aggregate.svg",
+      "images": 0,
+      "text_elements": 49,
+      "sha256": "2764c4a0645ab16213096ca83af25aa174ab9bc8a958e8d2c087f3f4330f1ad9"
+    },
+    {
+      "name": "46_signed_occlusion.svg",
+      "images": 0,
+      "text_elements": 27,
+      "sha256": "6d14be3355ae371103779a3237b86316d7b9f3f0f0215386035c2f5cf5e7bcb0"
+    },
+    {
+      "name": "47_attention_occlusion_agreement.svg",
+      "images": 0,
+      "text_elements": 45,
+      "sha256": "6d95b50ece27c83a682707dab96e2df1832595d2702924139eb3ee8bb2822321"
+    },
+    {
+      "name": "48_evidence_text.svg",
+      "images": 0,
+      "text_elements": 39,
+      "sha256": "483fbd30c4481b22bd2f4003ca4c15332c53b5c5ae12a3a85294fdf45e11571d"
+    },
+    {
+      "name": "49_evidence_audio.svg",
+      "images": 0,
+      "text_elements": 45,
+      "sha256": "33e711815f32605d156d132174337b2663d39906923b90c1578e1193804aff4f"
+    },
+    {
+      "name": "50_evidence_vision.svg",
+      "images": 0,
+      "text_elements": 40,
+      "sha256": "b04bcc0cc6b7cf203276bfbb16447fa4b6278227a2c5c59bf1d4701a76877abc"
+    },
+    {
+      "name": "51_attachment4_formats.svg",
+      "images": 0,
+      "text_elements": 63,
+      "sha256": "4c474e1cb0acac0b38f3ea152cee2f3a026d6339be783096c5bf92b7e30e1ac1"
+    },
+    {
+      "name": "52_evidence_time_consistency.svg",
+      "images": 0,
+      "text_elements": 35,
+      "sha256": "94af8e63a61e462f944916e8c1763c2b3f766abc94c14fd672de0b5b7452452b"
+    },
+    {
+      "name": "53_p1_completeness.svg",
+      "images": 0,
+      "text_elements": 27,
+      "sha256": "18b7360d7c765f6d1764111f3cd56c40a3d29c5b8148fcc983fe0972c72ded31"
+    }
+  ],
+  "originals": [
+    {
+      "file": "01_p1_cohort.svg",
+      "svg_payload_identical_to_archived_html": true
+    },
+    {
+      "file": "02_p1_coverage.svg",
+      "svg_payload_identical_to_archived_html": true
+    },
+    {
+      "file": "03_p1_typical_timeline.svg",
+      "svg_payload_identical_to_archived_html": true
+    },
+    {
+      "file": "04_p2_label_distribution.svg",
+      "svg_payload_identical_to_archived_html": true
+    },
+    {
+      "file": "05_p2_metric_intervals.svg",
+      "svg_payload_identical_to_archived_html": true
+    },
+    {
+      "file": "06_p2_confusion.svg",
+      "svg_payload_identical_to_archived_html": true
+    },
+    {
+      "file": "07_p2_class_metrics.svg",
+      "svg_payload_identical_to_archived_html": true
+    },
+    {
+      "file": "08_p2_regression.svg",
+      "svg_payload_identical_to_archived_html": true
+    },
+    {
+      "file": "09_p2_residuals.svg",
+      "svg_payload_identical_to_archived_html": true
+    },
+    {
+      "file": "10_p2_intensity_strata.svg",
+      "svg_payload_identical_to_archived_html": true
+    },
+    {
+      "file": "11_p2_calibration.svg",
+      "svg_payload_identical_to_archived_html": true
+    },
+    {
+      "file": "12_p2_selective_prediction.svg",
+      "svg_payload_identical_to_archived_html": true
+    },
+    {
+      "file": "13_p2_roc_pr.svg",
+      "svg_payload_identical_to_archived_html": true
+    },
+    {
+      "file": "14_p2_historical_models.svg",
+      "svg_payload_identical_to_archived_html": true
+    },
+    {
+      "file": "15_p2_paired_comparison.svg",
+      "svg_payload_identical_to_archived_html": true
+    },
+    {
+      "file": "16_p2_training_dynamics.svg",
+      "svg_payload_identical_to_archived_html": true
+    },
+    {
+      "file": "17_p2_joint_outputs.svg",
+      "svg_payload_identical_to_archived_html": true
+    },
+    {
+      "file": "18_attachment3_aligned.svg",
+      "svg_payload_identical_to_archived_html": true
+    },
+    {
+      "file": "19_attachment3_format_comparison.svg",
+      "svg_payload_identical_to_archived_html": true
+    },
+    {
+      "file": "20_p2_error_overlap.svg",
+      "svg_payload_identical_to_archived_html": true
+    }
+  ],
+  "report_figure_count": 53,
+  "status": "PASS"
+}

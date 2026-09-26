@@ -1,0 +1,4 @@
+﻿model,agreement,mean_signed_intensity_difference,mean_abs_intensity_difference,max_abs_difference,aligned_counts,unaligned_counts
+baseline,0.8666666666666667,0.09889841806143522,0.22278357377896707,0.6801526546478271,"Counter({'Positive': 17, 'Neutral': 7, 'Negative': 6})","Counter({'Positive': 21, 'Negative': 5, 'Neutral': 4})"
+robust_noaug,0.8,0.039651562956472236,0.216069834617277,0.8441040515899658,"Counter({'Positive': 15, 'Neutral': 9, 'Negative': 6})","Counter({'Positive': 16, 'Negative': 7, 'Neutral': 7})"
+robust,0.9666666666666667,0.009362288688619932,0.18705857979754606,0.5710476338863373,"Counter({'Positive': 22, 'Negative': 5, 'Neutral': 3})","Counter({'Positive': 21, 'Negative': 5, 'Neutral': 4})"
